@@ -1,0 +1,36 @@
+.inline-block{
+	display: inline-block;
+}
+.border{
+	border: solid 2px #000;
+}
+.borderred{
+	border: solid 2px red;
+}
+.fb-page{
+	width: 100% !important;
+}
+.fb-page blockquote{
+	width: 100% !important;
+}
+.chancellor-img{
+	max-width: 150px;
+	display: inline-block;
+}
+
+.valign-m{
+	
+}
+.chancellor-img-div{
+	width: 100px;
+	display: inline-block;
+}
+.chancellor-p-div{
+	width: 500px;
+	display: inline-block;
+}
+
+
+.footer-logo{
+	max-width: 300px !important;
+}
