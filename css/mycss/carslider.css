@@ -1,3 +1,34 @@
+#wheelnavdiv{
+  display: none;
+}
+.nav {
+  text-align: center;
+}
+.nav > button {
+  width: 64px;
+  height: 36px;
+  color: #666;
+  font: bold 16px arial;
+  text-decoration: none;
+  text-align: center;
+  margin: 5px;
+  text-shadow: 0px 1px 0px #f5f5f5;
+  background: #f6f6f6;
+  border: solid 2px rgba(0, 0, 0, 0.4);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0 9px 1px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0 0 9px 1px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 9px 1px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+}
+.nav > button:active,
+.nav > button.down {
+  background: #dfdfdf;
+  border: solid 2px rgba(0, 0, 0, 0.6);
+  box-shadow: none;
+}
 .noselect {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -9,30 +40,23 @@
 
 #wrap {
   /* fixed width, centered in viewport */
-  width: 980px;
-  left: -490px;
-  margin-left: 50%;
-  position: relative;
 }
 #showcase {
   width: 100%;
-  height: 460px;
+  height: 360px;
   background: #16235e; /* Old browsers */
-  background: -moz-linear-gradient(top, #16235e 0%, #020223 100%); /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#16235e), color-stop(100%,#020223)); /* Chrome, Safari4+ */
-  background: -webkit-linear-gradient(top, #16235e 0%, #020223 100%); /* Chrome10+, Safari5.1+ */
-  background: -o-linear-gradient(top, #16235e 0%, #020223 100%); /* Opera 11.10+ */
-  background: -ms-linear-gradient(top, #16235e 0%, #020223 100%); /* IE10+ */
-  background: linear-gradient(to bottom, #16235e 0%, #020223 100%); /* W3C */
-  -webkit-box-shadow: 0px 0px 13px 5px #DB1242;
-  -moz-box-shadow: 0px 0px 13px 5px #DB1242;
-  box-shadow: 0px 0px 13px 5px #DB1242;
+  background: -moz-linear-gradient(to bottom, #8e8d90 0%, #191d1a 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#8e8d90), color-stop(100%,#191d1a)); /* Chrome, Safari4+ */
+  background: -webkit-linear-gradient(to bottom, #8e8d90 0%, #191d1a 100%); /* Chrome10+, Safari5.1+ */
+  background: -o-linear-gradient(to bottom, #8e8d90 0%, #191d1a 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(to bottom, #8e8d90 0%, #191d1a 100%); /* IE10+ */
+  background: linear-gradient(to bottom, #8e8d90 0%, #191d1a 100%); /* W3C */
+  -webkit-box-shadow: 0px 0px 13px 5px #828282;
+  -moz-box-shadow: 0px 0px 13px 5px #828282;
+  box-shadow: 0px 0px 13px 5px #828282;
   border-radius: 8px;
   margin-top: 12px;
   visibility: hidden;
-}
-#showcase img {
-  cursor: pointer;
 }
 #item-title {
   color: #F31414;
@@ -41,11 +65,92 @@
   text-shadow: 1px 1px 6px #C72B2B;
   text-align: center;
   margin-top: 30px;
-  margin-bottom: 22px;
+  margin-bottom: 5px;
 }
 
 .cloud9-item{
   cursor: pointer;
-  /*max-width: 300px;
-  border-radius: 50%;*/
+}
+
+/*-------------------------slider css over------------------------------*/
+.detailsdiv{
+  padding-top: 0px;
+}
+.techspecsdiv{
+  width: 45%;
+  display: inline-block;
+  position: absolute;
+  margin-top: 5px;
+  margin-left: 20px;
+
+}
+.techheading{
+  margin-top: 0px;
+}
+.sliderdiv{
+  width: 50%;
+  height: 450px;
+  display: inline-block;
+  overflow: hidden !important;
+}
+.sliderdiv iframe{
+  width: 100%;
+  height: 100%;
+  border: none;
+  overflow: hidden !important;
+}
+
+@media (max-width: 769px){
+  .cloud9-item{
+    width: 200px;
+  }
+  .techspecsdiv{
+    display: block;
+    position: static;
+    width: 100%;
+    margin-left: 2px;
+  }
+  .sliderdiv{
+    display: block;
+    width: 98%;
+    height: 60vw;
+  }
+  #wrap {
+    display: none;
+  }
+  #wheelnavdiv{
+    display: block;
+  }
+}
+
+
+/*------------navwheelllll------------------*/
+@media (max-width: 769px){
+  #wheelDiv {
+            height: 400px;
+            width: 400px;
+            margin: auto;
+            font-size: 11px !important;
+        }
+
+        #wheelDiv>svg {
+            height: 100%;
+            width: 100%;
+            font-size: 11px !important;
+        }
+
+        @media (max-width: 600px) {
+            #wheelDiv {
+                height: 350px;
+                width: 350px;
+            }
+        }
+
+        @media (max-width: 400px) {
+            #wheelDiv {
+                height: 280px;
+                width: 280px;
+            }
+        }
+
 }

@@ -18,6 +18,7 @@ include_once('includes/head.php');
 
 	<!-- Default Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i%7CSource+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/mycss/flickity.min.css">
 	<link rel="stylesheet" type="text/css" href="css/mycss/nothome.css">
 	<link rel="stylesheet" type="text/css" href="css/mycss/mystyle.css" />
 	<link rel="stylesheet" type="text/css" href="css/mycss/carslider.css">
@@ -36,100 +37,301 @@ include_once('includes/head.php');
 	?>
 
 	<!-- End of site main header -->
-
-	<section class="background-color-11 sub-header sub-header-banner-2">
-		<div class="grid-container">
-			<div class="grid-row">
-				<div class="column-12 animated-parent">
-					<h2 class="text-color-10 animated animate__fade-in-left-short">Cars</h2>
-					<h5 class="text-uppercase text-color-10 animated animate__fade-in-right-short">
-						<span class="text-decor animated animate__roll-in"></span>Find out all about Flagstone...
-					</h5>
+	<section class="background-color-11 sub-header sub-header-banner-cars">
+		<div class="layer">
+			<div class="grid-container">
+				<div class="grid-row">
+					<div class="column-12 animated-parent">
+						<h2 class="text-color-10 animated animate__fade-in-left-short">Cars</h2>
+						<h5 class="text-color-10 animated animate__fade-in-right-short">
+							<span class="text-decor animated animate__roll-in"></span>A line or two about our cars..
+						</h5>
+					</div>
 				</div>
 			</div>
 		</div>
 	</section>
-
 	<!-- End of section -->
-
+<!-- 
 	<section class="margin-top-100">
 		<div class="grid-container">
 			<div class="grid-row">
 				<div class="column-4">
-					<h4>Our company values...</h4>
+					<h4>Our cars...</h4>
 				</div>
 				
 
 			</div>
 		</div>
-	</section>
+	</section> -->
 	<section>
-		<div id="wrap">
-			<div id="showcase" class="noselect">
-				<img class="cloud9-item" src="img/general/cars/race1.png" alt="PRV 16"> 
-				<img class="cloud9-item" src="img/general/cars/race2.png" alt="PRV 15"> 
-				<img class="cloud9-item" src="img/general/cars/race3.png" alt="PRV 14">
-				<img class="cloud9-item" src="img/general/cars/race4.png" alt="PRV 13">
-				<img class="cloud9-item" src="img/general/cars/race5.png" alt="PRV dp"> 
-				</div>
-			<p id="item-title">&nbsp;</p>
-			<div class="nav" class="noselect">
-				<button class="left"> ← </button>
-				<button class="right">→</button>
-			</div>
+		<div id="wheelnavdiv">
+			<div class="carousel carselect" data-flickity='{ "imagesLoaded": true, "percentPosition": false, 
+			"wrapAround": true }'>
+
+			<img class="carousel-cell-image"
+			src="img/general/cars/race1.png" alt="PRV16" />
+
+			<img class="carousel-cell-image"
+			src="img/general/cars/race2.png" alt="PRV15" />
+
+			<img class="carousel-cell-image"
+			src="img/general/cars/race3.png" alt="PRV14" />
+
+			<img class="carousel-cell-image"
+			src="img/general/cars/race4.png" alt="PRV13" />
+
+			<img class="carousel-cell-image"
+			src="img/general/cars/race5.png" alt="PRVdp" />
 		</div>
-	</section>
-	<!-- End of section -->
+		<br>
+		<p class="carousel-status"></p>
+	</div>
+</div>
+<div id="wrap" class="">
+	<div id="showcase" class="noselect">
+		<img class="cloud9-item" id="imgprv16" src="img/general/cars/race1.png" alt="PRV 16"> 
+		<img class="cloud9-item" id="imgprv15" src="img/general/cars/race2.png" alt="PRV 15"> 
+		<img class="cloud9-item" id="imgprv14" src="img/general/cars/race3.png" alt="PRV 14">
+		<img class="cloud9-item" id="imgprv13" src="img/general/cars/race4.png" alt="PRV 13">
+		<img class="cloud9-item" id="imgprvdp" src="img/general/cars/race5.png" alt="PRV dp"> 
+	</div>
+	<div class="nav" class="noselect">
+		<button class="left"> ← </button>
+		<button class="right">→</button>
+	</div>
+</div>
+<div class="cardetails row">
+	<br>
+	<div id="detailsprv16" class="detailsdiv">
+		<h1 class="text-center"><b>PRV 16</b></h1>
+		<div class="sliderdiv">
+			<iframe src="includes/prv16slider.html" scrolling="no"></iframe>
+		</div>
+		<div class="techspecsdiv">
+			<h5>Technical Specifications:</h5>
+			<p><b>Weight</b>: 257 kg<br>
+				<b>Wheelbase</b>: 1560 mm<br>
+				<b>Suspension</b>: Double unequal length A-arm with push rod actuated spring dampers<br>
+				<b>Dampers</b>: Ohlins TTX 25 Mk II 4 Way adjustable<br>
+				<b>Brakes type</b>: 4 outboard discs<br>
+				<b>Chassis</b>: Steel space frame<br>
+				<b>Wheels</b>: Keizer 3 piece Aluminium rims , 7x10<br>
+				<b>Tires Dry</b>: Hoosier 18x7.5-10 ,R25B<br>
+				<b>Tires Wet</b>: Hoosier , WET<br>
+				<b>Engine</b>: Honda CBR 600RR<br>
+				<b>Dry Sump Lubrication System</b><br>
+				<b>Introduced Aero package including Front and Rear Wings</b><br>
+			</p>
+		</div>
 
-	
-	<!-- End of section -->
+	</div>
+	<div id="detailsprv15" class="detailsdiv">
+		<h1 class="text-center"><b>PRV 15</b></h1>
+		<div class="sliderdiv">
+			<iframe src="includes/prv15slider.html" scrolling="no"></iframe>
+		</div>
+		<div class="techspecsdiv">
+			<h5>Technical Specifications:</h5>
+			<p><b>Weight</b>: 235 kg<br>
+				<b>Wheelbase</b>: 1564 mm<br>
+				<b>Suspension</b>: Double unequal length A-arm with push rod actuated spring dampers<br>
+				<b>Dampers</b>: Ohlins TTX 25 Mk II 4 Way adjustable<br>
+				<b>Brakes type</b>: 4 outboard discs<br>
+				<b>Chassis</b>: Steel space frame<br>
+				<b>Wheels</b>: 13x7 Oz Racing Wheels<br>
+				<b>Tires Dry</b>: Continental<br>
+				<b>Tires Wet</b>: Continental<br>
+				<b>Engine</b>: Honda CBR 600RR<br>
+				<b>Displacement</b>: 600 cc<br>
+				<b>In house developed Pneumatic gear and clutch control unit.</b><br>
+				<b>Carbon epoxy composite body and Drexler limited slip differential</b><br>
+			</p>
+		</div>
 
-	<?php
-	include("includes/footer.php");
-	?>
+	</div>
+	<div id="detailsprv14" class="detailsdiv">
+		<h1 class="text-center"><b>PRV 14</b></h1>
+		<div class="sliderdiv">
+			<iframe src="includes/prv14slider.html" scrolling="no"></iframe>
+		</div>
+		<div class="techspecsdiv">
+			<h5>Technical Specifications:</h5>
+			<p><b>Weight</b>: 265 kg<br>
+				<b>Wheelbase</b>: 1600 mm<br>
+				<b>Suspension</b>: Double unequal length A-arm with push rod actuated spring dampers<br>
+				<b>Dampers</b>: Tanner<br>
+				<b>Brakes type</b>: 4 outboard discs<br>
+				<b>Chassis</b>: Steel space frame<br>
+				<b>Wheels</b>: 13x7 Oz Racing Wheels<br>
+				<b>Tires Dry</b>: Continental<br>
+				<b>Tires Wet</b>: Continental<br>
+				<b>Engine</b>: Honda CBR 600RR<br>
+				<b>Displacement</b>: 600 cc<br>
+				<b>Student built Pneumatic gear and clutch control unit and translogic dashboard.</b><br>
+				<b>Twin layup Carbon fiber body and limited slip differential</b><br>
+			</p>
+		</div>
+
+	</div>
+	<div id="detailsprv13" class="detailsdiv">
+		<h1 class="text-center"><b>PRV 13</b></h1>
+		<div class="sliderdiv">
+			<iframe src="includes/prv13slider.html" scrolling="no"></iframe>
+		</div>
+		<div class="techspecsdiv">
+			<h5>Technical Specifications:</h5>
+			<p><b>Weight</b>: 283 kg<br>
+				<b>Wheelbase</b>: 1600 mm<br>
+				<b>Suspension</b>: Double unequal length A-arm with push rod actuated spring dampers<br>
+				<b>Dampers</b>: Tanner<br>
+				<b>Brakes type</b>: 4 outboard discs<br>
+				<b>Chassis</b>: Steel space frame<br>
+				<b>Wheels</b>: 13x7 Oz Racing Wheels<br>
+				<b>Tires Dry</b>: Hoosier Racing Slicks<br>
+				<b>Tires Wet</b>: Continental<br>
+				<b>Engine</b>: Honda CBR 600RR<br>
+				<b>Displacement</b>: 600 cc<br>
+				<b>Sequential 6 speed shift Electronic shift button type open differential</b><br>
+			</p>
+		</div>
+
+	</div>
+	<div id="detailsprvdp" class="detailsdiv">
+		<h1 class="text-center"><b>PRV Delta Pheonix</b></h1>
+		<div class="sliderdiv">
+			<iframe src="includes/prvdpslider.html" scrolling="no"></iframe>
+		</div>
+		<div class="techspecsdiv">
+			<h5>Technical Specifications:</h5>
+			<p><b>Weight</b>: 320 kg<br>
+				<b>Wheelbase</b>: 1580 mm<br>
+				<b>Suspension</b>: Double unequal length A-arm with push rod actuated spring dampers<br>
+				<b>Dampers</b>: Tanner<br>
+				<b>Brakes type</b>: 4 outboard discs<br>
+				<b>Chassis</b>: Steel space frame<br>
+				<b>Wheels</b>: 13x7 Oz Racing Wheels<br>
+				<b>Tires Dry</b>: Hoosier Racing Slicks<br>
+				<b>Tires Wet</b>: JK Tyres<br>
+				<b>Engine</b>: Honda CBR 600RR<br>
+				<b>Dry Sump Lubrication System</b><br>
+				<b>Displacement</b>: 600 cc<br>
+				<b>Sequential 6 speed shift Electronic shift button type open differential</b><br>
+			</p>
+		</div>
+
+	</div>
+
+</div>
+</section>
+<!-- End of section -->
+<br><br>
+
+<!-- End of section -->
+
+<?php
+include("includes/footer.php");
+?>
 
 
-	<a href="#" class="back-to-top--floating"><i class="ion-ios-arrow-up"></i></a>
+<a href="#" class="back-to-top--floating"><i class="ion-ios-arrow-up"></i></a>
 
-	<!-- End of section -->
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> 
-	<script src="https://maps.google.com/maps/api/js"></script>
-	<script src="js/min/main-min.js"></script>
-	<script src="js/min/scripts-min.js"></script>
+<!-- End of section -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> 
+<script src="https://maps.google.com/maps/api/js"></script>
+<script src="js/min/main-min.js"></script>
+<script src="js/min/scripts-min.js"></script>
 	<!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> 
-		-->
-	<script src="js/min/myjs/jquery.reflection.js"></script> 
-	<script src="js/min/myjs/jquery.cloud9carousel.js"></script> 
-	<script>
-	$(function() {
-		var showcase = $("#showcase")
+-->
+<script src="js/min/myjs/jquery.reflection.js"></script> 
+<script src="js/min/myjs/jquery.cloud9carousel.js"></script> 
+<script>
+$("#detailsprv16").hide();
+$("#detailsprv15").hide();
+$("#detailsprv14").hide();
+$("#detailsprv13").hide();
+$("#detailsprvdp").hide();
 
-		showcase.Cloud9Carousel( {
-			yPos: 42,
-			yRadius: 48,
-			mirrorOptions: {
-				gap: 12,
-				height: 0.2
-			},
-			buttonLeft: $(".nav > .left"),
-			buttonRight: $(".nav > .right"),
-			autoPlay: true,
-			bringToFront: true,
-			onRendered: showcaseUpdated,
-			onLoaded: function() {
-				showcase.css( 'visibility', 'visible' )
-				showcase.css( 'display', 'none' )
-				showcase.fadeIn( 1500 )
-			}
-		} )
+function showcardetails(){
+	if($(window).width()<769)
+		return;
+	console.log("showcardetails called");
+	if ($("#imgprv16").css("z-index")>95)
+	{
+		$("#detailsprv16").fadeIn();
+	}
+	else
+	{
+		$("#detailsprv16").fadeOut();
+	}
 
-		function showcaseUpdated( showcase ) {
-			var title = $('#item-title').html(
-				$(showcase.nearestItem()).attr( 'alt' )
-				);
+	if ($("#imgprv15").css("z-index")>95)
+	{
+		$("#detailsprv15").fadeIn();
+	}
+	else
+	{
+		$("#detailsprv15").fadeOut();
+	}
 
-			var c = Math.cos((showcase.floatIndex() % 1) * 2 * Math.PI)
-			title.css('opacity', 0.5 + (0.5 * c));
+	if ($("#imgprv14").css("z-index")>95)
+	{
+		$("#detailsprv14").fadeIn();
+	}
+	else
+	{
+		$("#detailsprv14").fadeOut();
+	}
+
+	if ($("#imgprv13").css("z-index")>95)
+	{
+		$("#detailsprv13").fadeIn();
+	}
+	else
+	{
+		$("#detailsprv13").fadeOut();
+	}
+
+	if ($("#imgprvdp").css("z-index")>95)
+	{
+		$("#detailsprvdp").fadeIn();
+	}
+	else
+	{
+		$("#detailsprvdp").fadeOut();
+	}
+
+}
+$(function() {
+	var showcase = $("#showcase")
+
+	showcase.Cloud9Carousel( {
+		yPos: 42,
+		yRadius: 48,
+		mirrorOptions: {
+			gap: 12,
+			height: 0.2
+		},
+		buttonLeft: $(".nav > .left"),
+		buttonRight: $(".nav > .right"),
+		autoPlay: false,
+		bringToFront: true,
+		onRendered: showcaseUpdated,
+		onLoaded: function() {
+			showcase.css( 'visibility', 'visible' )
+			showcase.css( 'display', 'none' )
+			showcase.fadeIn( 1500 )
+		}
+	} )
+
+	function showcaseUpdated( showcase ) {
+		var title = $('#item-title').html(
+			$(showcase.nearestItem()).attr( 'alt' )
+			);
+
+		var c = Math.cos((showcase.floatIndex() % 1) * 2 * Math.PI);
+		title.css('opacity', 0.5 + (0.5 * c));
+		showcardetails();
         //
     }
 
@@ -156,6 +358,94 @@ include_once('includes/head.php');
     } )
   })
 </script> 
+<script>
+var angleStart = -360;
 
+// jquery rotate animation
+function rotate(li,d) {
+	$({d:angleStart}).animate({d:d}, {
+		step: function(now) {
+			$(li)
+			.css({ transform: 'rotate('+now+'deg)' })
+			.find('label')
+			.css({ transform: 'rotate('+(-now)+'deg)' });
+		}, duration: 0
+	});
+}
+
+// show / hide the options
+function toggleOptions(s) {
+	$(s).toggleClass('open');
+	var li = $(s).find('li');
+	var deg = $(s).hasClass('half') ? 180/(li.length-1) : 360/li.length;
+	for(var i=0; i<li.length; i++) {
+		var d = $(s).hasClass('half') ? (i*deg)-90 : i*deg;
+		$(s).hasClass('open') ? rotate(li[i],d) : rotate(li[i],angleStart);
+	}
+}
+
+$('.selector button').click(function(e) {
+	toggleOptions($(this).parent());
+});
+
+setTimeout(function() { toggleOptions('.selector'); }, 100);
+</script>
+<script src="js/min/myjs/flickity.pkgd.min.js"></script>
+<script>
+var $carousel = $('.carselect').flickity();
+var flkty = $carousel.data('flickity');
+
+function updateStatus() {
+	console.log("updateStatus called");
+	var cellNumber = flkty.selectedIndex + 1;
+	console.log(cellNumber);
+	if (cellNumber==1)
+	{
+		$("#detailsprv16").fadeIn();
+	}
+	else
+	{
+		$("#detailsprv16").fadeOut();
+	}
+
+	if (cellNumber==2)
+	{
+		$("#detailsprv15").fadeIn();
+	}
+	else
+	{
+		$("#detailsprv15").fadeOut();
+	}
+
+	if (cellNumber==3)
+	{
+		$("#detailsprv14").fadeIn();
+	}
+	else
+	{
+		$("#detailsprv14").fadeOut();
+	}
+
+	if (cellNumber==4)
+	{
+		$("#detailsprv13").fadeIn();
+	}
+	else
+	{
+		$("#detailsprv13").fadeOut();
+	}
+
+	if (cellNumber==5)
+	{
+		$("#detailsprvdp").fadeIn();
+	}
+	else
+	{
+		$("#detailsprvdp").fadeOut();
+	}
+}
+updateStatus();
+$carousel.on( 'select.flickity', updateStatus );
+</script>
 </body>
 </html>
