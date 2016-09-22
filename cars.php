@@ -1,4 +1,5 @@
 <?php
+$title="Pravega Racing - Cars";
 include_once('includes/head.php');
 ?>
 
@@ -6,22 +7,11 @@ include_once('includes/head.php');
 <link rel="stylesheet" href="css/style.css">
 
 <link rel="stylesheet" href="css/sub-page-styles.css">
-
-		<!--
-		Remember to include the theme that you are using for the homepage,
-		on your sub pages, this will ensure your typography and colour
-		scheme is used consistently throughout your site.
-	-->
-
-	<!-- jQuery -->
-	<script src="js/min/jquery-min.js"></script>
-
-	<!-- Default Fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i%7CSource+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="css/mycss/flickity.min.css">
-	<link rel="stylesheet" type="text/css" href="css/mycss/nothome.css">
-	<link rel="stylesheet" type="text/css" href="css/mycss/mystyle.css" />
-	<link rel="stylesheet" type="text/css" href="css/mycss/carslider.css">
+<link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i%7CSource+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/mycss/flickity.min.css">
+<link rel="stylesheet" type="text/css" href="css/mycss/nothome.css">
+<link rel="stylesheet" type="text/css" href="css/mycss/mystyle.css" />
+<link rel="stylesheet" type="text/css" href="css/mycss/carslider.css">
 </head>
 <body class="flagstone-about-us">
 	<div class="page-pre-loader">
@@ -29,14 +19,9 @@ include_once('includes/head.php');
 			<div class="page-pre-loader__effect"></div>
 		</div>
 	</div>
-
-	<!-- End of page pre-loader -->
-
 	<?php
 	require_once('includes/nav.php');
 	?>
-
-	<!-- End of site main header -->
 	<section class="background-color-11 sub-header sub-header-banner-cars">
 		<div class="layer">
 			<div class="grid-container">
@@ -51,19 +36,6 @@ include_once('includes/head.php');
 			</div>
 		</div>
 	</section>
-	<!-- End of section -->
-<!-- 
-	<section class="margin-top-100">
-		<div class="grid-container">
-			<div class="grid-row">
-				<div class="column-4">
-					<h4>Our cars...</h4>
-				</div>
-				
-
-			</div>
-		</div>
-	</section> -->
 	<section>
 		<div id="wheelnavdiv">
 			<div class="carousel carselect" data-flickity='{ "imagesLoaded": true, "percentPosition": false, 
@@ -101,14 +73,11 @@ include_once('includes/head.php');
 		<button class="right">→</button>
 	</div>
 </div>
-<div class="cardetails row">
+<div class="cardetails row ">
 	<br>
 	<div id="detailsprv16" class="detailsdiv">
 		<h1 class="text-center"><b>PRV 16</b></h1>
-		<div class="sliderdiv">
-			<iframe src="includes/prv16slider.html" scrolling="no"></iframe>
-		</div>
-		<div class="techspecsdiv">
+		<div class="techspecsdiv ">
 			<h5>Technical Specifications:</h5>
 			<p><b>Weight</b>: 257 kg<br>
 				<b>Wheelbase</b>: 1560 mm<br>
@@ -124,13 +93,14 @@ include_once('includes/head.php');
 				<b>Introduced Aero package including Front and Rear Wings</b><br>
 			</p>
 		</div>
+		<div class="sliderdiv">
+			<iframe src="includes/prv16slider.html" class="" scrolling="no"></iframe>
+		</div>
+		
 
 	</div>
 	<div id="detailsprv15" class="detailsdiv">
 		<h1 class="text-center"><b>PRV 15</b></h1>
-		<div class="sliderdiv">
-			<iframe src="includes/prv15slider.html" scrolling="no"></iframe>
-		</div>
 		<div class="techspecsdiv">
 			<h5>Technical Specifications:</h5>
 			<p><b>Weight</b>: 235 kg<br>
@@ -148,13 +118,12 @@ include_once('includes/head.php');
 				<b>Carbon epoxy composite body and Drexler limited slip differential</b><br>
 			</p>
 		</div>
-
+		<div class="sliderdiv">
+			<iframe src="includes/prv15slider.html" scrolling="no"></iframe>
+		</div>
 	</div>
 	<div id="detailsprv14" class="detailsdiv">
 		<h1 class="text-center"><b>PRV 14</b></h1>
-		<div class="sliderdiv">
-			<iframe src="includes/prv14slider.html" scrolling="no"></iframe>
-		</div>
 		<div class="techspecsdiv">
 			<h5>Technical Specifications:</h5>
 			<p><b>Weight</b>: 265 kg<br>
@@ -172,13 +141,12 @@ include_once('includes/head.php');
 				<b>Twin layup Carbon fiber body and limited slip differential</b><br>
 			</p>
 		</div>
-
+		<div class="sliderdiv">
+			<iframe src="includes/prv14slider.html" scrolling="no"></iframe>
+		</div>
 	</div>
 	<div id="detailsprv13" class="detailsdiv">
 		<h1 class="text-center"><b>PRV 13</b></h1>
-		<div class="sliderdiv">
-			<iframe src="includes/prv13slider.html" scrolling="no"></iframe>
-		</div>
 		<div class="techspecsdiv">
 			<h5>Technical Specifications:</h5>
 			<p><b>Weight</b>: 283 kg<br>
@@ -195,13 +163,12 @@ include_once('includes/head.php');
 				<b>Sequential 6 speed shift Electronic shift button type open differential</b><br>
 			</p>
 		</div>
-
+		<div class="sliderdiv">
+			<iframe src="includes/prv13slider.html" scrolling="no"></iframe>
+		</div>
 	</div>
 	<div id="detailsprvdp" class="detailsdiv">
 		<h1 class="text-center"><b>PRV Delta Pheonix</b></h1>
-		<div class="sliderdiv">
-			<iframe src="includes/prvdpslider.html" scrolling="no"></iframe>
-		</div>
 		<div class="techspecsdiv">
 			<h5>Technical Specifications:</h5>
 			<p><b>Weight</b>: 320 kg<br>
@@ -219,7 +186,9 @@ include_once('includes/head.php');
 				<b>Sequential 6 speed shift Electronic shift button type open differential</b><br>
 			</p>
 		</div>
-
+		<div class="sliderdiv">
+			<iframe src="includes/prvdpslider.html" scrolling="no"></iframe>
+		</div> 	
 	</div>
 
 </div>
@@ -230,7 +199,7 @@ include_once('includes/head.php');
 <!-- End of section -->
 
 <?php
-include("includes/footer.php");
+include_once("includes/footer.php");
 ?>
 
 

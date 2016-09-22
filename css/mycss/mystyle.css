@@ -7,30 +7,31 @@
 .borderred{
 	border: solid 2px red;
 }
-.fb-page{
-	width: 100% !important;
-}
-.fb-page blockquote{
-	width: 100% !important;
-}
-.chancellor-img{
-	max-width: 150px;
-	display: inline-block;
-}
-
-.valign-m{
-	
-}
-.chancellor-img-div{
-	width: 100px;
-	display: inline-block;
-}
-.chancellor-p-div{
-	width: 500px;
-	display: inline-block;
-}
-
-
 .footer-logo{
 	max-width: 300px !important;
 }
+.redcolor{
+	color: red;
+}
+.padlr{
+	padding-left: 3px;
+	padding-right: 3px;
+}
+.padl{
+	padding-left: 3px;
+}
+.margin-left-0{
+	margin-left: 0px !important;
+}
+
+@media (min-width: 779px){
+
+	.padlr{
+		padding-left: 85px;
+		padding-right: 85px;
+	}
+	.padl{
+		padding-left: 85px;
+	}
+}
+/*--------------uppar mein common elements----------*/

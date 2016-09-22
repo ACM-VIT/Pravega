@@ -24,26 +24,18 @@
 								</ul>
 							</li>
 							<li class="nav-item has-submenu">
-								<a href="#">Team</a>
+								<a>Team</a>
 								<ul class="is-submenu">
+									<li><a href="currentteam.php">Current team</a></li>
 									<li class="has-submenu">
-										<a href="#">Blog</a>
+										<a href="#">Alumni</a>
 										<ul class="is-submenu">
-											<li><a href="blog-left-sidebar.html">Left sidebar</a></li>
-											<li><a href="blog-right-sidebar.html">Right sidebar</a></li>
-											<li><a href="blog-full-width.html">Full width</a></li>
+											<li><a href="teamprv16.php">PRV 16</a></li>
+											<li><a href="teamprv15.php">PRV 15</a></li>
+											<li><a href="teamprv14.php">PRV 14</a></li>
+											<li><a href="teamprv13.php">PRV 13</a></li>
 										</ul>
 									</li>
-									<li class="has-submenu">
-										<a href="#">Blog pages</a>
-										<ul class="is-submenu">
-											<li><a href="blog-page-left-sidebar.html">Left sidebar</a></li>
-											<li><a href="blog-page-right-sidebar.html">Right sidebar</a></li>
-											<li><a href="blog-page-full-width.html">Distraction free</a></li>
-										</ul>
-									</li>
-									<li><a href="blog-masonry.html">Masonry Blog</a></li>
-									<li><a href="blog-card.html">Card Blog</a></li>
 								</ul>
 							</li>
 							<li class="nav-item has-submenu">

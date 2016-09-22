@@ -1,31 +1,57 @@
 <?php
+$title="Pravega Racing - Home";
 include_once('includes/head.php');
 ?>
 
 <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.css">
-<link rel="stylesheet" type="text/css" href="css/mycss/mybootstrap.css">
 <link rel="stylesheet" type="text/css" href="css/mycss/slider1.css" />
 <link rel="stylesheet" type="text/css" href="css/mycss/slider2.css" />
-<script type="text/javascript" src="js/min/myjs/modernizr.custom.86080.js"></script>
-
 <link rel="stylesheet" href="css/fonts.css">
 <link rel="stylesheet" href="css/style.css">
-
 <link rel="stylesheet" href="css/sub-page-styles.css">
+<link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i%7CSource+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/mycss/mystyle.css" />
+<style>
+.img-circle {
+  border-radius: 50%;
+}
 
-		<!--
-		Remember to include the theme that you are using for the homepage,
-		on your sub pages, this will ensure your typography and colour
-		scheme is used consistently throughout your site.
-	-->
+.fb-page{
+	width: 100% !important;
+}
+.fb-page blockquote{
+	width: 100% !important;
+}
+.twitter-page{
+	margin-top: 10px;
+}
+.chancellor-img{
+	max-width: 150px;
+	display: inline-block;
+}
+.valign-m{
 
-	<!-- jQuery -->
-	<script src="js/min/jquery-min.js"></script>
+}
+.chancellor-img-div{
+	width: 100px;
+	display: inline-block;
+}
+.chancellor-p-div{
+	width: 500px;
+	display: inline-block;
+}
 
-	<!-- Default Fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i%7CSource+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i" rel="stylesheet">
+@media (min-width: 779px){
+	#firstsection{
+		margin-top: -40px;
+	}
+	.gvisva-section .padlr{
+		padding-left: 70px;
+	}
 
-	<link rel="stylesheet" type="text/css" href="css/mycss/mystyle.css" />
+
+}
+</style>
 
 </head>
 <body class="flagstone-splash">
@@ -84,33 +110,59 @@ include_once('includes/head.php');
 
 	<!-- End of section -->
 	<section id="firstsection">
-		<div class="grid-container-fluid margin-top-100 margin-bottom-100">
-			<div class="grid-row">
-				<div class="column-8">
-					<h3 class="text-left">Fifty Four, Pravega Racing</h3>
-					<p class="text-left padding-10">We are a team of engineers who seek to enhance the learning experience of the student community at VIT University by implementation of engineering fundamentals within the context of building a formula style Racecar. We annually take part in the Formula Student competitions organised by Society of Automotive Engineers (SAE). We strive to achieve a steady growth in the Formula Student Circuit by focusing on world class engineering practices and institutionalising innovation.</p>
+		<div class="grid-container-fluid margin-top-70 margin-bottom-50">
+			<div class="grid-row padl">
+				<div class="column-8 aboutusdiv">
+					<h3 class="text-left"><b>Fifty Four, <span class="redcolor">Pravega Racing</span></b></h3>
+					<p class="text-left">
+						We are a team of engineers who seek to enhance the learning 
+						experience of the student community at VIT University by implementation of engineering 
+						fundamentals within the context of building
+						a formula style Racecar. We annually take part in the Formula Student competitions 
+						organised by Society of Automotive Engineers (SAE). We strive to achieve a 
+						steady growth in the Formula Student Circuit by focusing on world class engineering 
+						practices and institutionalising innovation.
+					</p>
 				</div>
 				<div class="column-4 fbdiv">
 					<!--facebook plugin-->
-					<div class="fb-page" data-href="https://www.facebook.com/pravegaracing/?fref=ts" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false">
+					<!-- <div class="fb-page" data-href="https://www.facebook.com/pravegaracing/?fref=ts" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false">
 						<blockquote cite="https://www.facebook.com/pravegaracing/?fref=ts" class="fb-xfbml-parse-ignore">
 							<a href="https://www.facebook.com/pravegaracing/?fref=ts">Pravega Racing</a>
 						</blockquote>
 					</div>
-					<!-- <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fpravegaracing%2F%3Ffref%3Dts&tabs=timeline&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe> -->
+					<div class="twitter-page">
+						<a href="https://twitter.com/PravegaRacing" class="twitter-follow-button" data-show-count="false">Follow @PravegaRacing</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+					</div> -->
+				</div>
+			</div>
+			<div class="grid-row padlr">
+				<h3 class="text-left">&nbsp;&nbsp;<b>About Formula SAE</b></h3>
+				<div class="column-9">
+					<p class="text-left">
+						Formula SAE (FSAE) is an opportunity for students to design, manufacture, and race 
+						a formula-style car. Over 570 university teams from around the world participate in 
+						competitions held across the globe including locations such USA, UK, Germany, Italy, 
+						Japan and Australia. The participants explain and defend their design decisions, 
+						test their driver’s abilities and pitch their car to venture capitalists via a business 
+						presentation with the target as amateur weekend autocross drivers.
+					</p>
+				</div>
+				<div class="column-3">
+					<img src="img/general/cars/sae.png" class="saeimg">
 				</div>
 			</div>
 		</div>
 	</section>
-	<section>
-		<div class="grid-container-fluid margin-top-100 margin-bottom-100">
-			<div class="grid-row">
+	<section class="gvisva-section">
+		<div class="grid-container-fluid margin-bottom-10">
+			<div class="grid-row padlr">
 				<div class="column-2 text-center">
 					<div>&nbsp;</div>
 					<img src="img/general/chancellor.png" class="img-circle chancellor-img valign-m text-center">
 
 				</div>
-				<div class="column-8">
+				<div class="column-10">
 					<p>
 						<div class="text-left"><i class="fa fa-quote-left fa-2x" aria-hidden="true"></i></div>
 						I am happy and proud to inform you that Pravega Racing is the official Formula SAE (FSAE) team of VIT University. The team comprises of a group of able and resolute students of our institution from all academic divisions aiming for excellence. Pravega Racing is among the top three Formula SAE teams of India.
@@ -127,12 +179,10 @@ include_once('includes/head.php');
 			</div>
 		</div>
 	</section>
-	<section id="intro-text">
-		<div class="grid-container margin-top-100 margin-bottom-100">
-			<div class="grid-row">
-				<div class="column-12 text-left">
-					<h2>Recent Events</h2>
-				</div>
+	<section>
+		<div class="grid-container margin-top-100 margin-bottom-100 margin-left-0">
+			<div class="grid-row padlr">
+				<h2><b>Recent Activities</b></h2>
 			</div>
 		</div>
 	</section>
@@ -226,17 +276,15 @@ include_once('includes/head.php');
 			</div>
 		</div>
 	</section>
-<?php
-include_once("includes/footer.php");
-?>
+	<?php
+	include_once("includes/footer.php");
+	?>
 
 
-<a href="#" class="back-to-top--floating"><i class="ion-ios-arrow-up"></i></a>
-
-<!-- End of section -->
-<script src="https://maps.google.com/maps/api/js?key=AIzaSyAz0cXZ6M5SiJMoqPT9qNXSLI2GiJM2SmM"></script>
-<script src="js/min/main-min.js"></script>
-<script src="js/min/scripts-min.js"></script>
+	<a href="#" class="back-to-top--floating"><i class="ion-ios-arrow-up"></i></a>
+	<script src="js/min/jquery-min.js"></script>
+	<script src="js/min/main-min.js"></script>
+	<script src="js/min/scripts-min.js"></script>
 
 </body>
 </html>

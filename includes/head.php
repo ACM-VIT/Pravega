@@ -1,9 +1,13 @@
+<?php
+if(!isset($title) || empty($title))
+$title="Pravega Racing";
+?>
 <!doctype html>
 <html class="no-js" lang="en">
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<title>Pravega Racing</title>
+	<title><?php echo $title;?></title>
 	<meta property="og:audio" content="" />
 	<!-- Open graph meta tags -->
 	<meta property="og:title" content="Pravega Racing" />
