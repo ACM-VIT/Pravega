@@ -33,5 +33,15 @@
 	.padl{
 		padding-left: 85px;
 	}
+	.hidden-big{
+    display: none !important; 
+  }
+}
+
+@media (max-width: 769px){
+  .hidden-small{
+   display: none !important; 
+ }
+
 }
 /*--------------uppar mein common elements----------*/

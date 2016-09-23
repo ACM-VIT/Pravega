@@ -11,13 +11,11 @@ include_once('includes/head.php');
 <link rel="stylesheet" type="text/css" href="css/mycss/nothome.css">
 <link rel="stylesheet" type="text/css" href="css/mycss/mystyle.css" />
 <style>
-.sub-header-banner-teams{
-	background-image:  url('img/general/cars/teamsbg.png');
-	background-position:0 top ;
-	position: relative;
-}
 .team-member-wrapper .overlay__background {
-    background-color: rgba(255, 255, 255, 0.7);
+	background-color: rgba(255, 255, 255, 0.8);
+}
+.team-member-wrapper{
+	cursor: pointer;
 }
 </style>
 </head>
@@ -31,6 +29,7 @@ include_once('includes/head.php');
 	<!-- End of page pre-loader -->
 
 	<?php
+	$navactive="team";
 	require_once('includes/nav.php');
 	?>
 
@@ -40,7 +39,7 @@ include_once('includes/head.php');
 			<div class="grid-container">
 				<div class="grid-row">
 					<div class="column-12 animated-parent">
-						<h2 class="text-color-10 animated animate__fade-in-left-short">Teams</h2>
+						<h2 class="text-color-10 animated animate__fade-in-left-short">Team</h2>
 						<h5 class="text-color-10 animated animate__fade-in-right-short">
 							<span class="text-decor animated animate__roll-in"></span>A line or two about our teams..
 						</h5>
@@ -50,22 +49,22 @@ include_once('includes/head.php');
 		</div>
 	</section>
 
-	<section>
+	<section class="first-section margin-bottom-20">
 		<div class="grid-container-fluid padlr">
 			<h1 class="text-center">Current team</h1>
 			<div class="row team-members-wrapper">
 				<?php
 				$team_members=["Aagosh Mishra","Aayush Nahata","Abhijai Tibrewal","Arnav Patel","Ashish Chadda","Nimish Mehra",
-				               "Nishant Dixit","Rishabh Khanna","Siddharth Sethi","Shantanu Singh","Udit Saraswat","Tarun Bhatia",
-				               "Varun Nair","Yashasavi Karnena","Rishiraj Chauhan","Sushant Srivastav","Aarti Noroha","Vaibhav Sharma",
-				               "Akysht Kumar","Sachin HT","Prathamesh Gunjal","Shreyansh Garhewal","Dhananjay Singh","Udhay Singh",
-				               "Naman Shukla","Nimish Gupta","Nikhil Agrawal","Kunal Aggrawal","Saahil Vishwakarma","Amogh Chourasia",
-				               "Rohit Aggrawal","Rishabh Jain","Ruchit Jain","Manmohit Singh","Surbhit Bhardwaj","Sanchit Chaudhary",
-				               "Salil Madhav","Rebanta Roy","S Sooraj","Adithya Venugopal","Vishal Agrawal","Uma Shankar",
-				               "Ashwarya Anupam","Sai Teja","Samarjeet Sharma","Vibhor Malik","Aman Agarwal","Vignesh K",
-				               "Shantan Khandal","Utkarsh Palav","Apoorv Singh","Saksham Bhardwaj","Amitabh Das","Moideen Shariq",
-				               "Shantanu Khandar"
-				               ];
+				"Nishant Dixit","Rishabh Khanna","Siddharth Sethi","Shantanu Singh","Udit Saraswat","Tarun Bhatia",
+				"Varun Nair","Yashasavi Karnena","Rishiraj Chauhan","Sushant Srivastav","Aarti Noroha","Vaibhav Sharma",
+				"Akysht Kumar","Sachin HT","Prathamesh Gunjal","Shreyansh Garhewal","Dhananjay Singh","Udhay Singh",
+				"Naman Shukla","Nimish Gupta","Nikhil Agrawal","Kunal Aggrawal","Saahil Vishwakarma","Amogh Chourasia",
+				"Rohit Aggrawal","Rishabh Jain","Ruchit Jain","Manmohit Singh","Surbhit Bhardwaj","Sanchit Chaudhary",
+				"Salil Madhav","Rebanta Roy","S Sooraj","Adithya Venugopal","Vishal Agrawal","Uma Shankar",
+				"Ashwarya Anupam","Sai Teja","Samarjeet Sharma","Vibhor Malik","Aman Agarwal","Vignesh K",
+				"Shantan Khandal","Utkarsh Palav","Apoorv Singh","Saksham Bhardwaj","Amitabh Das","Moideen Shariq",
+				"Shantanu Khandar"
+				];
 				$team_roles=["President"];
 				$no_team_members=count($team_members);
 				for($i=0;$i<$no_team_members;$i++)
@@ -76,15 +75,20 @@ include_once('includes/head.php');
 					$role=$team_roles[0];//$i
 					echo "
 					<div class='col-md-2 col-sm-4 col-xs-6'>
-					 <div class='overlay team-member-wrapper'>
-					  <div class='overlay__background'></div>
-					  <div class='overlay__content text-center text-color-2'>
-					  <span class='overlay__content-heading'>{$name}</span>
-					  <span class='overlay__content-text'><b>{$role}</b></span>
-					 </div>
+					<div class='overlay team-member-wrapper'>
+					<div class='overlay__background'></div>
+					<div class='overlay__content text-center text-color-2'>
+
+					<span class='overlay__content-heading'>{$name}</span>
+					<span class='overlay__content-text'><b>{$role}</b></span>
+					<div class='profile__sharing-links--alt'>
+					<a href='#'><i class='fa fa-facebook profile__sharing-link'></i></a>
+					</div>
+					</div>
 					<img src='img/general/teams/currentteam/{$fname}.png' alt='{$fname}' class='overlay__image'>
 					<div class='text-center'><b>{$name}</b></div>
-					 </div>
+					<br>
+					</div>
 					</div>
 					";
 				}

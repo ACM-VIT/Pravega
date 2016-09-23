@@ -14,17 +14,19 @@
 								<a href="index.php">Home</a>
 							</li>
 							<li class="nav-item has-submenu">
-								<a href="cars.php">Cars</a>
+								<span class="hidden-big"><a>Cars</a></span>
+								<span class="hidden-small"><a href="cars.php">Cars</a></span>
 								<ul class="is-submenu">
-									<li><a href="cars.php">PRV 16</a></li>
-									<li><a href="cars.php">PRV 15</a></li>
-									<li><a href="cars.php">PRV 14</a></li>
-									<li><a href="cars.php">PRV 13</a></li>
-									<li><a href="cars.php">PRV Delta Pheonix</a></li>
+									<li><a href="cars.php?select=prv16">PRV 16</a></li>
+									<li><a href="cars.php?select=prv15">PRV 15</a></li>
+									<li><a href="cars.php?select=prv14">PRV 14</a></li>
+									<li><a href="cars.php?select=prv13">PRV 13</a></li>
+									<li><a href="cars.php?select=prvdp">PRV Delta Pheonix</a></li>
 								</ul>
 							</li>
 							<li class="nav-item has-submenu">
-								<a>Team</a>
+								<span class="hidden-big"><a>Team</a></span>
+								<span class="hidden-small"><a href="currentteam.php">Team</a></span>
 								<ul class="is-submenu">
 									<li><a href="currentteam.php">Current team</a></li>
 									<li class="has-submenu">
@@ -39,14 +41,15 @@
 								</ul>
 							</li>
 							<li class="nav-item has-submenu">
-								<a href="#">Events</a>
+								<span class="hidden-big"><a>Events</a></span>
+								<span class="hidden-small"><a href="events.php">Events</a></span>
 								<ul class="is-submenu">
-									<li><a href="portfolio-3-columns.html">3 Columns</a></li>
-									<li><a href="portfolio-3-columns-full.html">3 Columns full width</a></li>
-									<li><a href="portfolio-4-columns.html">4 Columns</a></li>
-									<li><a href="portfolio-4-columns-full.html">4 Columns full width</a></li>
-									<li><a href="portfolio-masonry.html">Masonry layout</a></li>
-									<li><a href="portfolio-details.html">Project page</a></li>
+									<li><a href="events.php#fsi2013">FS Italy 2013</a></li>
+									<li><a href="events.php#fsg2014">FS Germany 2014</a></li>
+									<li><a href="events.php#jkt2015">JK Tyre FDC 2015</a></li>
+									<li><a href="events.php#fsg2015">FS Germany 2015</a></li>
+									<li><a href="events.php#fsi2016">FS India 2016</a></li>
+									<li><a href="events.php#fsg2016">FS Germany 2016</a></li>
 								</ul>
 							</li>
 							<li class="nav-item has-submenu">

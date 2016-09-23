@@ -10,3 +10,48 @@
     width: 100%;
     height: 100%;
 }
+.first-section{
+	margin-top: 20px;
+}
+
+.sub-header-banner-teams{
+	background-image:  url('../../img/general/cars/teamsbg.png');
+	background-position:0 top ;
+	position: relative;
+}
+.member-prv16 {
+	width: 150px;
+	height: 50px;
+	margin-bottom: 10px;
+	padding: inherit;
+	vertical-align: middle;
+	display: inline-block;
+	line-height: 300%;
+	background-color: #305faa;
+	text-align: center;
+	color: #fff;
+	font-weight: bold;
+
+}
+.team-position{
+position: absolute;
+bottom: -3px;
+left: 14%;
+width: ;
+font-size: 90%;
+color: #eee;
+}
+@media (max-width:400px ){
+	
+	.member-prv16{
+		width: 120px;
+		height: 40px;
+	}
+}
+@media (max-width: 540px){
+	.team-position{
+		bottom: -2px;
+		left: 25%;
+		font-size: 80%;
+	}
+}

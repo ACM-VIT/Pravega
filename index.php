@@ -4,6 +4,7 @@ include_once('includes/head.php');
 ?>
 
 <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.css">
+<link rel="stylesheet" type="text/css" href="css/mycss/mybootstrap.css">
 <link rel="stylesheet" type="text/css" href="css/mycss/slider1.css" />
 <link rel="stylesheet" type="text/css" href="css/mycss/slider2.css" />
 <link rel="stylesheet" href="css/fonts.css">
@@ -13,7 +14,7 @@ include_once('includes/head.php');
 <link rel="stylesheet" type="text/css" href="css/mycss/mystyle.css" />
 <style>
 .img-circle {
-  border-radius: 50%;
+	border-radius: 50%;
 }
 
 .fb-page{
@@ -25,10 +26,7 @@ include_once('includes/head.php');
 .twitter-page{
 	margin-top: 10px;
 }
-.chancellor-img{
-	max-width: 150px;
-	display: inline-block;
-}
+
 .valign-m{
 
 }
@@ -40,7 +38,15 @@ include_once('includes/head.php');
 	width: 500px;
 	display: inline-block;
 }
+.about-gv-p{
 
+}
+.chancellor-img{
+	
+}
+#firstsection{
+		margin-top: -40px;
+	}
 @media (min-width: 779px){
 	#firstsection{
 		margin-top: -40px;
@@ -48,7 +54,7 @@ include_once('includes/head.php');
 	.gvisva-section .padlr{
 		padding-left: 70px;
 	}
-
+	
 
 }
 </style>
@@ -76,6 +82,7 @@ include_once('includes/head.php');
 	<!-- End of page pre-loader -->
 
 	<?php
+	$navactive="home";
 	require_once('includes/nav.php');
 	?>
 
@@ -159,7 +166,7 @@ include_once('includes/head.php');
 			<div class="grid-row padlr">
 				<div class="column-2 text-center">
 					<div>&nbsp;</div>
-					<img src="img/general/chancellor.png" class="img-circle chancellor-img valign-m text-center">
+					<img src="img/general/chancellor.png" class="img-circle chancellor-img img-responsive hidden-small valign-m text-center">
 
 				</div>
 				<div class="column-10">
@@ -168,7 +175,7 @@ include_once('includes/head.php');
 						I am happy and proud to inform you that Pravega Racing is the official Formula SAE (FSAE) team of VIT University. The team comprises of a group of able and resolute students of our institution from all academic divisions aiming for excellence. Pravega Racing is among the top three Formula SAE teams of India.
 						<div class="text-right"><i class="fa fa-quote-right fa-2x" aria-hidden="true"></i></div>
 					</p>
-					<p><b>
+					<p class="about-gv-p"><b>
 						Dr. G Vishwanathan
 						<br>Founder and Chancellor, VIT University
 						<br>Former Member of Parliament
@@ -177,6 +184,7 @@ include_once('includes/head.php');
 					</b></p>
 				</div>
 			</div>
+			
 		</div>
 	</section>
 	<section>

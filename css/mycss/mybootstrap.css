@@ -1,21 +1,19 @@
 
-@media (max-width: 768px){
-  .hidden-small{
-   display: none !important; 
- }
-}
+
 .container {
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
 }
+.img-responsive{
+  display: block !important;
+  max-width: 100% !important;
+  height: auto !important;
+}
 @media (min-width: 768px) {
   .container {
     width: 750px;
-  }
-  .hidden-big{
-    display: none !important; 
   }
 }
 @media (min-width: 992px) {
@@ -674,3 +672,4 @@
     margin-left: 0;
   }
 }
+

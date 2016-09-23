@@ -20,6 +20,7 @@ include_once('includes/head.php');
 		</div>
 	</div>
 	<?php
+	$navactive="cars";
 	require_once('includes/nav.php');
 	?>
 	<section class="background-color-11 sub-header sub-header-banner-cars">

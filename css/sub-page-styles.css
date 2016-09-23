@@ -1438,6 +1438,17 @@ p {
 		-webkit-transition-property: background-color, color;
 		transition-property: background-color, color;
 }
+.team-member-wrapper .profile__sharing-links--alt {
+		position: static;
+		top: 0px;
+		right: 0px;
+		width: auto;
+		height: 22px;
+		text-align: center;
+		font-size: 16px;
+		line-height: 50px;
+
+}
 .profile__sharing-link {
 		margin-bottom: 2px;
 		background-color: #f8f8fa;
