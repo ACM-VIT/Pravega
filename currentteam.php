@@ -12,8 +12,12 @@ include_once('includes/head.php');
 <link rel="stylesheet" type="text/css" href="css/mycss/mystyle.css" />
 <style>
 .sub-header-banner-teams{
-	background-image:  url('../../img/general/cars/teamsbg.png');
+	background-image:  url('img/general/cars/teamsbg.png');
+	background-position:0 top ;
 	position: relative;
+}
+.team-member-wrapper .overlay__background {
+    background-color: rgba(255, 255, 255, 0.7);
 }
 </style>
 </head>
@@ -47,9 +51,45 @@ include_once('includes/head.php');
 	</section>
 
 	<section>
-		<div class="grid-container-fluid">
+		<div class="grid-container-fluid padlr">
 			<h1 class="text-center">Current team</h1>
-
+			<div class="row team-members-wrapper">
+				<?php
+				$team_members=["Aagosh Mishra","Aayush Nahata","Abhijai Tibrewal","Arnav Patel","Ashish Chadda","Nimish Mehra",
+				               "Nishant Dixit","Rishabh Khanna","Siddharth Sethi","Shantanu Singh","Udit Saraswat","Tarun Bhatia",
+				               "Varun Nair","Yashasavi Karnena","Rishiraj Chauhan","Sushant Srivastav","Aarti Noroha","Vaibhav Sharma",
+				               "Akysht Kumar","Sachin HT","Prathamesh Gunjal","Shreyansh Garhewal","Dhananjay Singh","Udhay Singh",
+				               "Naman Shukla","Nimish Gupta","Nikhil Agrawal","Kunal Aggrawal","Saahil Vishwakarma","Amogh Chourasia",
+				               "Rohit Aggrawal","Rishabh Jain","Ruchit Jain","Manmohit Singh","Surbhit Bhardwaj","Sanchit Chaudhary",
+				               "Salil Madhav","Rebanta Roy","S Sooraj","Adithya Venugopal","Vishal Agrawal","Uma Shankar",
+				               "Ashwarya Anupam","Sai Teja","Samarjeet Sharma","Vibhor Malik","Aman Agarwal","Vignesh K",
+				               "Shantan Khandal","Utkarsh Palav","Apoorv Singh","Saksham Bhardwaj","Amitabh Das","Moideen Shariq",
+				               "Shantanu Khandar"
+				               ];
+				$team_roles=["President"];
+				$no_team_members=count($team_members);
+				for($i=0;$i<$no_team_members;$i++)
+				{
+					$name=$team_members[$i];
+					$name=ucwords($name);
+					$fname="placeholder";//strtolower(substr($name,0,strpos($name," ")));
+					$role=$team_roles[0];//$i
+					echo "
+					<div class='col-md-2 col-sm-4 col-xs-6'>
+					 <div class='overlay team-member-wrapper'>
+					  <div class='overlay__background'></div>
+					  <div class='overlay__content text-center text-color-2'>
+					  <span class='overlay__content-heading'>{$name}</span>
+					  <span class='overlay__content-text'><b>{$role}</b></span>
+					 </div>
+					<img src='img/general/teams/currentteam/{$fname}.png' alt='{$fname}' class='overlay__image'>
+					<div class='text-center'><b>{$name}</b></div>
+					 </div>
+					</div>
+					";
+				}
+				?>
+			</div>
 		</div>
 	</section>
 

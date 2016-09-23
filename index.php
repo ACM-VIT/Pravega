@@ -126,14 +126,14 @@ include_once('includes/head.php');
 				</div>
 				<div class="column-4 fbdiv">
 					<!--facebook plugin-->
-					<!-- <div class="fb-page" data-href="https://www.facebook.com/pravegaracing/?fref=ts" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false">
+					<div class="fb-page" data-href="https://www.facebook.com/pravegaracing/?fref=ts" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false">
 						<blockquote cite="https://www.facebook.com/pravegaracing/?fref=ts" class="fb-xfbml-parse-ignore">
 							<a href="https://www.facebook.com/pravegaracing/?fref=ts">Pravega Racing</a>
 						</blockquote>
 					</div>
 					<div class="twitter-page">
 						<a href="https://twitter.com/PravegaRacing" class="twitter-follow-button" data-show-count="false">Follow @PravegaRacing</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-					</div> -->
+					</div>
 				</div>
 			</div>
 			<div class="grid-row padlr">
