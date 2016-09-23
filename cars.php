@@ -199,22 +199,13 @@ include_once('includes/head.php');
 
 <!-- End of section -->
 
+<a href="#" class="back-to-top--floating"><i class="ion-ios-arrow-up"></i></a>
 <?php
 include_once("includes/footer.php");
 ?>
-
-
-<a href="#" class="back-to-top--floating"><i class="ion-ios-arrow-up"></i></a>
-
-<!-- End of section -->
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> 
-<script src="https://maps.google.com/maps/api/js"></script>
-<script src="js/min/main-min.js"></script>
-<script src="js/min/scripts-min.js"></script>
-	<!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> 
--->
 <script src="js/min/myjs/jquery.reflection.js"></script> 
 <script src="js/min/myjs/jquery.cloud9carousel.js"></script> 
+<script src="js/min/myjs/flickity.pkgd.min.js"></script>
 <script>
 $("#detailsprv16").hide();
 $("#detailsprv15").hide();
@@ -360,7 +351,6 @@ $('.selector button').click(function(e) {
 
 setTimeout(function() { toggleOptions('.selector'); }, 100);
 </script>
-<script src="js/min/myjs/flickity.pkgd.min.js"></script>
 <script>
 var $carousel = $('.carselect').flickity();
 var flkty = $carousel.data('flickity');

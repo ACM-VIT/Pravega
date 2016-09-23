@@ -45,8 +45,8 @@ include_once('includes/head.php');
 	
 }
 #firstsection{
-		margin-top: -40px;
-	}
+	margin-top: -40px;
+}
 @media (min-width: 779px){
 	#firstsection{
 		margin-top: -40px;
@@ -284,15 +284,10 @@ include_once('includes/head.php');
 			</div>
 		</div>
 	</section>
+	<a href="#" class="back-to-top--floating"><i class="ion-ios-arrow-up"></i></a>
 	<?php
 	include_once("includes/footer.php");
 	?>
-
-
-	<a href="#" class="back-to-top--floating"><i class="ion-ios-arrow-up"></i></a>
-	<script src="js/min/jquery-min.js"></script>
-	<script src="js/min/main-min.js"></script>
-	<script src="js/min/scripts-min.js"></script>
-
+	
 </body>
 </html>

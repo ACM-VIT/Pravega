@@ -51,26 +51,15 @@ include_once('includes/head.php');
 
 	<section>
 		<div class="grid-container-fluid padlr">
-			<h1 class="text-center">Current team</h1>
+			<h1 class="text-center">Contact us</h1>
 		</div>
 	</section>
 
 
 
-
-
-
+	<a href="#" class="back-to-top--floating"><i class="ion-ios-arrow-up"></i></a>
 	<?php
 	include_once("includes/footer.php");
 	?>
-
-
-	<a href="#" class="back-to-top--floating"><i class="ion-ios-arrow-up"></i></a>
-
-	<!-- End of section -->
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> 
-	<script src="js/min/main-min.js"></script>
-	<script src="js/min/scripts-min.js"></script>
-
 </body>
 </html>
