@@ -2,7 +2,6 @@
 $title="Pravega Racing - Cars";
 include_once('includes/head.php');
 ?>
-
 <link rel="stylesheet" href="css/fonts.css">
 <link rel="stylesheet" href="css/style.css">
 
