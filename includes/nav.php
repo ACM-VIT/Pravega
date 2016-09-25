@@ -64,58 +64,29 @@
 								<li><a href="contact.html">Contact us</a></li>
 							</ul>
 						</li>
-						<li class="nav-item has-megamenu">
-							<a href="#">Sponsors</a>
-							<div class="is-megamenu">
-								<div class="grid-container">
-									<div class="grid-row">
-										<div class="column-4">
-											<ul class="is-submenu">
-												<li><a href="component-accordion.html">Accordion</a></li>
-												<li><a href="component-alert.html">Alerts</a></li>
-												<li><a href="component-animation.html">Animation</a></li>
-												<li><a href="component-draws.html">Draws</a></li>
-												<li><a href="component-forms.html">Forms</a></li>
-												<li><a href="component-buttons.html">Buttons</a></li>
-											</ul>
-										</div>
-										<div class="column-4">
-											<ul class="is-submenu">
-												<li><a href="component-hero.html">Hero units</a></li>
-												<li><a href="component-icon-box.html">Icon boxes</a></li>
-												<li><a href="component-maps.html">Maps</a></li>
-												<li><a href="component-modals.html">Modals</a></li>
-												<li><a href="component-notices.html">Notices</a></li>
-												<li><a href="component-overlays.html">Overlays</a></li>
-											</ul>
-										</div>
-										<div class="column-4">
-											<ul class="is-submenu">
-												<li><a href="component-parallax.html">Parallax</a></li>
-												<li><a href="component-pricing.html">Pricing</a></li>
-												<li><a href="component-sliders.html">Sliders</a></li>
-												<li><a href="component-tabs.html">Tabs</a></li>
-												<li><a href="component-teams.html">Teams</a></li>
-												<li><a href="component-testimonials.html">Testimonials</a></li>
-											</ul>
-										</div>
-									</div>
-								</div>
-							</div>
+						<li class="nav-item has-submenu">
+							<span class="hidden-big"><a>Sponsors</a></span>
+							<span class="hidden-small"><a href="sponsors.php">Sponsors</a></span>
+							<ul class="is-submenu">
+								<li><a href="sponsors.php#titlesponsors">Title Sponsors</a></li>
+								<li><a href="sponsors.php#goldsponsors">Gold Sponsors</a></li>
+								<li><a href="sponsors.php#silversponsors">Silver Sponsors</a></li>
+								<li><a href="sponsors.php#bronzesponsors">Bronze Sponsors</a></li>
+								<li><a href="sponsors.php#sponsorshipbrochure">Sponsorship Brochure</a></li>
+							</ul>
 						</li>
 						<li class="nav-item">
 							<a href="contactus.php">Contact us</a>
 						</li>
 						<li class="nav-item has-submenu">
 							<span class="hidden-big"><a>Sponsorship</a></span>
-							<span class="hidden-small"><a href="sponsorship.php">Sponsorship</a></span>
+							<span class="hidden-small"><a href="sponsors.php">Sponsors</a></span>
 							<ul class="is-submenu">
-								<li><a href="sponsorship.php#titlesponsors">Title Sponsors</a></li>
-								<li><a href="sponsorship.php#goldsponsors">Gold Sponsors</a></li>
-								<li><a href="sponsorship.php#silversponsors">Silver Sponsors</a></li>
-								<li><a href="sponsorship.php#bronzesponsors">Bronze Sponsors</a></li>
-								<li><a href="sponsorship.php#howtosupportus">How to Support Us</a></li>
-								<li><a href="sponsorship.php#sponsorshipbrochure">Sponsorship Brochure</a></li>
+								<li><a href="sponsors.php#titlesponsors">Title Sponsors</a></li>
+								<li><a href="sponsors.php#goldsponsors">Gold Sponsors</a></li>
+								<li><a href="sponsors.php#silversponsors">Silver Sponsors</a></li>
+								<li><a href="sponsors.php#bronzesponsors">Bronze Sponsors</a></li>
+								<li><a href="sponsors.php#sponsorshipbrochure">Sponsorship Brochure</a></li>
 							</ul>
 						</li>
 					</ul>

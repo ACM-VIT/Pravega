@@ -28,6 +28,9 @@
 	margin-left: auto;
 	margin-right: auto;
 }
+.silver-sponsors img, .bronze-sponsors img{
+	height: 150px;
+}
 .heading-sponsor{
 	background-color: rgb(184, 0, 0);
 	color: #fff;
@@ -49,5 +52,8 @@
 {
 	.sponsordiv img{
 		height: 150px;
+	}
+	.silver-sponsors img,.bronze-sponsors img{
+		height: 100px;
 	}
 }
