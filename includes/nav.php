@@ -107,8 +107,8 @@
 							<a href="contactus.php">Contact us</a>
 						</li>
 						<li class="nav-item has-submenu">
-							<span class="hidden-big"><a>Events</a></span>
-							<span class="hidden-small"><a href="sponsorship.php">Events</a></span>
+							<span class="hidden-big"><a>Sponsorship</a></span>
+							<span class="hidden-small"><a href="sponsorship.php">Sponsorship</a></span>
 							<ul class="is-submenu">
 								<li><a href="sponsorship.php#titlesponsors">Title Sponsors</a></li>
 								<li><a href="sponsorship.php#goldsponsors">Gold Sponsors</a></li>
