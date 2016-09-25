@@ -3,8 +3,8 @@
 	background-position:0 top ;
 	position: relative;
 }
-.brochurediv{
 
+.brochurediv{
 	text-align:center !important;
 	display: block;
 	margin-bottom: 20px;
@@ -55,5 +55,8 @@
 	}
 	.silver-sponsors img,.bronze-sponsors img{
 		height: 100px;
+	}
+	.padl{
+		padding-left: 10px;
 	}
 }
