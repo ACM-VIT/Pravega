@@ -48,6 +48,12 @@
 }
 .hide-n-seek{
 }
+@media (max-width: 760px)
+{
+	.padl{
+		padding-left: 40px;
+	}
+}
 @media (max-width: 500px)
 {
 	.sponsordiv img{
@@ -55,8 +61,5 @@
 	}
 	.silver-sponsors img,.bronze-sponsors img{
 		height: 100px;
-	}
-	.padl{
-		padding-left: 10px;
 	}
 }
