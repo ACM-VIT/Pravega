@@ -1,9 +1,11 @@
 .sub-header-banner-teams{
-	background-image:  url('../../img/general/cars/teamsbg.png');
+	background-image:  url('../../img/general/bgs/sponsorsbg.png');
 	background-position:0 top ;
 	position: relative;
 }
-
+.layer {
+	background-color: rgba(0, 0, 0, 0.9);
+}
 .brochurediv{
 	text-align:center !important;
 	display: block;
@@ -24,13 +26,11 @@
 	cursor: pointer;
 }
 .sponsordiv img{
-	height: 200px;
+	height: 150px;
 	margin-left: auto;
 	margin-right: auto;
 }
-.silver-sponsors img, .bronze-sponsors img{
-	height: 150px;
-}
+
 .heading-sponsor{
 	background-color: rgb(184, 0, 0);
 	color: #fff;
@@ -59,7 +59,5 @@
 	.sponsordiv img{
 		height: 150px;
 	}
-	.silver-sponsors img,.bronze-sponsors img{
-		height: 100px;
-	}
+	
 }

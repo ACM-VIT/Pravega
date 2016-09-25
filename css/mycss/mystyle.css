@@ -13,11 +13,11 @@
 .redcolor{
 	color: red;
 }
-.padlr{
+.padlr_new{
 	padding-left: 3px;
 	padding-right: 3px;
 }
-.padl{
+.padl_new{
 	padding-left: 3px;
 }
 .margin-left-0{
@@ -26,14 +26,14 @@
 
 @media (min-width: 779px){
 
-	.padlr{
+	.padlr_new{
 		padding-left: 70px;
 		padding-right: 70px;
 	}
-	.padl{
+	.padl_new{
 		padding-left: 70px;
 	}
-	.padr{
+	.padr_new{
 		padding-right: 70px;
 	}
 	.hidden-big{
