@@ -1,0 +1,53 @@
+.sub-header-banner-teams{
+	background-image:  url('../../img/general/cars/teamsbg.png');
+	background-position:0 top ;
+	position: relative;
+}
+.brochurediv{
+
+	text-align:center !important;
+	display: block;
+	margin-bottom: 20px;
+}
+.brochurediv .issuuembed{
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.sponsordiv .overlay__background {
+	background-color: rgba(0, 0, 0, 0.8);
+}
+.sponsordiv .overlay__content-heading{
+	color: #fff;
+}
+.sponsordiv{
+	cursor: pointer;
+}
+.sponsordiv img{
+	height: 200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.heading-sponsor{
+	background-color: rgb(184, 0, 0);
+	color: #fff;
+	padding: 1rem;
+	font-weight: bold;
+	width: 100%;
+	cursor: pointer;
+}
+.heading-sponsor .fa{
+	float: right;
+	transition: all ease 0.5s;
+}
+.faspan{
+	font-weight: normal !important;
+}
+.hide-n-seek{
+}
+@media (max-width: 500px)
+{
+	.sponsordiv img{
+		height: 150px;
+	}
+}
