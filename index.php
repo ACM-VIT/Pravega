@@ -209,7 +209,7 @@ include_once('includes/head.php');
 								<a class="link text-uppercase" href="design-studio.html">View this homepage</a>
 							</span>
 						</div>
-						<img src="img/general/overview--design-studio.jpg" alt="" class="overlay__image overlay__image--skew">
+						<img src="img/general/cars/prv13.png" alt="" class="overlay__image overlay__image--skew">
 					</div>
 				</div>
 				<div class="column-4 animated animate__fade-in-down-short">
@@ -221,7 +221,7 @@ include_once('includes/head.php');
 								<a class="link text-uppercase" href="interior-design.html">View this homepage</a>
 							</span>
 						</div>
-						<img src="img/general/overview--interior-design.jpg" alt="" class="overlay__image overlay__image--skew">
+						<img src="img/general/cars/prv14.png" alt="" class="overlay__image overlay__image--skew">
 					</div>
 				</div>
 				<div class="column-4 animated animate__fade-in-down-short">
@@ -233,7 +233,7 @@ include_once('includes/head.php');
 								<a class="link text-uppercase" href="photography.html">View this homepage</a>
 							</span>
 						</div>
-						<img src="img/general/overview--photography.jpg" alt="" class="overlay__image overlay__image--skew">
+						<img src="img/general/cars/prv13_1.png" alt="" class="overlay__image overlay__image--skew">
 					</div>
 				</div>
 			</div>
@@ -254,7 +254,7 @@ include_once('includes/head.php');
 								<a class="link text-uppercase" href="architect.html">View this homepage</a>
 							</span>
 						</div>
-						<img src="img/general/overview--architect.jpg" alt="" class="overlay__image overlay__image--skew">
+						<img src="img/general/cars/prv15.png" alt="" class="overlay__image overlay__image--skew">
 					</div>
 				</div>
 				<div class="column-4 animated animate__fade-in-down-short">
@@ -266,7 +266,7 @@ include_once('includes/head.php');
 								<a class="link text-uppercase" href="coffee-shop.html">View this homepage</a>
 							</span>
 						</div>
-						<img src="img/general/overview--coffee-shop.jpg" alt="" class="overlay__image overlay__image--skew">
+						<img src="img/general/cars/prv16.png" alt="" class="overlay__image overlay__image--skew">
 					</div>
 				</div>
 				<div class="column-4 animated animate__fade-in-down-short">
@@ -278,7 +278,7 @@ include_once('includes/head.php');
 								<a class="link text-uppercase" href="artist.html">View this homepage</a>
 							</span>
 						</div>
-						<img src="img/general/overview--artist.jpg" alt="" class="overlay__image overlay__image--skew">
+						<img src="img/general/cars/prv16_1.png" alt="" class="overlay__image overlay__image--skew">
 					</div>
 				</div>
 			</div>

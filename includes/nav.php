@@ -103,28 +103,19 @@
 								</div>
 							</div>
 						</li>
-						<li class="nav-item has-submenu">
-							<a href="#">Contact us</a>
-							<ul class="is-submenu">
-								<li><a href="about-us.html">About us</a></li>
-								<li><a href="about-us-alt.html">About us alternate</a></li>
-								<li><a href="services.html">Services</a></li>
-								<li><a href="services-alt.html">Services alternate</a></li>
-								<li><a href="coming-soon.html">Coming soon</a></li>
-								<li><a href="404.html">404 page not found</a></li>
-								<li><a href="contact.html">Contact us</a></li>
-							</ul>
+						<li class="nav-item">
+							<a href="contactus.php">Contact us</a>
 						</li>
 						<li class="nav-item has-submenu">
-							<a href="#">Sponsorship</a>
+							<span class="hidden-big"><a>Events</a></span>
+							<span class="hidden-small"><a href="sponsorship.php">Events</a></span>
 							<ul class="is-submenu">
-								<li><a href="about-us.html">About us</a></li>
-								<li><a href="about-us-alt.html">About us alternate</a></li>
-								<li><a href="services.html">Services</a></li>
-								<li><a href="services-alt.html">Services alternate</a></li>
-								<li><a href="coming-soon.html">Coming soon</a></li>
-								<li><a href="404.html">404 page not found</a></li>
-								<li><a href="contact.html">Contact us</a></li>
+								<li><a href="sponsorship.php#titlesponsors">Title Sponsors</a></li>
+								<li><a href="sponsorship.php#goldsponsors">Gold Sponsors</a></li>
+								<li><a href="sponsorship.php#silversponsors">Silver Sponsors</a></li>
+								<li><a href="sponsorship.php#bronzesponsors">Bronze Sponsors</a></li>
+								<li><a href="sponsorship.php#howtosupportus">How to Support Us</a></li>
+								<li><a href="sponsorship.php#sponsorshipbrochure">Sponsorship Brochure</a></li>
 							</ul>
 						</li>
 					</ul>
