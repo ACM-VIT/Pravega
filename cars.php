@@ -36,7 +36,7 @@ include_once('includes/head.php');
 			</div>
 		</div>
 	</section>
-	<section>
+	<section class="main-wrapper">
 		<div id="wheelnavdiv">
 			<div class="carousel carselect" data-flickity='{ "imagesLoaded": true, "percentPosition": false, 
 			"wrapAround": true }'>

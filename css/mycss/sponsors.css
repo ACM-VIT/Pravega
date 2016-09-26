@@ -6,16 +6,7 @@
 .layer {
 	background-color: rgba(0, 0, 0, 0.9);
 }
-.brochurediv{
-	text-align:center !important;
-	display: block;
-	margin-bottom: 20px;
-}
-.brochurediv .issuuembed{
-	display: inline-block;
-	margin-left: auto;
-	margin-right: auto;
-}
+
 .sponsordiv .overlay__background {
 	background-color: rgba(0, 0, 0, 0.8);
 }

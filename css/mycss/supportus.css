@@ -17,7 +17,7 @@
 	text-align: center;
 }
 .section-white .contentt{
-	margin: 15% 30px;
+	margin: 15% 0px;
 }
 
 
@@ -100,6 +100,9 @@ main section a:hover{
 .bolderr{
 	font-weight: 800 !important;
 }
+.padl_new{
+		padding-left: 20px;
+	}
 @media (min-width: 769px)
 {
 	.section-white .contentt{
@@ -119,17 +122,17 @@ main section a:hover{
 		margin-top: 100px;
 	}
 }
-/*
-<h4 class="subheading color-white">A sponsors of Pravega Racing the following benefits will be included :</h4>
-						<ul class="benefits-ul color-white">
-							<li>Logo on car</li>
-							<li>Logo on Team Apparel</li>
-							<li>Online Publicity</li>
-							<li>Distribution of Company Merchandise</li>
-							<li>Promotion at events ( FSI+FSG)</li>
-							<li>Promotion at Car launch and college fests</li>
-							<li>Exclusive Ad Campaigns</li>
-							<li>Themed Body</li>
-							<li>Team and  Car Availibility</li>
-						</ul>
-						*/
+@media (max-width: 769px)
+{
+	.things-desc-div{
+		margin-left: -20px;
+		margin-right: -90px;
+		padding-right: 0px;
+	}
+	.thoda-chota{
+		font-size: 0.9rem;
+	}
+	#sec3{
+		padding-bottom: 50px !important;
+	}
+}

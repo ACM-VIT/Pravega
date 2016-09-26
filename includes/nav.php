@@ -41,8 +41,7 @@
 							</ul>
 						</li>
 						<li class="nav-item has-submenu">
-							<span class="hidden-big"><a>Events</a></span>
-							<span class="hidden-small"><a href="events.php">Events</a></span>
+							<span><a href="events.php">Events</a></span>
 							<ul class="is-submenu">
 								<li><a href="events.php#cd_block0">FS Germany 2016</a></li>
 								<li><a href="events.php#cd_block1">FS India 2016</a></li>
@@ -53,26 +52,25 @@
 							</ul>
 						</li>
 						<li class="nav-item has-submenu">
-							<span class="hidden-big"><a>PR Activity</a></span>
-							<span class="hidden-small"><a href="practivity.php">PR Activity</a></span>
+							<span><a href="practivity.php">PR Activity</a></span>
 							<ul class="is-submenu">
 								<li><a href="practivity.php">Engage</a></li>
 							</ul>
 						</li>
 						<li class="nav-item has-submenu">
-							<span class="hidden-big"><a>Support Us</a></span>
-							<span class="hidden-small"><a href="supportus.php">Support Us</a></span>
+							
+							<span class=""><a href="supportus.php">Support us</a></span>
 							<ul class="is-submenu">
 								<li><a href="supportus.php#sec2">How to Support us</a></li>
 								<li><a href="supportus.php#sec3">benefits</a></li>
+								<li><a href="supportus.php#sponsorshipbrochure">Sponsorship Brochure</a></li>
 							</ul>
 						</li>
 						<li class="nav-item">
 							<a href="contactus.php">Contact us</a>
 						</li>
 						<li class="nav-item has-submenu">
-							<span class="hidden-big"><a>Our Sponsors</a></span>
-							<span class="hidden-small"><a href="sponsors.php">Our Sponsors</a></span>
+							<span class=""><a href="sponsors.php">Our Sponsors</a></span>
 							<ul class="is-submenu">
 								<li><a href="sponsors.php#titlesponsors">Title Sponsors</a></li>
 								<li><a href="sponsors.php#goldsponsors">Gold Sponsors</a></li>
