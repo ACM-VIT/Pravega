@@ -1,8 +1,4 @@
-.sub-header-banner-teams{
-	background-image:  url('../../img/general/bgs/sponsorsbg.png');
-	background-position:0 top ;
-	position: relative;
-}
+
 .layer {
 	background-color: rgba(0, 0, 0, 0.9);
 }
@@ -50,8 +46,4 @@
 	.sponsordiv img{
 		height: 120px;
 	}
-	/*.silver-sponsors .sponsordiv img,.bronze-sponsors .sponsordiv img{
-		height: 120px;
-	}*/
-	
 }

@@ -19,11 +19,28 @@
 .first-section{
 	margin-top: 20px;
 }
-
+.sub-header-banner-sponsors{
+	background-image:  url('../../img/general/bgs/sponsorsbg.png');
+	background-position:0 top ;
+}
 .sub-header-banner-teams{
 	background-image:  url('../../img/general/cars/teamsbg.png');
 	background-position:0 top ;
-	position: relative;
+}
+.sub-header-banner-cars{
+	background-image: url('../../img/general/cars/carf1bg.png');  
+}
+.parallax--banner-1{
+	background-image: url('../../img/general/bgs/supportus_parallaxbanner1.png');
+}
+.parallax--banner-2{
+	
+	background-image: url('../../img/general/bgs/supportus_parallaxbanner2.png');
+	background-position:0;
+}
+.parallax--banner-cars_1{
+	background-image: url('../../img/general/bgs/carsbg1.png');
+
 }
 .member-prv16 {
 	width: 150px;
@@ -91,7 +108,7 @@
 	display: inline-block;
 	width: 73%;
 	vertical-align: middle;
-	}
+}
 .right-sidebar .recent{
 	list-style: none;
 }

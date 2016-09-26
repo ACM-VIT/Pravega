@@ -115,9 +115,9 @@ include_once('includes/head.php');
 				<div class="grid-container">
 					<div class="grid-row">
 						<div class="column-12 text-center animated-parent">
-							<h1 class="text-color-10 font-size-xxlrg animated animate__fade-in-down-short">Beauty, Elegance, Style...</h1>
-							<h5 class="text-color-10 text-uppercase animated animate__fade-in-up-short">
-								Essential ingredients for any startup.
+							<h1 class="text-color-10 font-size-xxlrg animated animate__fade-in-down-short"><b>Pravega Racing</b></h1>
+							<h5 class="text-color-10 animated animate__fade-in-up-short">
+								a line or two a line or two.
 							</h5>
 						</div>
 					</div>

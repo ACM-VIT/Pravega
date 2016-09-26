@@ -1,7 +1,4 @@
-.sub-header-banner-cars{
-  background-image: url('../../img/general/cars/carf1bg.png');  
-position: relative;
-}
+
 #wheelnavdiv{
   display: none;
 }
@@ -48,18 +45,7 @@ position: relative;
 #showcase {
   width: 100%;
   height: 360px;
-  background: #16235e; /* Old browsers */
-  background: -moz-linear-gradient(to bottom, #8e8d90 0%, #191d1a 100%); /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#8e8d90), color-stop(100%,#191d1a)); /* Chrome, Safari4+ */
-  background: -webkit-linear-gradient(to bottom, #8e8d90 0%, #191d1a 100%); /* Chrome10+, Safari5.1+ */
-  background: -o-linear-gradient(to bottom, #8e8d90 0%, #191d1a 100%); /* Opera 11.10+ */
-  background: -ms-linear-gradient(to bottom, #8e8d90 0%, #191d1a 100%); /* IE10+ */
-  background: linear-gradient(to bottom, #8e8d90 0%, #191d1a 100%); /* W3C */
-  -webkit-box-shadow: 0px 0px 13px 5px #828282;
-  -moz-box-shadow: 0px 0px 13px 5px #828282;
-  box-shadow: 0px 0px 13px 5px #828282;
-  border-radius: 8px;
-  margin-top: 12px;
+  
   visibility: hidden;
 }
 #item-title {
@@ -77,22 +63,33 @@ position: relative;
 }
 
 /*-------------------------slider css over------------------------------*/
+.main-wrapper{
+ 
+}
+.cars-intro{
+  padding-top: 2rem;
+}
 .detailsdiv{
   padding-top: 0px;
 }
 .techspecsdiv{
   width: 45%;
   display: inline-block;
-  margin-top: 0px;
+  margin-top: 10px;
   margin-left: 20px;
+  background-color: #303030;
+  padding-left:1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
 
 }
 .techheading{
   margin-top: 0px;
 }
 .sliderdiv{
-  width: 50%;
-  height: 450px;
+  width: 46%;
+  height: 440px;
+   margin-top: 0px;
   display: inline-block;
   overflow: hidden !important;
 }
@@ -166,3 +163,48 @@ position: relative;
         }
 
 }
+
+.color-white{
+  color: #fff !important;
+}
+
+
+
+/*
+<section class="cars-intro">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-md-8 left-section">
+          <p class="">A small introduction about cars to fill up this space. A small introduction about cars to fill up this space. A small introduction about cars to fill up this space. A small introduction about cars to fill up this space. A small introduction about cars to fill up this space. A small introduction about cars to fill up this space. A small introduction about cars to fill up this space. A small introduction about cars to fill up this space. A small introduction about cars to fill up this space. A small introduction about cars to fill up this space.</p>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-4 right-section">
+          <aside class="right-sidebar">
+            <div class="widget">
+              <h5 class="widgetheading">Related Pages</h5>
+              <ul class="recent">
+                <li>
+                  <img src="img/general/cars/prv16.png" class="right-img" alt="">
+                  <div class="written-material">
+                    <h6 class="right-heading"><a href="supportus.php">How to Support us</a></h6>
+                    <p class="right-para ellipsis">
+                      Invest in the next generation of employees who will have the skills ...
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <img src="img/general/cars/recent_4.png" class="right-img" alt="">
+                  <div class="written-material">
+                    <h6 class="right-heading"><a href="practivity.php">PR activities</a></h6>
+                    <p class="right-para">
+                      We do our best to keep our sponsors satisfied by branding them ...
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </div>
+  </section>

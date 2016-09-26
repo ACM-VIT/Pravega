@@ -15,7 +15,7 @@ include_once('includes/head.php');
 	
 </style>
 </head>
-<body class="flagstone-about-us">
+<body class="flagstone-about-us flagstone-parallax">
 	<div class="page-pre-loader">
 		<div class="page-pre-loader__container">
 			<div class="page-pre-loader__effect"></div>
@@ -30,8 +30,10 @@ include_once('includes/head.php');
 	?>
 
 	<!-- End of site main header -->
-	<section class="background-color-11 sub-header sub-header-banner-teams">
-		<div class="layer">
+	<section class="parallax background-color-11 sub-header sub-header-banner-sponsors">
+	<div class="parallax__background sub-header-banner-sponsors">
+			<div class="layer"></div>
+		</div>
 			<div class="grid-container">
 				<div class="grid-row">
 					<div class="column-12 animated-parent">
@@ -42,7 +44,6 @@ include_once('includes/head.php');
 					</div>
 				</div>
 			</div>
-		</div>
 	</section>
 	<div class="container grid-container">
 		<div class="row">
@@ -456,18 +457,18 @@ include_once('includes/head.php');
 							<li>
 								<img src="img/general/cars/prv16.png" class="right-img" alt="">
 								<div class="written-material">
-									<h6 class="right-heading"><a href="fsg15.php">Formula Student Germany 2015</a></h6>
-									<p class="right-para">
-										Record Braking Results in statics by any Indian team...
+									<h6 class="right-heading"><a href="supportus.php">How to Support us</a></h6>
+									<p class="right-para ellipsis">
+										Invest in the next generation of employees who will have the skills ...
 									</p>
 								</div>
 							</li>
 							<li>
-								<img src="img/general/cars/prv16.png" class="right-img" alt="">
+								<img src="img/general/cars/recent_4.png" class="right-img" alt="">
 								<div class="written-material">
-									<h6 class="right-heading"><a href="fsg15.php">Formula Student Germany 2015</a></h6>
+									<h6 class="right-heading"><a href="practivity.php">PR activities</a></h6>
 									<p class="right-para">
-										Record Braking Results in statics by any Indian team...
+										We do our best to keep our sponsors satisfied by branding them ...
 									</p>
 								</div>
 							</li>

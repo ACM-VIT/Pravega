@@ -12,15 +12,13 @@ include_once('includes/head.php');
 <link rel="stylesheet" type="text/css" href="css/mycss/mystyle.css" />
 <link rel="stylesheet" type="text/css" href="css/mycss/events.css" />
 <style>
-.sub-header-banner-events{
-	background-image:  url('img/general/cars/eventsbg.png');
-	background-position:0 top ;
-	position: relative;
-}
+	.sub-header-banner-events{
+		background-image:  url('img/general/bgs/eventsbg.png');
+	}
 
 </style>
 </head>
-<body class="flagstone-about-us">
+<body class="flagstone-about-us flagstone-parallax">
 	<div class="page-pre-loader">
 		<div class="page-pre-loader__container">
 			<div class="page-pre-loader__effect"></div>
@@ -35,16 +33,17 @@ include_once('includes/head.php');
 	?>
 
 	<!-- End of site main header -->
-	<section class="background-color-11 sub-header sub-header-banner-teams">
-		<div class="layer">
-			<div class="grid-container">
-				<div class="grid-row">
-					<div class="column-12 animated-parent">
-						<h2 class="text-color-10 animated animate__fade-in-left-short">Events</h2>
-						<h5 class="text-color-10 animated animate__fade-in-right-short">
-							<span class="text-decor animated animate__roll-in"></span>A line or two about events..
-						</h5>
-					</div>
+	<section class="background-color-11 sub-header parallax">
+		<div class="parallax__background sub-header-banner-events">
+			<div class="layer"></div>
+		</div>
+		<div class="grid-container">
+			<div class="grid-row">
+				<div class="column-12 animated-parent">
+					<h2 class="text-color-10 animated animate__fade-in-left-short">Events</h2>
+					<h5 class="text-color-10 animated animate__fade-in-right-short">
+						<span class="text-decor animated animate__roll-in"></span>A line or two about events..
+					</h5>
 				</div>
 			</div>
 		</div>
@@ -186,9 +185,9 @@ include_once('includes/head.php');
 	include_once("includes/footer.php");
 	?>
 	<script>
-	jQuery(document).ready(function($){
-		var timelineBlocks = $('.cd-timeline-block'),
-		offset = 0.8;
+		jQuery(document).ready(function($){
+			var timelineBlocks = $('.cd-timeline-block'),
+			offset = 0.8;
 
 	//hide timeline blocks which are outside the viewport
 	hideBlocks(timelineBlocks, offset);
@@ -237,7 +236,7 @@ for($i=0;$i<6;$i++)
 
 	});
 
-";
+	";
 }
 ?>
 //for block 1

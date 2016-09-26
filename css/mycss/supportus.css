@@ -7,7 +7,7 @@
 	color: #dc092f;
 }
 .color-white{
-	color: #fff !important;
+	color: #fff;
 }
 .section-white .para{
 	text-align: center;
@@ -25,14 +25,7 @@
 	padding-top: 100px;
 	padding-bottom: 100px;
 }
-.parallax--banner-1{
-	background-image: url('../../img/general/bgs/supportus_parallaxbanner1.png');
-}
-.parallax--banner-2{
-	
-	background-image: url('../../img/general/bgs/supportus_parallaxbanner2.png');
-	background-position:0;
-}
+
 .parallax .heading, .parallax .subheading{
 
 	vertical-align: middle;

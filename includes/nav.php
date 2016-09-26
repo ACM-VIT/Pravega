@@ -52,7 +52,7 @@
 							</ul>
 						</li>
 						<li class="nav-item has-submenu">
-							<span><a href="practivity.php">PR Activity</a></span>
+							<span><a href="practivity.php">PR activity</a></span>
 							<ul class="is-submenu">
 								<li><a href="practivity.php">Engage</a></li>
 							</ul>
