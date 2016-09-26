@@ -1,6 +1,4 @@
-body{
-  background-color: #fa6161;
-}
+
 *, *:after, *:before {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -21,7 +19,19 @@ img {
   display: table;
   clear: both;
 }
+.sub-header{
+  margin-bottom: 0px !important;
+}
+body{
+  background-color: #dc092f;
+}
 
+.color-white{
+  color: #fff;
+}
+.sub-header-banner-events{
+
+}
 /* -------------------------------- 
 
 Main components 
@@ -234,15 +244,16 @@ Main components
 }
 .cd-timeline-content .cd-read-more {
   padding: .8em 1em;
-  background: #acb7c0;
+  background: #063177;
   color: white;
   border-radius: 0.25em;
+  transition: all ease 0.5s;
 }
 .show_on_more{
   padding-left: 1.5rem;
 }
 .no-touch .cd-timeline-content .cd-read-more:hover {
-  background-color: #bac4cb;
+  background-color: #022256;
 }
 .cd-timeline-content .cd-date {
   float: left;

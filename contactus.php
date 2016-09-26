@@ -3,19 +3,8 @@ $title="Pravega Racing - Contact Us";
 include_once('includes/head.php');
 ?>
 <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.css">
-<link rel="stylesheet" href="css/fonts.css">
-<link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="css/sub-page-styles.css">
-<link rel="stylesheet" type="text/css" href="css/mycss/mybootstrap.css">
-<link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i%7CSource+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="css/mycss/nothome.css">
-<link rel="stylesheet" type="text/css" href="css/mycss/mystyle.css" />
 <style>
-	.sub-header-banner-contactus{
-		background-image:  url('img/general/cars/teamsbg.png');
-		background-position:0 top ;
-		position: relative;
-	}
 	.addressinfo{
 		transition: color ease 0.5s;
 		cursor: pointer;
@@ -23,10 +12,18 @@ include_once('includes/head.php');
 	.addressinfo:hover{
 		color: #000;
 	}
-
+	.color-black-impp{
+		color: #000;
+	}
+	.list--address{
+		font-size: 1.2rem;
+	}
+	.color-red-impp{
+		color: #dc092f;
+	}
 </style>
 </head>
-<body class="flagstone-about-us">
+<body class="flagstone-about-us flagstone-parallax">
 	<div class="page-pre-loader">
 		<div class="page-pre-loader__container">
 			<div class="page-pre-loader__effect"></div>
@@ -41,16 +38,17 @@ include_once('includes/head.php');
 	?>
 
 	<!-- End of site main header -->
-	<section class="background-color-11 sub-header sub-header-banner-contactus">
-		<div class="layer">
-			<div class="grid-container">
-				<div class="grid-row">
-					<div class="column-12 animated-parent">
-						<h2 class="text-color-10 animated animate__fade-in-left-short">Contact us</h2>
-						<h5 class="text-color-10 animated animate__fade-in-right-short">
-							<span class="text-decor animated animate__roll-in"></span>A line or two about contact us..
-						</h5>
-					</div>
+	<section class="background-color-11 sub-header parallax">
+		<div class="parallax__background sub-header-banner-contactus">
+			<div class="layer"></div>
+		</div>
+		<div class="grid-container">
+			<div class="grid-row">
+				<div class="column-12 animated-parent">
+					<h2 class="text-color-10 animated animate__fade-in-left-short">Contact us</h2>
+					<h5 class="text-color-10 animated animate__fade-in-right-short">
+						<span class="text-decor animated animate__roll-in"></span>A line or two about contact us..
+					</h5>
 				</div>
 			</div>
 		</div>
@@ -87,13 +85,11 @@ include_once('includes/head.php');
 					</form>
 				</div>
 				<div class="column-3 push-column-1 background-color-11 padding-top-20 padding-bottom-20">
-					<h4><b>Pravega Racing</b></h4>
+					<h4><b><span class="color-red-impp">Pravega</span> Racing</b></h4>
 					<ul class="list list--address margin-bottom-20">
 						<span class="addressinfo">
 							<li class="list__item"><i class="fa fa-map-marker" aria-hidden="true"></i>
-								VIT University</li>
-								<li class="list__item">&nbsp;&nbsp;&nbsp;&nbsp;Vellore-632014</li>
-								<li class="list__item">&nbsp;&nbsp;&nbsp;&nbsp;India.</li>
+								VIT University, Vellore-632014, India</li>
 							</span>
 							<span class="addressinfo">
 								<li class="list__item list--address-phone"><i class="fa fa-phone" aria-hidden="true"></i>
@@ -101,8 +97,9 @@ include_once('includes/head.php');
 									<li class="list__item list--address-phone">&nbsp;&nbsp;&nbsp;&nbsp;+(44)8976 422355</li>
 								</span>
 								<span class="addressinfo">
-									<li class="list__item list--address-phone"><i class="fa fa-envelope" aria-hidden="true"></i>
-										pravegaracing@vit.ac.in</li>
+									<li class="list__item list--address-phone">
+									<b><i class="fa fa-envelope" aria-hidden="true"></i>
+										pravegaracing@vit.ac.in</b></li>
 									</span>
 								</ul>
 

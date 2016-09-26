@@ -2,14 +2,7 @@
 $title="Pravega Racing - Support Us";
 include_once('includes/head.php');
 ?>
-
-<link rel="stylesheet" href="css/fonts.css">
-<link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="css/sub-page-styles.css">
-<link rel="stylesheet" type="text/css" href="css/mycss/mybootstrap.css">
-<!-- <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i%7CSource+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i" rel="stylesheet"> -->
 <link rel="stylesheet" type="text/css" href="css/mycss/nothome.css">
-<link rel="stylesheet" type="text/css" href="css/mycss/mystyle.css" />
 <link rel="stylesheet" type="text/css" href="css/mycss/supportus.css" />
 <style>
 	.sub-header-banner-supportus{

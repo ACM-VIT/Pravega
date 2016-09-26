@@ -2,19 +2,12 @@
 $title="Pravega Racing - Home";
 include_once('includes/head.php');
 ?>
-
 <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.css">
-<link rel="stylesheet" type="text/css" href="css/mycss/mybootstrap.css">
 <link rel="stylesheet" type="text/css" href="css/mycss/slider1.css" />
 <link rel="stylesheet" type="text/css" href="css/mycss/slider2.css" />
 <link rel="stylesheet" type="text/css" href="css/mycss/jquery.fancybox.css?v=2.1.5">
 <link rel="stylesheet" type="text/css" href="css/mycss/jquery.fancybox-buttons.css?v=1.0.5">
 <link rel="stylesheet" type="text/css" href="css/mycss/jquery.fancybox-thumbs.css?v=1.0.7">
-<link rel="stylesheet" href="css/fonts.css">
-<link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="css/sub-page-styles.css">
-<link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i%7CSource+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="css/mycss/mystyle.css" />
 <style>
 	.img-circle {
 		border-radius: 50%;

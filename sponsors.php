@@ -2,14 +2,7 @@
 $title="Pravega Racing - sponsors";
 include_once('includes/head.php');
 ?>
-
-<link rel="stylesheet" href="css/fonts.css">
-<link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="css/sub-page-styles.css">
-<link rel="stylesheet" type="text/css" href="css/mycss/mybootstrap.css">
-<link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i%7CSource+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="css/mycss/nothome.css">
-<link rel="stylesheet" type="text/css" href="css/mycss/mystyle.css" />
 <link rel="stylesheet" type="text/css" href="css/mycss/sponsors.css" />
 <style>
 	
@@ -31,19 +24,19 @@ include_once('includes/head.php');
 
 	<!-- End of site main header -->
 	<section class="parallax background-color-11 sub-header sub-header-banner-sponsors">
-	<div class="parallax__background sub-header-banner-sponsors">
+		<div class="parallax__background sub-header-banner-sponsors">
 			<div class="layer"></div>
 		</div>
-			<div class="grid-container">
-				<div class="grid-row">
-					<div class="column-12 animated-parent">
-						<h2 class="text-color-10 animated animate__fade-in-left-short">Our Sponsors</h2>
-						<h5 class="text-color-10 animated animate__fade-in-right-short">
-							<span class="text-decor animated animate__roll-in"></span>Without their support, we wouldn't be successful
-						</h5>
-					</div>
+		<div class="grid-container">
+			<div class="grid-row">
+				<div class="column-12 animated-parent">
+					<h2 class="text-color-10 animated animate__fade-in-left-short">Our Sponsors</h2>
+					<h5 class="text-color-10 animated animate__fade-in-right-short">
+						<span class="text-decor animated animate__roll-in"></span>Without their support, we wouldn't be successful
+					</h5>
 				</div>
 			</div>
+		</div>
 	</section>
 	<div class="container grid-container">
 		<div class="row">
@@ -449,7 +442,7 @@ include_once('includes/head.php');
 				
 			</div>
 
-			<div class="first-section right-section padding-right-0 col-sm-6 col-md-4 container">
+			<div class="first-section right-section padding-right-0 col-sm-8 col-md-4 container">
 				<aside class="right-sidebar">
 					<div class="widget">
 						<h5 class="widgetheading">Related Pages</h5>

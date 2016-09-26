@@ -70,7 +70,7 @@
 							<a href="contactus.php">Contact us</a>
 						</li>
 						<li class="nav-item has-submenu">
-							<span class=""><a href="sponsors.php">Our Sponsors</a></span>
+							<span class=""><a href="sponsors.php">Our sponsors</a></span>
 							<ul class="is-submenu">
 								<li><a href="sponsors.php#titlesponsors">Title Sponsors</a></li>
 								<li><a href="sponsors.php#goldsponsors">Gold Sponsors</a></li>

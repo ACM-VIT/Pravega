@@ -2,24 +2,17 @@
 $title="Pravega Racing - Current Team";
 include_once('includes/head.php');
 ?>
-
-<link rel="stylesheet" href="css/fonts.css">
-<link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="css/sub-page-styles.css">
-<link rel="stylesheet" type="text/css" href="css/mycss/mybootstrap.css">
-<link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i%7CSource+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="css/mycss/nothome.css">
-<link rel="stylesheet" type="text/css" href="css/mycss/mystyle.css" />
 <style>
-.team-member-wrapper .overlay__background {
-	background-color: rgba(255, 255, 255, 0.8);
-}
-.team-member-wrapper{
-	cursor: pointer;
-}
+	.team-member-wrapper .overlay__background {
+		background-color: rgba(255, 255, 255, 0.8);
+	}
+	.team-member-wrapper{
+		cursor: pointer;
+	}
 </style>
 </head>
-<body class="flagstone-about-us">
+<body class="flagstone-about-us flagstone-parallax">
 	<div class="page-pre-loader">
 		<div class="page-pre-loader__container">
 			<div class="page-pre-loader__effect"></div>
@@ -34,61 +27,64 @@ include_once('includes/head.php');
 	?>
 
 	<!-- End of site main header -->
-	<section class="background-color-11 sub-header sub-header-banner-teams">
-		<div class="layer">
-			<div class="grid-container">
-				<div class="grid-row">
-					<div class="column-12 animated-parent">
-						<h2 class="text-color-10 animated animate__fade-in-left-short">Team</h2>
-						<h5 class="text-color-10 animated animate__fade-in-right-short">
-							<span class="text-decor animated animate__roll-in"></span>A line or two about our teams..
-						</h5>
-					</div>
+	<section class="background-color-11 sub-header parallax">
+		<div class="parallax__background sub-header-banner-teams">
+			<div class="layer"></div>
+		</div>
+		<div class="grid-container">
+			<div class="grid-row">
+				<div class="column-12 animated-parent">
+					<h2 class="text-color-10 animated animate__fade-in-left-short">Team</h2>
+					<h5 class="text-color-10 animated animate__fade-in-right-short">
+						<span class="text-decor animated animate__roll-in"></span>A line or two about our teams..
+					</h5>
 				</div>
 			</div>
 		</div>
 	</section>
-
-	<section class="first-section margin-bottom-20">
-		<div class="grid-container-fluid padlr">
-			<h1 class="text-center">Current team</h1>
-			<div class="row team-members-wrapper">
-				<?php
-				$team_members=["Aagosh Mishra","Aayush Nahata","Abhijai Tibrewal","Arnav Patel","Ashish Chadda","Nimish Mehra",
-				"Nishant Dixit","Rishabh Khanna","Siddharth Sethi","Shantanu Singh","Udit Saraswat","Tarun Bhatia",
-				"Varun Nair","Yashasavi Karnena","Rishiraj Chauhan","Sushant Srivastav","Aarti Noroha","Vaibhav Sharma",
-				"Akysht Kumar","Sachin HT","Prathamesh Gunjal","Shreyansh Garhewal","Dhananjay Singh","Udhay Singh",
-				"Naman Shukla","Nimish Gupta","Nikhil Agrawal","Kunal Aggrawal","Saahil Vishwakarma","Amogh Chourasia",
-				"Rohit Aggrawal","Rishabh Jain","Ruchit Jain","Manmohit Singh","Surbhit Bhardwaj","Sanchit Chaudhary",
-				"Salil Madhav","Rebanta Roy","S Sooraj","Adithya Venugopal","Vishal Agrawal","Uma Shankar",
-				"Ashwarya Anupam","Sai Teja","Samarjeet Sharma","Vibhor Malik","Aman Agarwal","Vignesh K",
-				"Shantan Khandal","Utkarsh Palav","Apoorv Singh","Saksham Bhardwaj","Amitabh Das","Moideen Shariq",
-				"Shantanu Khandar"
-				];
-				$team_roles=["President"];
-				$no_team_members=count($team_members);
-				for($i=0;$i<$no_team_members;$i++)
-				{
-					$name=$team_members[$i];
-					$name=ucwords($name);
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8 col-xs-12">
+				<section class="first-section container-fluid margin-bottom-20">
+					<div class="grid-container-fluid">
+						<h1 class="text-center">Current team</h1>
+						<div class="row team-members-wrapper">
+							<?php
+							$team_members=["Aagosh Mishra","Aayush Nahata","Abhijai Tibrewal","Arnav Patel","Ashish Chadda","Nimish Mehra",
+							"Nishant Dixit","Rishabh Khanna","Siddharth Sethi","Shantanu Singh","Udit Saraswat","Tarun Bhatia",
+							"Varun Nair","Yashasavi Karnena","Rishiraj Chauhan","Sushant Srivastav","Aarti Noroha","Vaibhav Sharma",
+							"Akysht Kumar","Sachin HT","Prathamesh Gunjal","Shreyansh Garhewal","Dhananjay Singh","Udhay Singh",
+							"Naman Shukla","Nimish Gupta","Nikhil Agrawal","Kunal Aggrawal","Saahil Vishwakarma","Amogh Chourasia",
+							"Rohit Aggrawal","Rishabh Jain","Ruchit Jain","Manmohit Singh","Surbhit Bhardwaj","Sanchit Chaudhary",
+							"Salil Madhav","Rebanta Roy","S Sooraj","Adithya Venugopal","Vishal Agrawal","Uma Shankar",
+							"Ashwarya Anupam","Sai Teja","Samarjeet Sharma","Vibhor Malik","Aman Agarwal","Vignesh K",
+							"Shantan Khandal","Utkarsh Palav","Apoorv Singh","Saksham Bhardwaj","Amitabh Das","Moideen Shariq",
+							"Shantanu Khandar"
+							];
+							$team_roles=["President"];
+							$no_team_members=count($team_members);
+							for($i=0;$i<$no_team_members;$i++)
+							{
+								$name=$team_members[$i];
+								$name=ucwords($name);
 					$fname="placeholder";//strtolower(substr($name,0,strpos($name," ")));
 					$role=$team_roles[0];//$i
 					echo "
-					<div class='col-md-2 col-sm-4 col-xs-6'>
-					<div class='overlay team-member-wrapper'>
-					<div class='overlay__background'></div>
-					<div class='overlay__content text-center text-color-2'>
+					<div class='col-md-3 col-sm-4 col-xs-6'>
+						<div class='overlay team-member-wrapper'>
+							<div class='overlay__background'></div>
+							<div class='overlay__content text-center text-color-2'>
 
-					<span class='overlay__content-heading'>{$name}</span>
-					<span class='overlay__content-text'><b>{$role}</b></span>
-					<div class='profile__sharing-links--alt'>
-					<a href='#'><i class='fa fa-facebook profile__sharing-link'></i></a>
-					</div>
-					</div>
-					<img src='img/general/teams/currentteam/{$fname}.png' alt='{$fname}' class='overlay__image'>
-					<div class='text-center'><b>{$name}</b></div>
-					<br>
-					</div>
+								<span class='overlay__content-heading'>{$name}</span>
+								<span class='overlay__content-text'><b>{$role}</b></span>
+								<div class='profile__sharing-links--alt'>
+									<a href='#'><i class='fa fa-facebook profile__sharing-link'></i></a>
+								</div>
+							</div>
+							<img src='img/general/teams/currentteam/{$fname}.png' alt='{$fname}' class='overlay__image'>
+							<div class='text-center'><b>{$name}</b></div>
+							<br>
+						</div>
 					</div>
 					";
 				}
@@ -96,10 +92,41 @@ include_once('includes/head.php');
 			</div>
 		</div>
 	</section>
-
-	<a href="#" class="back-to-top--floating"><i class="ion-ios-arrow-up"></i></a>
-	<?php
-	include_once("includes/footer.php");
-	?>
+</div>
+<div class="col-xs-12 col-sm-8 col-md-4 right-section">
+	<aside class="right-sidebar first-section">
+		<div class="widget">
+			<h5 class="widgetheading">Related Pages</h5>
+			<ul class="recent">
+				<li>
+					<img src="img/general/cars/prv16.png" class="right-img" alt="">
+					<div class="written-material">
+						<h6 class="right-heading"><a href="supportus.php">How to Support us</a></h6>
+						<p class="right-para ellipsis">
+							Invest in the next generation of employees who will have the skills ...
+						</p>
+					</div>
+				</li>
+				<li>
+					<img src="img/general/cars/recent_4.png" class="right-img" alt="">
+					<div class="written-material">
+						<h6 class="right-heading"><a href="practivity.php">PR activities</a></h6>
+						<p class="right-para">
+							We do our best to keep our sponsors satisfied by branding them ...
+						</p>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</aside>
+</div>
+</div>
+</div>
+<a href="#" class="back-to-top--floating"><i class="ion-ios-arrow-up"></i></a>
+<div class="col-xs-12 padding-left-0 padding-right-0">
+<?php
+include_once("includes/footer.php");
+?>
+</div>
 </body>
 </html>

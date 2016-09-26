@@ -1,6 +1,6 @@
 <?php
 if(!isset($title) || empty($title))
-$title="Pravega Racing";
+	$title="Pravega Racing";
 ?>
 <!doctype html>
 <html class="no-js" lang="en">
@@ -23,3 +23,10 @@ $title="Pravega Racing";
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="apple-touch-icon" href="apple-touch-icon.html">
 	<link rel="icon" href="img/general/icon.png">
+	
+	<link href="css/mycss/fonts_google_apis.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/sub-page-styles.css">
+	<link rel="stylesheet" type="text/css" href="css/mycss/mybootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/mycss/mystyle.css" />
