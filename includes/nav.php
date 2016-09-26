@@ -53,34 +53,26 @@
 							</ul>
 						</li>
 						<li class="nav-item has-submenu">
-							<a href="#">Media</a>
+							<span class="hidden-big"><a>PR Activity</a></span>
+							<span class="hidden-small"><a href="practivity.php">PR Activity</a></span>
 							<ul class="is-submenu">
-								<li><a href="about-us.html">About us</a></li>
-								<li><a href="about-us-alt.html">About us alternate</a></li>
-								<li><a href="services.html">Services</a></li>
-								<li><a href="services-alt.html">Services alternate</a></li>
-								<li><a href="coming-soon.html">Coming soon</a></li>
-								<li><a href="404.html">404 page not found</a></li>
-								<li><a href="contact.html">Contact us</a></li>
+								<li><a href="practivity.php">Engage</a></li>
 							</ul>
 						</li>
 						<li class="nav-item has-submenu">
-							<span class="hidden-big"><a>Sponsors</a></span>
-							<span class="hidden-small"><a href="sponsors.php">Sponsors</a></span>
+							<span class="hidden-big"><a>Support Us</a></span>
+							<span class="hidden-small"><a href="supportus.php">Support Us</a></span>
 							<ul class="is-submenu">
-								<li><a href="sponsors.php#titlesponsors">Title Sponsors</a></li>
-								<li><a href="sponsors.php#goldsponsors">Gold Sponsors</a></li>
-								<li><a href="sponsors.php#silversponsors">Silver Sponsors</a></li>
-								<li><a href="sponsors.php#bronzesponsors">Bronze Sponsors</a></li>
-								<li><a href="sponsors.php#sponsorshipbrochure">Sponsorship Brochure</a></li>
+								<li><a href="supportus.php#sec2">How to Support us</a></li>
+								<li><a href="supportus.php#sec3">benefits</a></li>
 							</ul>
 						</li>
 						<li class="nav-item">
 							<a href="contactus.php">Contact us</a>
 						</li>
 						<li class="nav-item has-submenu">
-							<span class="hidden-big"><a>Sponsorship</a></span>
-							<span class="hidden-small"><a href="sponsors.php">Sponsors</a></span>
+							<span class="hidden-big"><a>Our Sponsors</a></span>
+							<span class="hidden-small"><a href="sponsors.php">Our Sponsors</a></span>
 							<ul class="is-submenu">
 								<li><a href="sponsors.php#titlesponsors">Title Sponsors</a></li>
 								<li><a href="sponsors.php#goldsponsors">Gold Sponsors</a></li>

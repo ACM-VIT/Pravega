@@ -7,6 +7,9 @@ include_once('includes/head.php');
 <link rel="stylesheet" type="text/css" href="css/mycss/mybootstrap.css">
 <link rel="stylesheet" type="text/css" href="css/mycss/slider1.css" />
 <link rel="stylesheet" type="text/css" href="css/mycss/slider2.css" />
+<link rel="stylesheet" type="text/css" href="css/mycss/jquery.fancybox.css?v=2.1.5">
+<link rel="stylesheet" type="text/css" href="css/mycss/jquery.fancybox-buttons.css?v=1.0.5">
+<link rel="stylesheet" type="text/css" href="css/mycss/jquery.fancybox-thumbs.css?v=1.0.7">
 <link rel="stylesheet" href="css/fonts.css">
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/sub-page-styles.css">
@@ -49,6 +52,12 @@ include_once('includes/head.php');
 	}
 	.twitter-follow-button{
 
+	}
+	.overlay__background{
+		background-color: rgba(255, 255, 255, 0.7);
+	}
+	.overlay__background a{
+		text-decoration: none;
 	}
 	@media (min-width: 779px){
 		#firstsection{
@@ -137,14 +146,14 @@ include_once('includes/head.php');
 					<div class="column-4 fbdiv">
 						<!--facebook plugin-->
 						<div class="row padl_new">
-						<div class="fb-page text-left" data-href="https://www.facebook.com/pravegaracing/?fref=ts" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false">
-							<blockquote cite="https://www.facebook.com/pravegaracing/?fref=ts" class="fb-xfbml-parse-ignore">
-								<a href="https://www.facebook.com/pravegaracing/?fref=ts">Pravega Racing</a>
-							</blockquote>
-						</div>
-						<div class="twitter-page padl text-left">
-							<a href="https://twitter.com/PravegaRacing" class="twitter-follow-button text-left" data-show-count="true">Follow @PravegaRacing</a>	
-						</div>
+							<div class="fb-page text-left" data-href="https://www.facebook.com/pravegaracing/?fref=ts" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false">
+								<blockquote cite="https://www.facebook.com/pravegaracing/?fref=ts" class="fb-xfbml-parse-ignore">
+									<a href="https://www.facebook.com/pravegaracing/?fref=ts">Pravega Racing</a>
+								</blockquote>
+							</div>
+							<div class="twitter-page padl text-left">
+								<a href="https://twitter.com/PravegaRacing" class="twitter-follow-button text-left" data-show-count="true">Follow @PravegaRacing</a>	
+							</div>
 						</div>
 					</div>
 				</div>
@@ -177,7 +186,7 @@ include_once('includes/head.php');
 						<p>
 							<div class="text-left-imp"><i class="fa fa-quote-left fa-2x" aria-hidden="true"></i></div>
 							<div class="text-left-imp">
-							I am happy and proud to inform you that Pravega Racing is the official Formula SAE (FSAE) team of VIT University. The team comprises of a group of able and resolute students of our institution from all academic divisions aiming for excellence. Pravega Racing is among the top three Formula SAE teams of India.
+								I am happy and proud to inform you that Pravega Racing is the official Formula SAE (FSAE) team of VIT University. The team comprises of a group of able and resolute students of our institution from all academic divisions aiming for excellence. Pravega Racing is among the top three Formula SAE teams of India.
 							</div>
 							<div class="text-right"><i class="fa fa-quote-right fa-2x" aria-hidden="true"></i></div>
 						</p>
@@ -194,53 +203,55 @@ include_once('includes/head.php');
 			</div>
 		</section>
 		<section>
-			<div class="grid-container margin-top-100 margin-bottom-100 margin-left-0">
-				<div class="grid-row padlr">
-					<h2 class="text-left-imp"><b>Recent Activities</b></h2>
-				</div>
-			</div>
-		</section>
-
-		<!-- End of section -->
-
-		<section>
 			<div class="grid-container-fluid">
-				<div class="grid-row animated-parent" data-appear-top-offset="-300">
-					<div class="column-4 animated animate__fade-in-down-short">
-						<div class="overlay homepage-preview">
-							<div class="overlay__background"></div>
-							<div class="overlay__content text-center text-color-2">
-								<span class="overlay__content-heading">Design Studio</span>
-								<span class="overlay__content-text">
-									<a class="link text-uppercase" href="design-studio.html">View this homepage</a>
-								</span>
+			<!--
+			***********change image's title in fancybox_setting.js:92 ***************
+			-->
+				<h2 class="text-left-imp"><b>Recent Activities</b></h2>
+				<div class="grid-row animated-parent" data-appear-top-offset="00">
+					<div class="col-xs-6 col-sm-3 animated animate__fade-in-down-short">
+						<a class="fancybox-buttons" data-fancybox-group="button" href="img/general/cars/prv15_3.png">
+							<div class="overlay homepage-preview">
+								<div class="overlay__background"></div>
+								<div class="overlay__content text-center text-color-2">
+									<span class="overlay__content-heading">Happy Diwali</span>
+								</div>
+								<img src="img/general/cars/prv15_3.png" class="overlay__image overlay__image--skew" alt="img1" />
 							</div>
-							<img src="img/general/overview--design-studio.jpg" alt="" class="overlay__image overlay__image--skew">
-						</div>
+						</a>
 					</div>
-					<div class="column-4 animated animate__fade-in-down-short">
-						<div class="overlay homepage-preview">
-							<div class="overlay__background"></div>
-							<div class="overlay__content text-center text-color-2">
-								<span class="overlay__content-heading">Interior Design</span>
-								<span class="overlay__content-text">
-									<a class="link text-uppercase" href="interior-design.html">View this homepage</a>
-								</span>
+					<div class="col-xs-6 col-sm-3 animated animate__fade-in-down-short">
+						<a class="fancybox-buttons" data-fancybox-group="button" href="img/general/cars/recent2.png">
+							<div class="overlay homepage-preview">
+								<div class="overlay__background"></div>
+								<div class="overlay__content text-center text-color-2">
+									<span class="overlay__content-heading">Engineer's Day</span>
+								</div>
+								<img src="img/general/cars/recent2.png" class="overlay__image overlay__image--skew" alt="img1" />
 							</div>
-							<img src="img/general/overview--interior-design.jpg" alt="" class="overlay__image overlay__image--skew">
-						</div>
+						</a>
 					</div>
-					<div class="column-4 animated animate__fade-in-down-short">
-						<div class="overlay homepage-preview">
-							<div class="overlay__background"></div>
-							<div class="overlay__content text-center text-color-2">
-								<span class="overlay__content-heading">Photography Studio</span>
-								<span class="overlay__content-text">
-									<a class="link text-uppercase" href="photography.html">View this homepage</a>
-								</span>
+					<div class="col-xs-6 col-sm-3 animated animate__fade-in-down-short">
+						<a class="fancybox-buttons" data-fancybox-group="button" href="img/general/cars/recent_3.png">
+							<div class="overlay homepage-preview">
+								<div class="overlay__background"></div>
+								<div class="overlay__content text-center text-color-2">
+									<span class="overlay__content-heading">Formula Student Germany'15</span>
+								</div>
+								<img src="img/general/cars/recent_3.png" class="overlay__image overlay__image--skew" alt="img1" />
 							</div>
-							<img src="img/general/overview--photography.jpg" alt="" class="overlay__image overlay__image--skew">
-						</div>
+						</a>
+					</div>
+					<div class="col-xs-6 col-sm-3 animated animate__fade-in-down-short">
+						<a class="fancybox-buttons" data-fancybox-group="button" href="img/general/cars/recent_4.png">
+							<div class="overlay homepage-preview">
+								<div class="overlay__background"></div>
+								<div class="overlay__content text-center text-color-2">
+									<span class="overlay__content-heading">Marketing Campaign for Engage Deodarant</span>
+								</div>
+								<img src="img/general/cars/recent_4.png" class="overlay__image overlay__image--skew" alt="img1" />
+							</div>
+						</a>
 					</div>
 				</div>
 			</div>
@@ -248,54 +259,20 @@ include_once('includes/head.php');
 
 		<!-- End of section -->
 
-		<section class="margin-top-30 margin-bottom-100">
-			<div class="grid-container-fluid animated-parent" data-appear-top-offset="-300">
-				<div class="grid-row">
-					<div class="column-4 animated animate__fade-in-down-short">
-						<div class="overlay homepage-preview">
-							<div class="overlay__background"></div>
-							<div class="overlay__content text-center text-color-2">
-								<span class="overlay__content-heading">Architects</span>
-								<span class="overlay__content-text">
-									<a class="link text-uppercase" href="architect.html">View this homepage</a>
-								</span>
-							</div>
-							<img src="img/general/overview--architect.jpg" alt="" class="overlay__image overlay__image--skew">
-						</div>
-					</div>
-					<div class="column-4 animated animate__fade-in-down-short">
-						<div class="overlay homepage-preview">
-							<div class="overlay__background"></div>
-							<div class="overlay__content text-center text-color-2">
-								<span class="overlay__content-heading">Coffee Shop</span>
-								<span class="overlay__content-text">
-									<a class="link text-uppercase" href="coffee-shop.html">View this homepage</a>
-								</span>
-							</div>
-							<img src="img/general/overview--coffee-shop.jpg" alt="" class="overlay__image overlay__image--skew">
-						</div>
-					</div>
-					<div class="column-4 animated animate__fade-in-down-short">
-						<div class="overlay homepage-preview">
-							<div class="overlay__background"></div>
-							<div class="overlay__content text-center text-color-2">
-								<span class="overlay__content-heading">Artist</span>
-								<span class="overlay__content-text">
-									<a class="link text-uppercase" href="artist.html">View this homepage</a>
-								</span>
-							</div>
-							<img src="img/general/overview--artist.jpg" alt="" class="overlay__image overlay__image--skew">
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
+		
 	</main>
+	<br>
 	<a href="#" class="back-to-top--floating"><i class="ion-ios-arrow-up"></i></a>
 	<?php
 	include_once("includes/footer.php");
 	?>
 	<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-	
+
+	<script type="text/javascript" src="js/min/jquery.fancybox.js?v=2.1.5"></script>
+
+	<script type="text/javascript" src="js/min/jquery.fancybox-buttons.js?v=1.0.5"></script>
+
+	<script type="text/javascript" src="js/min/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+	<script type="text/javascript" src="js/min/fancybox_setting.js"></script>
 </body>
 </html>

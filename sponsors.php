@@ -47,7 +47,16 @@ include_once('includes/head.php');
 	<div class="container grid-container">
 		<div class="row">
 			<div class="left-section col-md-8 padding-left-0">
-				<section class="first-section title-sponsors" id="titlesponsors">
+				<p class="sponsors-intro si1 first-section ">
+					Formula Student is an International Platform for engineers where they can showcase their technical and marketing skills. FSAE is an opportunity for students to design, manufacture and race a Formula style car. Over 570 university teams from all around the globe participate in this prestigious competition. The participants explain and defend their design decisions, test their driver’s ability and pitch their idea in front of the Venture Capitalists via Business Presentation.
+				</p>
+				<p class="sponsors-intro si1">
+
+					The design and manufacturing of a Formula Car is quite expensive. In order to meet  finances  the marketing team approaches Multinational Company’s and request for technical and monetary support. Since the assistance from company’s play a vital role in our functioning  we are extremely grateful to them.
+				</p>
+				<h4 class="color-black">The following are the team sponsors over the years :</h4>
+				<br>
+				<section class="title-sponsors" id="titlesponsors">
 					<div class="grid-container-fluid">
 						<h4 class="text-left heading-sponsor" title="click to expand">Title Sponsors<span class="faspan"> <i class="fa fa-plus" aria-hidden="true">&nbsp;</i></span></h4>
 						<div class="grid-container-fluid hide-n-seek">

@@ -30,7 +30,7 @@
 			</div>
 		</div>
 	</footer>
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> 
+	<script type="text/javascript" src="js/min/jquery-min.js"></script>
 	<script src="js/min/main-min.js"></script>
 	<script src="js/min/scripts-min.js"></script>
 	<script src="js/min/myjs/modernizr.js"></script>

@@ -1,6 +1,9 @@
 .inline-block{
 	display: inline-block;
 }
+.color-black{
+	color: #000;
+}
 .border{
 	border: solid 2px #000;
 }
