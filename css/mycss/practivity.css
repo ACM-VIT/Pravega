@@ -1,0 +1,26 @@
+.sub-header-banner-practivity{
+	background-image:  url('../../img/general/bgs/practivitybg.png');
+}
+.parallax--banner-pr_1{
+	background-image: url('../../img/general/practivity/dragrace2016/1.png');
+}
+
+.activity-title{
+	color: #dc092f;
+}
+.activity-photo-iframe{
+	box-shadow: none;
+	border: none;
+	width: 100%;
+	height: 520px;
+	padding-right: 10px;
+}
+.activity-wrapper{
+	margin-bottom: 2rem;
+}
+@media (max-width: 769px)
+{
+	.activity-photo-iframe{
+		height: 63vw;
+	}
+}

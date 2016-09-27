@@ -442,7 +442,7 @@ include_once('includes/head.php');
 				
 			</div>
 
-			<div class="first-section right-section padding-right-0 col-sm-8 col-md-4 container">
+			<div class="first-section right-section padding-right-0 col-sm-8 col-md-4">
 				<aside class="right-sidebar">
 					<div class="widget">
 						<h5 class="widgetheading">Related Pages</h5>

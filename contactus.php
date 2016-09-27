@@ -89,45 +89,50 @@ include_once('includes/head.php');
 					<ul class="list list--address margin-bottom-20">
 						<span class="addressinfo">
 							<li class="list__item"><i class="fa fa-map-marker" aria-hidden="true"></i>
-								VIT University, Vellore-632014, India</li>
-							</span>
-							<span class="addressinfo">
-								<li class="list__item list--address-phone"><i class="fa fa-phone" aria-hidden="true"></i>
-									+(44)8976 422355</li>
-									<li class="list__item list--address-phone">&nbsp;&nbsp;&nbsp;&nbsp;+(44)8976 422355</li>
-								</span>
-								<span class="addressinfo">
-									<li class="list__item list--address-phone">
-									<b><i class="fa fa-envelope" aria-hidden="true"></i>
-										pravegaracing@vit.ac.in</b></li>
-									</span>
-								</ul>
+								VIT University, Vellore-632014, India
+							</li>
+						</span>
+						<span class="addressinfo">
+							<li class="list__item list--address-phone"><i class="fa fa-phone" aria-hidden="true"></i>
+								+(44)8976 422355
+							</li>
+							<li class="list__item list--address-phone">&nbsp;&nbsp;&nbsp;&nbsp;+(44)8976 422355</li>
+						</span>
+						<span class="addressinfo">
+							<li class="list__item list--address-phone">
+								<b><i class="fa fa-envelope" aria-hidden="true">
 
-							</div>
-						</div>
-					</div>
-				</section>
-				<section class="text-center">
-					<div style='overflow:hidden;height:440px;width:100vw;margin-left:auto;margin-right: auto;'>
-						<div id='gmap_canvas' style='height:440px;width:100vw;'>
-						</div>
-						<div>
-							<small>
-								<a href="http://www.embedgooglemaps.com/en/">Generate your map here, quick and easy!									Give your customers directions Get found</a></small>
-							</div><div>
-							<small><a href="https://www.amazon.com/Extra-Large-Folding-Kennel-Plastic/dp/B00M3NBJ8E/ref=sr_1_5?s=pet-supplies&ie=UTF8&qid=1470313482&sr=1-5keywords=pet+cage">Pet Wire Cage</a></small></div>
-							<style>
-								#gmap_canvas img{max-width:none!important;background:none!important}
-							</style>
-						</div>
-						<script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
-						<script type='text/javascript'>function init_map(){var myOptions = {zoom:11,center:new google.maps.LatLng(12.9723913,79.15767519999997),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(12.9723913,79.15767519999997)});infowindow = new google.maps.InfoWindow({content:'<strong>Pravega Racing</strong><br>VIT University, Vellore, India<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);
-						</script>
-					</section>
+								</i>
+								pravegaracing@vit.ac.in</b>
+							</li>
+						</span>
+					</ul>
 
-					<a href="#" class="back-to-top--floating"><i class="ion-ios-arrow-up"></i></a>
-					<?php
-					include_once("includes/footer.php");
-					?>
-				</body>
-				</html>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="text-center">
+		<div style='overflow:hidden;height:440px;width:100vw;margin-left:auto;margin-right: auto;'>
+			<div id='gmap_canvas' style='height:440px;width:100vw;'>
+			</div>
+			<div>
+				<small>
+					<a href="http://www.embedgooglemaps.com/en/">Generate your map here, quick and easy!									Give your customers directions Get found</a></small>
+				</div><div>
+				<small><a href="https://www.amazon.com/Extra-Large-Folding-Kennel-Plastic/dp/B00M3NBJ8E/ref=sr_1_5?s=pet-supplies&ie=UTF8&qid=1470313482&sr=1-5keywords=pet+cage">Pet Wire Cage</a></small></div>
+				<style>
+					#gmap_canvas img{max-width:none!important;background:none!important}
+				</style>
+			</div>
+			<script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
+			<script type='text/javascript'>function init_map(){var myOptions = {zoom:11,center:new google.maps.LatLng(12.9723913,79.15767519999997),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(12.9723913,79.15767519999997)});infowindow = new google.maps.InfoWindow({content:'<strong>Pravega Racing</strong><br>VIT University, Vellore, India<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);
+			</script>
+		</section>
+
+		<a href="#" class="back-to-top--floating"><i class="ion-ios-arrow-up"></i></a>
+		<?php
+		include_once("includes/footer.php");
+		?>
+	</body>
+	</html>
