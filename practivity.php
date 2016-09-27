@@ -121,13 +121,12 @@ include_once('includes/head.php');
 	<script type="text/javascript">
 		<?php
 		for($i=0;$i<$nos;$i++){
+			$_COOKIE["contentno"]=$i;
 			$img_folder=$img_folders[$i];
-			$ifr_link=$ifr_links[$i];
-			$ifr_link="includes/practivity/$ifr_link";
 			?>
 			$(document).ready(function(){
 
-				$("<?php echo '#'.$img_folder?>").html("<iframe src='<?php echo $ifr_link;?>' scrolling='no' class='activity-photo-iframe'></iframe>");
+				$("<?php echo '#'.$img_folder?>").load("load_iframe.php");
 
 			});
 			<?php
