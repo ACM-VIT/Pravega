@@ -41,6 +41,10 @@ CONTENTS
 33.	Forms
 
 ======================================== */
+@import url('mycss/fonts_google_apis.css');
+
+@import url(mycss/fonts_google_apis.css);
+
 /* ========================================
 01. Text
 ======================================== */
