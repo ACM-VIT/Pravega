@@ -61,19 +61,22 @@ include_once('includes/head.php');
 				"After continual efforts we got a chance to associate with Red Bull and we decided to do something special to reciprocate this gesture. We did a photo shoot to make a Red Bull calendar with pictures having a mix of emotion, creativity, passion for race cars and the zeal for the perfect picture. Our driver along with our Car and Red Bull cans blended perfectly to create a magnificent calendar. This calendar is an achievement that will be etched in our memories forever."
 
 				];
-				$ifr_links=["dragrace.html","rollout2016.html","rollout2015.html","Riviera","cornitos.html","engage.html","redbull.html"];
+				$ifr_links=["dragrace.html","rollout2016.html","rollout2015.html","riviera.html","cornitos.html","engage.html","redbull.html"];
+				$_COOKIE["ifrlinks"]=$ifr_links;
+				$img_folders=["dragrace2016","rollout2016","rollout2015","riviera","cornitos","engage","redbull"];
 				$nos=count($ifr_links);
 				for($i=0;$i<$nos;$i++)
 				{
 					$heading=$headings[$i];
 					$para=$paras[$i];
 					$ifr_link=$ifr_links[$i];
+					$img_folder=$img_folders[$i];
 					echo "
 					<div class='activity-wrapper'>
 						<h2 class='activity-title text-left'><b>$heading</b></h2>
 						<p class='activity-para'>$para</p>
-						<div class='iframediv' id='$ifr_link'>
-							<iframe src='includes/practivity/$ifr_link' scrolling='no' class='activity-photo-iframe'></iframe>
+						<div class='iframediv' id='$img_folder'>
+							<img class='tempimg' src='img/general/practivity/$img_folder/1.png'>
 						</div>
 					</div>
 					";
@@ -116,11 +119,20 @@ include_once('includes/head.php');
 		?>
 	</div>
 	<script type="text/javascript">
-		$(document).ready(function(){
+		<?php
+		for($i=0;$i<$nos;$i++){
+			$img_folder=$img_folders[$i];
+			$ifr_link=$ifr_links[$i];
+			$ifr_link="includes/practivity/$ifr_link";
+			?>
+			$(document).ready(function(){
 
-			$("#").load("demo_test.txt");
+				$("<?php echo '#'.$img_folder?>").html("<iframe src='<?php echo $ifr_link;?>' scrolling='no' class='activity-photo-iframe'></iframe>");
 
-		});
+			});
+			<?php
+		}
+		?>	
 	</script>
 </body>
 </html>
