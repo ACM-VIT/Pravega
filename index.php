@@ -160,7 +160,7 @@ include_once('includes/head.php');
 						</div>
 						<div class="column-4 fbdiv">
 							<!--facebook plugin-->
-							<!-- <div class="row padl_new">
+							<div class="row padl_new">
 								<div class="fb-page text-left" data-href="https://www.facebook.com/pravegaracing/?fref=ts" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false">
 									<blockquote cite="https://www.facebook.com/pravegaracing/?fref=ts" class="fb-xfbml-parse-ignore">
 										<a href="https://www.facebook.com/pravegaracing/?fref=ts">Pravega Racing</a>
@@ -169,7 +169,7 @@ include_once('includes/head.php');
 								<div class="twitter-page padl text-left">
 									<a href="https://twitter.com/PravegaRacing" class="twitter-follow-button text-left" data-show-count="true">Follow @PravegaRacing</a>	
 								</div>
-							</div> -->
+							</div>
 						</div>
 					</div>
 					<div class="grid-row padlr">

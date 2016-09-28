@@ -55,10 +55,18 @@ include_once('includes/head.php');
 	</section>
 
 	<section class="first-section">
-		<div class="grid-container-fluid padlr">
-			<h1 class="text-center">Contact us</h1>
-
-		</div>
+		<!-- <script>
+  (function() {
+    var cx = '004846063277965446338:rbtilp-kcuw';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search></gcse:search> -->
 	</section>
 	<section class="margin-top-40">
 		<div class="grid-container">
