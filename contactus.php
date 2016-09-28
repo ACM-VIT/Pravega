@@ -64,7 +64,7 @@ include_once('includes/head.php');
 		<div class="grid-container">
 			<div class="grid-row">
 				<div class="column-8">
-					<h4>Leave us a message...</h4>
+					<h4>Leave us a message</h4>
 					<form action="http://flagstone.vidalthemes.com/post.php" class="form">
 						<div class="grid-container">
 							<div class="grid-row margin-bottom-20">
@@ -113,23 +113,13 @@ include_once('includes/head.php');
 		</div>
 	</section>
 	<section class="text-center">
-		<div style='overflow:hidden;height:440px;width:100vw;margin-left:auto;margin-right: auto;'>
-			<div id='gmap_canvas' style='height:440px;width:100vw;'>
-			</div>
-			<div>
-				<small>
-					<a href="http://www.embedgooglemaps.com/en/">Generate your map here, quick and easy!									Give your customers directions Get found</a></small>
-				</div><div>
-				<small><a href="https://www.amazon.com/Extra-Large-Folding-Kennel-Plastic/dp/B00M3NBJ8E/ref=sr_1_5?s=pet-supplies&ie=UTF8&qid=1470313482&sr=1-5keywords=pet+cage">Pet Wire Cage</a></small></div>
-				<style>
-					#gmap_canvas img{max-width:none!important;background:none!important}
-				</style>
-			</div>
-			<script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
-			<script type='text/javascript'>function init_map(){var myOptions = {zoom:11,center:new google.maps.LatLng(12.9723913,79.15767519999997),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(12.9723913,79.15767519999997)});infowindow = new google.maps.InfoWindow({content:'<strong>Pravega Racing</strong><br>VIT University, Vellore, India<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);
-			</script>
-		</section>
+		<div style="width:80%;margin-left:auto;margin-right:auto;max-width:100%;overflow:hidden;height:500px;color:red;"><div id="embedded-map-display" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=VIT+University,+Vellore,+Tamil+Nadu,+India&key=AIzaSyAN0om9mFmy1QN6Wf54tXAowK4eT0ZUPrU"></iframe></div><a class="embed-map-code" rel="nofollow" href="http://www.szablonypremium.pl/website" id="make-map-information">motywy html</a><style>#embedded-map-display img{max-width:none!important;background:none!important;font-size: inherit;}</style></div><script src="https://www.szablonypremium.pl/google-maps-authorization.js?id=65d4e24c-8508-5507-f23c-d5aaad35bc87&c=embed-map-code&u=1475047957" defer="defer" async="async"></script>
 
+
+
+
+		</section>
+<br>
 		<a href="#" class="back-to-top--floating"><i class="ion-ios-arrow-up"></i></a>
 		<?php
 		include_once("includes/footer.php");

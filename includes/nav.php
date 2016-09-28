@@ -14,8 +14,7 @@
 							<a href="index.php">Home</a>
 						</li>
 						<li class="nav-item has-submenu">
-							<span class="hidden-big"><a>Cars</a></span>
-							<span class="hidden-small"><a href="cars.php">Cars</a></span>
+							<span class=""><a href="cars.php">Cars</a></span>
 							<ul class="is-submenu">
 								<li><a href="cars.php?select=prv16">PRV 16</a></li>
 								<li><a href="cars.php?select=prv15">PRV 15</a></li>
@@ -52,7 +51,7 @@
 							</ul>
 						</li>
 						<li class="nav-item has-submenu">
-							<span><a href="practivity.php">PR activity</a></span>
+							<span class=""><a href="practivity.php" class="active">PR activity</a></span>
 							<ul class="is-submenu">
 								<li><a href="practivity.php">Engage</a></li>
 							</ul>

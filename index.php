@@ -9,6 +9,15 @@ include_once('includes/head.php');
 <link rel="stylesheet" type="text/css" href="css/mycss/jquery.fancybox-buttons.css?v=1.0.5">
 <link rel="stylesheet" type="text/css" href="css/mycss/jquery.fancybox-thumbs.css?v=1.0.7">
 <style>
+@font-face {
+  font-family: 'Tagesschrift';
+  src: url('css/mycss/alte_haas_grotesk/AlteHaasGroteskBold.ttf');
+  font-weight: normal;
+}
+.main-heading-pravega{
+	font-family: 'Tagesschrift';
+	font-weight:100;
+}
 	.img-circle {
 		border-radius: 50%;
 	}
@@ -52,6 +61,17 @@ include_once('includes/head.php');
 	.overlay__background a{
 		text-decoration: none;
 	}
+	.cb-slideshow{
+		position: fixed;
+		z-index: -1;
+	}
+	.main-ka-baap{
+		z-index: 100;
+		border: solid 2px #fff;
+		margin-top: 0px;
+		margin-bottom: 0px;
+		background-color: #ffffff;
+	}
 	@media (min-width: 779px){
 		#firstsection{
 			margin-top: -40px;
@@ -65,7 +85,7 @@ include_once('includes/head.php');
 </style>
 
 </head>
-<body class="flagstone-splash">
+<body class="flagstone-splash flagstone-parallax">
 	<!--facebook plugin-->
 	<div id="fb-root"></div>
 	<script>
@@ -94,6 +114,7 @@ include_once('includes/head.php');
 	<!-- End of site main header -->
 
 	<section class="">
+
 		<div class="hero-unit hero-unit--banner-4"  id="page">
 			<ul class="cb-slideshow">
 				<li><span>Image 01</span></li>
@@ -108,7 +129,7 @@ include_once('includes/head.php');
 				<div class="grid-container">
 					<div class="grid-row">
 						<div class="column-12 text-center animated-parent">
-							<h1 class="text-color-10 font-size-xxlrg animated animate__fade-in-down-short"><b>Pravega Racing</b></h1>
+							<h1 class="text-color-10 font-size-xxlrg animated animate__fade-in-down-short main-heading-pravega"><b>Pravega Racing</b></h1>
 							<h5 class="text-color-10 animated animate__fade-in-up-short">
 								a line or two a line or two.
 							</h5>
@@ -120,152 +141,153 @@ include_once('includes/head.php');
 		</div>
 	</section>
 	<!-- End of section -->
-	<main class="container">
-		<section id="firstsection">
-			<div class="grid-container-fluid margin-top-70 margin-bottom-50">
-				<div class="grid-row">
-					<div class="column-8 aboutusdiv">
-						<h3 class="text-left"><b>Fifty Four, <span class="redcolor">Pravega Racing</span></b></h3>
-						<p class="text-left">
-							We are a team of engineers who seek to enhance the learning 
-							experience of the student community at VIT University by implementation of engineering 
-							fundamentals within the context of building
-							a formula style Racecar. We annually take part in the Formula Student competitions 
-							organised by Society of Automotive Engineers (SAE). We strive to achieve a 
-							steady growth in the Formula Student Circuit by focusing on world class engineering 
-							practices and institutionalising innovation.
-						</p>
+	<div class="main-ka-baap">
+		<main class="container">
+			<section id="firstsection">
+				<div class="grid-container-fluid margin-top-70 margin-bottom-50">
+					<div class="grid-row">
+						<div class="column-8 aboutusdiv">
+							<h3 class="text-left"><b>Fifty Four, <span class="redcolor">Pravega Racing</span></b></h3>
+							<p class="text-left">
+								We are a team of engineers who seek to enhance the learning 
+								experience of the student community at VIT University by implementation of engineering 
+								fundamentals within the context of building
+								a formula style Racecar. We annually take part in the Formula Student competitions 
+								organised by Society of Automotive Engineers (SAE). We strive to achieve a 
+								steady growth in the Formula Student Circuit by focusing on world class engineering 
+								practices and institutionalising innovation.
+							</p>
+						</div>
+						<div class="column-4 fbdiv">
+							<!--facebook plugin-->
+							<!-- <div class="row padl_new">
+								<div class="fb-page text-left" data-href="https://www.facebook.com/pravegaracing/?fref=ts" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false">
+									<blockquote cite="https://www.facebook.com/pravegaracing/?fref=ts" class="fb-xfbml-parse-ignore">
+										<a href="https://www.facebook.com/pravegaracing/?fref=ts">Pravega Racing</a>
+									</blockquote>
+								</div>
+								<div class="twitter-page padl text-left">
+									<a href="https://twitter.com/PravegaRacing" class="twitter-follow-button text-left" data-show-count="true">Follow @PravegaRacing</a>	
+								</div>
+							</div> -->
+						</div>
 					</div>
-					<div class="column-4 fbdiv">
-						<!--facebook plugin-->
-						<div class="row padl_new">
-							<div class="fb-page text-left" data-href="https://www.facebook.com/pravegaracing/?fref=ts" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false">
-								<blockquote cite="https://www.facebook.com/pravegaracing/?fref=ts" class="fb-xfbml-parse-ignore">
-									<a href="https://www.facebook.com/pravegaracing/?fref=ts">Pravega Racing</a>
-								</blockquote>
-							</div>
-							<div class="twitter-page padl text-left">
-								<a href="https://twitter.com/PravegaRacing" class="twitter-follow-button text-left" data-show-count="true">Follow @PravegaRacing</a>	
-							</div>
+					<div class="grid-row padlr">
+						<h3 class="text-left">&nbsp;&nbsp;<b>About Formula SAE</b></h3>
+						<div class="column-9">
+							<p class="text-left">
+								Formula SAE (FSAE) is an opportunity for students to design, manufacture, and race 
+								a formula-style car. Over 570 university teams from around the world participate in 
+								competitions held across the globe including locations such USA, UK, Germany, Italy, 
+								Japan and Australia. The participants explain and defend their design decisions, 
+								test their driver’s abilities and pitch their car to venture capitalists via a business 
+								presentation with the target as amateur weekend autocross drivers.
+							</p>
+						</div>
+						<div class="column-3">
+							<img src="img/general/cars/sae.png" class="saeimg">
 						</div>
 					</div>
 				</div>
-				<div class="grid-row padlr">
-					<h3 class="text-left">&nbsp;&nbsp;<b>About Formula SAE</b></h3>
-					<div class="column-9">
-						<p class="text-left">
-							Formula SAE (FSAE) is an opportunity for students to design, manufacture, and race 
-							a formula-style car. Over 570 university teams from around the world participate in 
-							competitions held across the globe including locations such USA, UK, Germany, Italy, 
-							Japan and Australia. The participants explain and defend their design decisions, 
-							test their driver’s abilities and pitch their car to venture capitalists via a business 
-							presentation with the target as amateur weekend autocross drivers.
-						</p>
+			</section>
+			<section class="gvisva-section">
+				<div class="grid-container-fluid margin-bottom-10">
+					<div class="grid-row">
+						<div class="column-2 text-centerr">
+							<div>&nbsp;</div>
+							<img src="img/general/chancellor.png" class="img-circle chancellor-img img-responsive hidden-small valign-m text-center">
+						</div>
+						<div class="column-10">
+							<p>
+								<div class="text-left-imp"><i class="fa fa-quote-left fa-2x" aria-hidden="true"></i></div>
+								<div class="text-left-imp">
+									I am happy and proud to inform you that Pravega Racing is the official Formula SAE (FSAE) team of VIT University. The team comprises of a group of able and resolute students of our institution from all academic divisions aiming for excellence. Pravega Racing is among the top three Formula SAE teams of India.
+								</div>
+								<div class="text-right"><i class="fa fa-quote-right fa-2x" aria-hidden="true"></i></div>
+							</p>
+							<p class="about-gv-p text-left-imp"><b>
+								Dr. G Vishwanathan
+								<br>Founder and Chancellor, VIT University
+								<br>Former Member of Parliament
+								<br>Former Minister, Govt. of Tamil Nadu
+								<br>President, Education Promotion Society of India, New Delhi
+							</b></p>
+						</div>
 					</div>
-					<div class="column-3">
-						<img src="img/general/cars/sae.png" class="saeimg">
-					</div>
-				</div>
-			</div>
-		</section>
-		<section class="gvisva-section">
-			<div class="grid-container-fluid margin-bottom-10">
-				<div class="grid-row">
-					<div class="column-2 text-centerr">
-						<div>&nbsp;</div>
-						<img src="img/general/chancellor.png" class="img-circle chancellor-img img-responsive hidden-small valign-m text-center">
-					</div>
-					<div class="column-10">
-						<p>
-							<div class="text-left-imp"><i class="fa fa-quote-left fa-2x" aria-hidden="true"></i></div>
-							<div class="text-left-imp">
-								I am happy and proud to inform you that Pravega Racing is the official Formula SAE (FSAE) team of VIT University. The team comprises of a group of able and resolute students of our institution from all academic divisions aiming for excellence. Pravega Racing is among the top three Formula SAE teams of India.
-							</div>
-							<div class="text-right"><i class="fa fa-quote-right fa-2x" aria-hidden="true"></i></div>
-						</p>
-						<p class="about-gv-p text-left-imp"><b>
-							Dr. G Vishwanathan
-							<br>Founder and Chancellor, VIT University
-							<br>Former Member of Parliament
-							<br>Former Minister, Govt. of Tamil Nadu
-							<br>President, Education Promotion Society of India, New Delhi
-						</b></p>
-					</div>
-				</div>
 
-			</div>
-		</section>
-		<section>
-			<div class="grid-container-fluid">
+				</div>
+			</section>
+			<section>
+				<div class="grid-container-fluid">
 			<!--
 			***********change image's title in fancybox_setting.js:92 ***************
-			-->
-				<h2 class="text-left-imp"><b>Recent Activities</b></h2>
-				<div class="grid-row animated-parent" data-appear-top-offset="00">
-					<div class="col-xs-6 col-sm-3 animated animate__fade-in-down-short">
-						<a class="fancybox-buttons" data-fancybox-group="button" href="img/general/cars/prv15_3.png">
-							<div class="overlay homepage-preview">
-								<div class="overlay__background"></div>
-								<div class="overlay__content text-center text-color-2">
-									<span class="overlay__content-heading">Happy Diwali</span>
-								</div>
-								<img src="img/general/cars/prv15_3.png" class="overlay__image overlay__image--skew" alt="img1" />
-							</div>
-						</a>
+		-->
+		<h2 class="text-left-imp"><b>Recent Activities</b></h2>
+		<div class="grid-row animated-parent" data-appear-top-offset="00">
+			<div class="col-xs-6 col-sm-3 animated animate__fade-in-down-short">
+				<a class="fancybox-buttons" data-fancybox-group="button" href="img/general/cars/prv15_3.png">
+					<div class="overlay homepage-preview">
+						<div class="overlay__background"></div>
+						<div class="overlay__content text-center text-color-2">
+							<span class="overlay__content-heading">Happy Diwali</span>
+						</div>
+						<img src="img/general/cars/prv15_3.png" class="overlay__image overlay__image--skew" alt="img1" />
 					</div>
-					<div class="col-xs-6 col-sm-3 animated animate__fade-in-down-short">
-						<a class="fancybox-buttons" data-fancybox-group="button" href="img/general/cars/recent2.png">
-							<div class="overlay homepage-preview">
-								<div class="overlay__background"></div>
-								<div class="overlay__content text-center text-color-2">
-									<span class="overlay__content-heading">Engineer's Day</span>
-								</div>
-								<img src="img/general/cars/recent2.png" class="overlay__image overlay__image--skew" alt="img1" />
-							</div>
-						</a>
-					</div>
-					<div class="col-xs-6 col-sm-3 animated animate__fade-in-down-short">
-						<a class="fancybox-buttons" data-fancybox-group="button" href="img/general/cars/recent_3.png">
-							<div class="overlay homepage-preview">
-								<div class="overlay__background"></div>
-								<div class="overlay__content text-center text-color-2">
-									<span class="overlay__content-heading">Formula Student Germany'15</span>
-								</div>
-								<img src="img/general/cars/recent_3.png" class="overlay__image overlay__image--skew" alt="img1" />
-							</div>
-						</a>
-					</div>
-					<div class="col-xs-6 col-sm-3 animated animate__fade-in-down-short">
-						<a class="fancybox-buttons" data-fancybox-group="button" href="img/general/cars/recent_4.png">
-							<div class="overlay homepage-preview">
-								<div class="overlay__background"></div>
-								<div class="overlay__content text-center text-color-2">
-									<span class="overlay__content-heading">Marketing Campaign for Engage Deodarant</span>
-								</div>
-								<img src="img/general/cars/recent_4.png" class="overlay__image overlay__image--skew" alt="img1" />
-							</div>
-						</a>
-					</div>
-				</div>
+				</a>
 			</div>
-		</section>
+			<div class="col-xs-6 col-sm-3 animated animate__fade-in-down-short">
+				<a class="fancybox-buttons" data-fancybox-group="button" href="img/general/cars/recent2.png">
+					<div class="overlay homepage-preview">
+						<div class="overlay__background"></div>
+						<div class="overlay__content text-center text-color-2">
+							<span class="overlay__content-heading">Engineer's Day</span>
+						</div>
+						<img src="img/general/cars/recent2.png" class="overlay__image overlay__image--skew" alt="img1" />
+					</div>
+				</a>
+			</div>
+			<div class="col-xs-6 col-sm-3 animated animate__fade-in-down-short">
+				<a class="fancybox-buttons" data-fancybox-group="button" href="img/general/cars/recent_3.png">
+					<div class="overlay homepage-preview">
+						<div class="overlay__background"></div>
+						<div class="overlay__content text-center text-color-2">
+							<span class="overlay__content-heading">Formula Student Germany'15</span>
+						</div>
+						<img src="img/general/cars/recent_3.png" class="overlay__image overlay__image--skew" alt="img1" />
+					</div>
+				</a>
+			</div>
+			<div class="col-xs-6 col-sm-3 animated animate__fade-in-down-short">
+				<a class="fancybox-buttons" data-fancybox-group="button" href="img/general/cars/recent_4.png">
+					<div class="overlay homepage-preview">
+						<div class="overlay__background"></div>
+						<div class="overlay__content text-center text-color-2">
+							<span class="overlay__content-heading">Marketing Campaign for Engage Deodarant</span>
+						</div>
+						<img src="img/general/cars/recent_4.png" class="overlay__image overlay__image--skew" alt="img1" />
+					</div>
+				</a>
+			</div>
+		</div>
+	</div>
+</section>
 
-		<!-- End of section -->
+<!-- End of section -->
 
-		
-	</main>
-	<br>
-	<a href="#" class="back-to-top--floating"><i class="ion-ios-arrow-up"></i></a>
-	<?php
-	include_once("includes/footer.php");
-	?>
-	<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<br>
+</main>
+</div>
+<a href="#" class="back-to-top--floating"><i class="ion-ios-arrow-up"></i></a>
+<?php
+include_once("includes/footer.php");
+?>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-	<script type="text/javascript" src="js/min/jquery.fancybox.js?v=2.1.5"></script>
+<script type="text/javascript" src="js/min/jquery.fancybox.js?v=2.1.5"></script>
 
-	<script type="text/javascript" src="js/min/jquery.fancybox-buttons.js?v=1.0.5"></script>
+<script type="text/javascript" src="js/min/jquery.fancybox-buttons.js?v=1.0.5"></script>
 
-	<script type="text/javascript" src="js/min/jquery.fancybox-thumbs.js?v=1.0.7"></script>
-	<script type="text/javascript" src="js/min/fancybox_setting.js"></script>
+<script type="text/javascript" src="js/min/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+<script type="text/javascript" src="js/min/fancybox_setting.js"></script>
 </body>
 </html>

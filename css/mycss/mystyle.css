@@ -1,3 +1,6 @@
+nav .active{
+	/*background-color: red !important;*/
+}
 .inline-block{
 	display: inline-block;
 }

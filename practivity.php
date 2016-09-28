@@ -62,21 +62,19 @@ include_once('includes/head.php');
 
 				];
 				$ifr_links=["dragrace.html","rollout2016.html","rollout2015.html","riviera.html","cornitos.html","engage.html","redbull.html"];
-				$_COOKIE["ifrlinks"]=$ifr_links;
-				$img_folders=["dragrace2016","rollout2016","rollout2015","riviera","cornitos","engage","redbull"];
+				//$img_folders=["dragrace2016","rollout2016","rollout2015","riviera","cornitos","engage","redbull"];
 				$nos=count($ifr_links);
 				for($i=0;$i<$nos;$i++)
 				{
 					$heading=$headings[$i];
 					$para=$paras[$i];
-					$ifr_link=$ifr_links[$i];
-					$img_folder=$img_folders[$i];
+					$ifr_link="includes/practivity/$ifr_links[$i]";
 					echo "
 					<div class='activity-wrapper'>
 						<h2 class='activity-title text-left'><b>$heading</b></h2>
 						<p class='activity-para'>$para</p>
-						<div class='iframediv' id='$img_folder'>
-							<img class='tempimg' src='img/general/practivity/$img_folder/1.png'>
+						<div class='iframediv'>
+							<iframe src='$ifr_link' scrolling='no' class='activity-photo-iframe'></iframe>
 						</div>
 					</div>
 					";
@@ -119,19 +117,7 @@ include_once('includes/head.php');
 		?>
 	</div>
 	<script type="text/javascript">
-		<?php
-		for($i=0;$i<$nos;$i++){
-			$_COOKIE["contentno"]=$i;
-			$img_folder=$img_folders[$i];
-			?>
-			$(document).ready(function(){
-
-				$("<?php echo '#'.$img_folder?>").load("load_iframe.php");
-
-			});
-			<?php
-		}
-		?>	
+		
 	</script>
 </body>
 </html>
