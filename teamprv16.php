@@ -15,6 +15,13 @@ include_once('includes/head.php');
 		max-width: 100%;
 		border-radius: 100%;
 	}
+	.sub-header-banner-teams16{
+		background-image:  url('img/general/bgs/teamprv15bg.jpg');
+		background-position: 0px 15px;
+	}
+	.layer{
+		
+	}
 </style>
 </head>
 <body class="flagstone-about-us flagstone-parallax">
@@ -33,7 +40,7 @@ include_once('includes/head.php');
 
 	<!-- End of site main header -->
 	<section class="background-color-11 sub-header parallax">
-		<div class="parallax__background sub-header-banner-teams">
+		<div class="parallax__background sub-header-banner-teams16">
 			<div class="layer"></div>
 		</div>
 		<div class="grid-container">

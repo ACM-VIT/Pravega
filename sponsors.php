@@ -32,7 +32,7 @@ include_once('includes/head.php');
 				<div class="column-12 animated-parent">
 					<h2 class="text-color-10 animated animate__fade-in-left-short text-center">Our Sponsors</h2>
 					<h5 class="text-color-10 animated animate__fade-in-right-short text-center">
-						<span class="text-decor animated animate__roll-in"></span>Without their support, we wouldn't be successful
+						<span class="text-decor animated animate__roll-in"></span>Without their support, we wouldn't be successful.
 					</h5>
 				</div>
 			</div>
