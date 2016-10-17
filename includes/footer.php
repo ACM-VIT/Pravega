@@ -1,23 +1,23 @@
-<!DOCTYPE html>
 <footer class="background-color-2 padding-top-80 padding-bottom-80">
 		<div class="grid-container">
 			<div class="grid-row">
 				<div class="column-4">
-					<img class="display-inline-block margin-right-5 footer-logo img-max100" src="img/general/logo.png" alt="Pravega logo">
-					<a class="social-icon" href="https://vimeo.com/user52637861"><i class="ion-social-facebook"></i></a>
-					<a class="social-icon" href="https://twitter.com/Vidall_Themes"><i class="ion-social-twitter"></i></a>
-					<a class="link copyright" href="http://vidall.co.uk/">&copy; Pravega Racing all rights reserved.</a>
+					<img class="display-inline-block margin-right-5 footer-logo img-max100" src="img/general/logowhite.png" alt="Pravega logo">
+					<br>
+					<a class="social-icon" target="_blank" href="https://www.facebook.com/pravegaracing/"><i class="ion-social-facebook"></i></a>
+					<a class="social-icon" target="_blank" href="https://twitter.com/PravegaRacing"><i class="ion-social-twitter"></i></a>
+					<a class="link copyright" href="">&copy; Pravega Racing all rights reserved.</a>
 				</div>
 				<div class="column-3">
-					<h5 class="text-color-11">About Pravega...</h5>
+					<h5 class="text-color-11">About Pravega</h5>
 					<p>
-						Flagstone has been created from the ground up, to give your startup business rapid entry to an online presence, with easy to use block based modular design, you will have a stunning, professional website in no time.
+						We are a team of engineers who seek to enhance the learning experience of the student community at VIT University by implementation of engineering fundamentals within the context of building a formula style Racecar. 
 					</p>
 				</div>
 				<div class="column-5">
 					<h5 class="text-color-11">Sign up</h5>
 					<p>
-						Want to keep informed? join our infrequent mailing list, we notify you when we release a new product or service, we wont spam you, and we don't sell on your details.
+						Want to keep informed? Join our infrequent mailing list, and you will never miss out on our upcoming events.
 					</p>
 					<div class="mailchimp-signup">
 						<form action="subscribe.php" method="post" id="mc-embedded-subscribe-form" class="validate form-inline" target="_blank">

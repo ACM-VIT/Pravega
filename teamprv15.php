@@ -29,9 +29,9 @@ include_once('includes/head.php');
 		<div class="grid-container">
 			<div class="grid-row">
 				<div class="column-12 animated-parent">
-					<h2 class="text-color-10 animated animate__fade-in-left-short">Team</h2>
-					<h5 class="text-color-10 animated animate__fade-in-right-short">
-						<span class="text-decor animated animate__roll-in"></span>A line or two about team..
+					<h2 class="text-color-10 animated animate__fade-in-left-short text-center">Team</h2>
+					<h5 class="text-color-10 animated animate__fade-in-right-short text-center">
+						<span class="text-decor animated animate__roll-in"></span>The A-team who made it happen.
 					</h5>
 				</div>
 			</div>
@@ -39,66 +39,52 @@ include_once('includes/head.php');
 	</section>
 	<div class="container">
 		<div class="row">
-			<div class="col-md-8 col-xs-12">
+			<div class="col-md-12 col-xs-12">
 				<section class="first-section margin-bottom-20">
 					<div class="grid-container-fluid">
 						<h1 class="text-center">PRV 15 - Team</h1>
 						<div class="roww member-prv16-wrapper">
-							<?php
-							$team_prv16=["Kushagra Sinha","Shyam Mohan","Sidharth Dahiya",
-							"Rohan Patel","Rishabh Rathi","Sri Vaishnav",
-							"Tanmay Prasad","Ashwin Sande","Yash Chhabra",
-							"Arshmeet Singh","Amit Karmakar","Dheeraj Nandhuri",
-							"Naman Gupta","Vyom Goutam","Tribhuvan Singh",
-							"Rishabh Bahuguna","Ritesh Tekriwal","Arjun Wadhwa",
-							"Rohan Gupta","Sehdev Sikka","Kamal Chaghla",
-							"Aditya Tiwary","Arsel Hasan"
-							];
-							$no_prv16=count($team_prv16);
-							for($i=0;$i<$no_prv16;$i++)
-							{
-								$name=$team_prv16[$i];
-								echo "<div class='col-md-3 col-sm-4 col-xs-6'><span class='member-prv16'>".$name."</span></div>";
-							}
-							?>
-						</div>
-					</div>
-				</section>
-			</div>
-			<div class="col-xs-12 col-sm-8 col-md-4 right-section">
-				<aside class="right-sidebar first-section">
-					<div class="widget">
-						<h5 class="widgetheading">Related Pages</h5>
-						<ul class="recent">
-							<li>
-								<img src="img/general/cars/prv16.png" class="right-img" alt="">
-								<div class="written-material">
-									<h6 class="right-heading"><a href="supportus.php">How to Support us</a></h6>
-									<p class="right-para ellipsis">
-										Invest in the next generation of employees who will have the skills ...
-									</p>
+							<ul class="teamprv-ul col-sm-offset-3 col-sm-4 teamprv-ul-first">
+								<?php
+								$team_prv16=["Kushagra Sinha","Shyam Mohan","Sidharth Dahiya",
+								"Rohan Patel","Rishabh Rathi","Sri Vaishnav",
+								"Tanmay Prasad","Ashwin Sande","Yash Chhabra",
+								"Arshmeet Singh","Amit Karmakar","Dheeraj Nandhuri",
+								"Naman Gupta","Vyom Goutam","Tribhuvan Singh",
+								"Rishabh Bahuguna","Ritesh Tekriwal","Arjun Wadhwa",
+								"Rohan Gupta","Sehdev Sikka","Kamal Chaghla",
+								"Aditya Tiwary","Arsel Hasan"
+								];
+								$no_prv16=count($team_prv16);
+								for($i=0;$i<$no_prv16/2;$i++)
+								{
+									$name=$team_prv16[$i];
+									echo "<li>".$name."</li>";
+								}
+								?>
+								</ul>
+								<ul class="teamprv-ul col-sm-4">
+								<?php
+								
+								$no_prv16=count($team_prv16);
+								for($i=$no_prv16/2 +1;$i<$no_prv16;$i++)
+								{
+									$name=$team_prv16[$i];
+									echo "<li>".$name."</li>";
+								}
+								?>
+								</ul>
 								</div>
-							</li>
-							<li>
-								<img src="img/general/cars/recent_4.png" class="right-img" alt="">
-								<div class="written-material">
-									<h6 class="right-heading"><a href="practivity.php">PR activities</a></h6>
-									<p class="right-para">
-										We do our best to keep our sponsors satisfied by branding them ...
-									</p>
-								</div>
-							</li>
-						</ul>
+							</div>
+						</section>
 					</div>
-				</aside>
+				</div>
 			</div>
-		</div>
-	</div>
-	<a href="#" class="back-to-top--floating"><i class="ion-ios-arrow-up"></i></a>
-	<div class="col-xs-12 padding-left-0 padding-right-0">
-		<?php
-		include_once("includes/footer.php");
-		?>
-	</div>
-</body>
-</html>
+			<a href="#" class="back-to-top--floating"><i class="ion-ios-arrow-up"></i></a>
+			<div class="col-xs-12 padding-left-0 padding-right-0">
+				<?php
+				include_once("includes/footer.php");
+				?>
+			</div>
+		</body>
+		</html>

@@ -23,7 +23,8 @@ img {
   margin-bottom: 0px !important;
 }
 body{
-  background-color: #a40522;
+  /*background-color: #f44336;*/
+  background-color: rgba(0,0,0,0.5);
 }
 
 .color-white{

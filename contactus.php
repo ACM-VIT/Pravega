@@ -45,9 +45,9 @@ include_once('includes/head.php');
 		<div class="grid-container">
 			<div class="grid-row">
 				<div class="column-12 animated-parent">
-					<h2 class="text-color-10 animated animate__fade-in-left-short">Contact us</h2>
-					<h5 class="text-color-10 animated animate__fade-in-right-short">
-						<span class="text-decor animated animate__roll-in"></span>A line or two about contact us..
+					<h2 class="text-color-10 animated animate__fade-in-left-short text-center">Contact us</h2>
+					<h5 class="text-color-10 animated animate__fade-in-right-short text-center">
+						<span class="text-decor animated animate__roll-in"></span>If you have any queries or would like to know more about the team, feel free to contact us.
 					</h5>
 				</div>
 			</div>
@@ -92,7 +92,7 @@ include_once('includes/head.php');
 						</div>
 					</form>
 				</div>
-				<div class="column-3 push-column-1 background-color-11 padding-top-20 padding-bottom-20">
+				<div class="column-4 background-color-11 padding-top-20 padding-bottom-20">
 					<h4><b><span class="color-red-impp">Pravega</span> Racing</b></h4>
 					<ul class="list list--address margin-bottom-20">
 						<span class="addressinfo">
@@ -100,11 +100,14 @@ include_once('includes/head.php');
 								VIT University, Vellore-632014, India
 							</li>
 						</span>
+						<br>
 						<span class="addressinfo">
 							<li class="list__item list--address-phone"><i class="fa fa-phone" aria-hidden="true"></i>
-								+(44)8976 422355
+								Aagosh Mishra - +91 9994838100
 							</li>
-							<li class="list__item list--address-phone">&nbsp;&nbsp;&nbsp;&nbsp;+(44)8976 422355</li>
+							<li class="list__item list--address-phone">&nbsp;&nbsp;&nbsp;&nbsp;Abhijai Tibrewala - +91 8888048822</li>
+							<li class="list__item list--address-phone">&nbsp;&nbsp;&nbsp;&nbsp;Arnav Patel - +91 76398028020</li>
+							<li class="list__item list--address-phone">&nbsp;&nbsp;&nbsp;&nbsp;Ashish Chadda - +91 9944110344</li>
 						</span>
 						<span class="addressinfo">
 							<li class="list__item list--address-phone">

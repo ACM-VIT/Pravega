@@ -5,19 +5,16 @@ include_once('includes/head.php');
 <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.css">
 <link rel="stylesheet" type="text/css" href="css/mycss/slider1.css" />
 <link rel="stylesheet" type="text/css" href="css/mycss/slider2.css" />
-<link rel="stylesheet" type="text/css" href="css/mycss/jquery.fancybox.css?v=2.1.5">
-<link rel="stylesheet" type="text/css" href="css/mycss/jquery.fancybox-buttons.css?v=1.0.5">
-<link rel="stylesheet" type="text/css" href="css/mycss/jquery.fancybox-thumbs.css?v=1.0.7">
 <style>
-@font-face {
-  font-family: 'Tagesschrift';
-  src: url('css/mycss/alte_haas_grotesk/AlteHaasGroteskBold.ttf');
-  font-weight: normal;
-}
-.main-heading-pravega{
-	font-family: 'Tagesschrift';
-	font-weight:100;
-}
+	@font-face {
+		font-family: 'Tagesschrift';
+		src: url('css/mycss/alte_haas_grotesk/AlteHaasGroteskBold.ttf');
+		font-weight: normal;
+	}
+	.main-heading-pravega{
+		font-family: 'Tagesschrift';
+		font-weight:100;
+	}
 	.img-circle {
 		border-radius: 50%;
 	}
@@ -65,12 +62,23 @@ include_once('includes/head.php');
 		position: fixed;
 		z-index: -1;
 	}
+	.recent_img{
+		height: 200px !important;
+		width: 330px !important;
+	}
+	.recent_fb{
+		max-height: 95vh !important;
+		max-width: 100vw !important;
+	}
 	.main-ka-baap{
 		z-index: 100;
 		border: solid 2px #fff;
 		margin-top: 0px;
 		margin-bottom: 0px;
 		background-color: #ffffff;
+	}
+	.btnToggle{
+		display: none !important;
 	}
 	@media (min-width: 779px){
 		#firstsection{
@@ -97,7 +105,6 @@ include_once('includes/head.php');
 			fjs.parentNode.insertBefore(js, fjs);
 		}(document, 'script', 'facebook-jssdk'));
 	</script>
-	<!--facebook plugin end-->
 	<div class="page-pre-loader">
 		<div class="page-pre-loader__container">
 			<div class="page-pre-loader__effect"></div>
@@ -117,22 +124,23 @@ include_once('includes/head.php');
 
 		<div class="hero-unit hero-unit--banner-4"  id="page">
 			<ul class="cb-slideshow">
-				<li><span>Image 01</span></li>
-				<li><span>Image 02</span></li>
-				<li><span>Image 03</span></li>
-				<li><span>Image 04</span></li>
-				<li><span>Image 05</span></li>
-				<li><span>Image 06</span></li>
-				
+				<li><span id="11">Image 01</span></li>
+				<li><span id="12">Image 02</span></li>
+				<li><span id="13">Image 03</span></li>
+				<li><span id="14">Image 04</span></li>
+				<li><span id="15">Image 05</span></li>
+				<li><span id="16">Image 06</span></li>
 			</ul>
+
+			
 			<div class="hero-unit__content">
 				<div class="grid-container">
 					<div class="grid-row">
 						<div class="column-12 text-center animated-parent">
 							<h1 class="text-color-10 font-size-xxlrg animated animate__fade-in-down-short main-heading-pravega"><b>Pravega Racing</b></h1>
-							<h5 class="text-color-10 animated animate__fade-in-up-short">
-								a line or two a line or two.
-							</h5>
+							<h5 class="text-color-10 animated animate__fade-in-up-short"><b>
+								One Team, One Dream, One Car.
+							</b></h5>
 						</div>
 					</div>
 				</div>
@@ -147,7 +155,7 @@ include_once('includes/head.php');
 				<div class="grid-container-fluid margin-top-70 margin-bottom-50">
 					<div class="grid-row">
 						<div class="column-8 aboutusdiv">
-							<h3 class="text-left"><b>Fifty Four, <span class="redcolor">Pravega Racing</span></b></h3>
+							<h3 class="text-left"><b>Fifty Four, <span class="redcolor">Pravega !</span></b></h3>
 							<p class="text-left">
 								We are a team of engineers who seek to enhance the learning 
 								experience of the student community at VIT University by implementation of engineering 
@@ -190,9 +198,9 @@ include_once('includes/head.php');
 					</div>
 				</div>
 			</section>
-			<section class="gvisva-section">
+			<section class="gvisva-section animated-parent">
 				<div class="grid-container-fluid margin-bottom-10">
-					<div class="grid-row">
+					<div class="grid-row animated animate__fade-in-down-short">
 						<div class="column-2 text-centerr">
 							<div>&nbsp;</div>
 							<img src="img/general/chancellor.png" class="img-circle chancellor-img img-responsive hidden-small valign-m text-center">
@@ -225,46 +233,46 @@ include_once('includes/head.php');
 		<h2 class="text-left-imp"><b>Recent Activities</b></h2>
 		<div class="grid-row animated-parent" data-appear-top-offset="00">
 			<div class="col-xs-6 col-sm-3 animated animate__fade-in-down-short">
-				<a class="fancybox-buttons" data-fancybox-group="button" href="img/general/cars/prv15_3.png">
+				<a class="recent_fb" href="events.php#cd_block0">
 					<div class="overlay homepage-preview">
 						<div class="overlay__background"></div>
 						<div class="overlay__content text-center text-color-2">
-							<span class="overlay__content-heading">Happy Diwali</span>
+							<span class="overlay__content-heading">Formula Student Germany 16</span>
 						</div>
-						<img src="img/general/cars/prv15_3.png" class="overlay__image overlay__image--skew" alt="img1" />
+						<img src="img/general/cars/recent_1.png" class="overlay__image overlay__image--zoom recent_img" alt="img1" />
 					</div>
 				</a>
 			</div>
 			<div class="col-xs-6 col-sm-3 animated animate__fade-in-down-short">
-				<a class="fancybox-buttons" data-fancybox-group="button" href="img/general/cars/recent2.png">
+				<a class="recent_fb" href="practivities.php#practivity1">
 					<div class="overlay homepage-preview">
 						<div class="overlay__background"></div>
 						<div class="overlay__content text-center text-color-2">
-							<span class="overlay__content-heading">Engineer's Day</span>
+							<span class="overlay__content-heading">Drag Race 2016</span>
 						</div>
-						<img src="img/general/cars/recent2.png" class="overlay__image overlay__image--skew" alt="img1" />
+						<img src="img/general/practivity/dragrace2016/1.png" class="overlay__image overlay__image--zoom recent_img" alt="img1" />
 					</div>
 				</a>
 			</div>
 			<div class="col-xs-6 col-sm-3 animated animate__fade-in-down-short">
-				<a class="fancybox-buttons" data-fancybox-group="button" href="img/general/cars/recent_3.png">
+				<a class="recent_fb" href="practivities.php#practivity2">
 					<div class="overlay homepage-preview">
 						<div class="overlay__background"></div>
 						<div class="overlay__content text-center text-color-2">
-							<span class="overlay__content-heading">Formula Student Germany'15</span>
+							<span class="overlay__content-heading">Launch 2016</span>
 						</div>
-						<img src="img/general/cars/recent_3.png" class="overlay__image overlay__image--skew" alt="img1" />
+						<img src="img/general/practivity/rollout2016/1.png" class="overlay__image overlay__image--zoom recent_img" alt="img1" />
 					</div>
 				</a>
 			</div>
 			<div class="col-xs-6 col-sm-3 animated animate__fade-in-down-short">
-				<a class="fancybox-buttons" data-fancybox-group="button" href="img/general/cars/recent_4.png">
+				<a class="recent_fb" href="events.php#cd_block0">
 					<div class="overlay homepage-preview">
 						<div class="overlay__background"></div>
 						<div class="overlay__content text-center text-color-2">
-							<span class="overlay__content-heading">Marketing Campaign for Engage Deodarant</span>
+							<span class="overlay__content-heading">Formula Student India 2016</span>
 						</div>
-						<img src="img/general/cars/recent_4.png" class="overlay__image overlay__image--skew" alt="img1" />
+						<img src="img/general/cars/recent_4.png" class="overlay__image overlay__image--zoom recent_img" alt="img1" />
 					</div>
 				</a>
 			</div>
@@ -282,12 +290,5 @@ include_once('includes/head.php');
 include_once("includes/footer.php");
 ?>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<script type="text/javascript" src="js/min/jquery.fancybox.js?v=2.1.5"></script>
-
-<script type="text/javascript" src="js/min/jquery.fancybox-buttons.js?v=1.0.5"></script>
-
-<script type="text/javascript" src="js/min/jquery.fancybox-thumbs.js?v=1.0.7"></script>
-<script type="text/javascript" src="js/min/fancybox_setting.js"></script>
 </body>
 </html>

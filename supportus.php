@@ -33,30 +33,14 @@ include_once('includes/head.php');
 		<div class="grid-container">
 			<div class="grid-row">
 				<div class="column-12 animated-parent">
-					<h2 class="text-color-10 animated animate__fade-in-left-short">Support Us</h2>
-					<h5 class="text-color-10 animated animate__fade-in-right-short">
+					<h2 class="text-color-10 animated animate__fade-in-left-short text-center">Support Us</h2>
+					<h5 class="text-color-10 animated animate__fade-in-right-short text-center">
 						<span class="text-decor animated animate__roll-in"></span>Assist Pravega Racing and be a part of the Formula Student World.
 					</h5>
 				</div>
 			</div>
 		</div>
 	</section>
-	<!--
-	<section class="background-color-11 sub-header sub-header-banner-supportus">
-		<div class="layer">
-			<div class="grid-container">
-				<div class="grid-row">
-					<div class="column-12 animated-parent">
-						<h2 class="text-color-10 animated animate__fade-in-left-short">Support Us</h2>
-						<h5 class="text-color-10 animated animate__fade-in-right-short">
-							<span class="text-decor animated animate__roll-in"></span>Assist Pravega Racing and be a part of the Formula Student World.
-						</h5>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
--->
 <main>
 	<section id="sec1" class="section-white container">
 		<div class="contentt">
@@ -73,9 +57,9 @@ include_once('includes/head.php');
 			</div>
 			<div class="">
 				<div class="firstdiv text-center valignc col-xs-12 col-md-6 animated-parent animate-once" data-appear-top-offset="0">
-					<h2 class="color-white animated animate__fade-in-left-short heading">How to <span class="color-red bolderr">Support Us</span> ?</h2>
-					<h4 class="animated animate__fade-in-left-short subheading text-center color-white">To achieve our goals and implement improvements we need sponsors who support us with know-how, production capacity and financial resources.
-					</h4>
+					<h2 class="color-white animated animate__fade-in-left-short heading">How to <span class="color-red bolderr">Support us</span> ?</h2>
+					<h5 class="animated animate__fade-in-left-short subheading text-center color-white">To achieve our goals and implement improvements we need sponsors who support us with know-how, production capacity and financial resources.
+					</h5>
 				</div>
 				<div class="things-desc-div col-xs-12 col-md-6 animated-parent animate-once" data-appear-top-offset="-10">
 					<div class="container-fluid text-center animated animate__fade-in-right-short color-white">
@@ -101,7 +85,7 @@ include_once('includes/head.php');
 							<div class="things">Financial</div>
 						</div>
 						<div class="col-xs-8 col-sm-9">
-							<div class="describe">Support by donating money, services or be our <a href="sponsors.php"> sponsors</a>.</div>
+							<div class="describe">Support by donating money, services or be our sponsors.</div>
 						</div>
 					</div>
 				</div>
@@ -146,7 +130,7 @@ include_once('includes/head.php');
 				<div class="things-desc-div col-xs-12 col-md-6 animated-parent animate-once" data-appear-top-offset="-10">
 					<div class="container-fluid text-left animated animate__fade-in-right-short color-white">
 						<ul class="interested-ul padding-left-40">
-							<li><h4 class="color-white">see our <a href="supportus.php#sponsorshipbrochure">Sponsorship Brochure</a></h4></li>
+							<li><h4 class="color-white">See our <a href="supportus.php#sponsorshipbrochure">Sponsorship Brochure</a></h4></li>
 							<li><h4><a href="contactus.php">Contact us</a></h4></li>
 						</div>
 					</div>
@@ -155,7 +139,7 @@ include_once('includes/head.php');
 		</section>
 		<section class="brochuresection container"  id="sponsorshipbrochure">
 			<br><br>
-			<h2 class="bolderr text-center"><span class="color-red">Sponsorship</span> Bronchure</h2>
+			<h2 class="bolderr text-center"><span class="color-red">Sponsorship</span> Brochure</h2>
 			<div class="brochurediv">
 				<div class="">
 

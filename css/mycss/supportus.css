@@ -56,11 +56,11 @@
 
 main section a{
 	text-decoration: none;
-	color: #dc092f;
+	color: #fff;
 	transition: all ease 0.5s;
 }
 main section a:hover{
-	color: #000;
+	color: #dc092f;
 }
 #sec3{
 	width: 100vw;
@@ -91,7 +91,7 @@ main section a:hover{
 	font-weight: bold !important;
 }
 .bolderr{
-	font-weight: 800 !important;
+	font-weight: 700 !important;
 }
 .padl_new{
 		padding-left: 20px;

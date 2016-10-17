@@ -92,19 +92,19 @@ $(document).ready(function() {
 			 	afterLoad : function() {
 			 		if(this.index==0)
 			 		{
-			 			this.title = "<h3>Happy Diwali!</h3><P>Pravega Racing Family wishes you a very happy and properous Diwali.</p>";
+			 			this.title = "<h3>Formula Student Germany 2016</h3><p>Formula Student Germany is an annually held event in Germany. Pravega Racing has repeatedly emerged as one of the top Indian teams. In FSG'16, PRV'16 was the fastest among all the Indian teams. Visit Events section and Media section for more details.</p>";
 			 		}
 			 		if(this.index==1)
 			 		{
-			 			this.title = "<h3>Engineers Day</h3><P>We put ideas into practice. We create what is only imagined. We build and we compete. It may be a well thought out process or a last minute jugaad but we get things done. And we take pride in what we do. A very Happy Engineers' Day to all of you out there!</p>";
+			 			this.title = "<h3>Drag Race 2016</h3><P>With little help from BMW India we conducted a drag race between PRV 16 and BMW in our college campus.  Revving of engines raised the heartbeats of the audience to an unmatched level, like never seen before in VIT. Each time PRV was able to beat the Beemer. Visit PR Activities for more details.</p>";
 			 		}
 			 		if(this.index==2)
 			 		{
-			 			this.title = "<h3>Formula Student Germany 2015</h3><P>A mixed bag of results in Formula Student Germany e.V. this year. A significant improvement over last year saw us achieving amazing results in static events but the dynamic events did not go as planned. Lots of scope to improve. We will be back stronger next year.</p>";
+			 			this.title = "<h3>Launch 2016</h3><P>Continuing the tradition, we orchestrated the Grand Rollout of our new car PRV16. The countdown got everybody’s heartbeat racing, we again had a staggering response from the freshers. Visit PR Activities for more details.</p>";
 			 		}
 			 		if(this.index==3)
 			 		{
-			 			this.title = "<h3>Marketing Campaign for Engaeg Deodrants</h3><P>We thank ITC Ltd. for all thier support. Visit PR Activities section to see the complete campaign.</p>";
+			 			this.title = "<h3>Formula Student India 2016</h3><P>Pravega Racing stood first in Acceleration, Skidpad, and Business Presentation Events. We also received Special Awards for Spirit of FSI and Cleanest Pit. Visit Events section for more details. </p>";
 			 		}
 			 	}
 			 });
@@ -117,7 +117,6 @@ $(document).ready(function() {
 			 $('.fancybox-thumbs').fancybox({
 			 	prevEffect : 'none',
 			 	nextEffect : 'none',
-
 			 	closeBtn  : true,
 			 	arrows    : true,
 			 	nextClick : true,

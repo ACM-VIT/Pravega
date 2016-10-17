@@ -1,6 +1,9 @@
 nav .active{
 	/*background-color: red !important;*/
 }
+.nav-grid-container{
+	max-width: 1180px;
+}
 .inline-block{
 	display: inline-block;
 }

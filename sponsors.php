@@ -30,8 +30,8 @@ include_once('includes/head.php');
 		<div class="grid-container">
 			<div class="grid-row">
 				<div class="column-12 animated-parent">
-					<h2 class="text-color-10 animated animate__fade-in-left-short">Our Sponsors</h2>
-					<h5 class="text-color-10 animated animate__fade-in-right-short">
+					<h2 class="text-color-10 animated animate__fade-in-left-short text-center">Our Sponsors</h2>
+					<h5 class="text-color-10 animated animate__fade-in-right-short text-center">
 						<span class="text-decor animated animate__roll-in"></span>Without their support, we wouldn't be successful
 					</h5>
 				</div>
@@ -40,7 +40,7 @@ include_once('includes/head.php');
 	</section>
 	<div class="container grid-container">
 		<div class="row">
-			<div class="left-section col-md-8 padding-left-0">
+			<div class="left-section col-md-offset-1 col-md-10 padding-left-0">
 				<p class="sponsors-intro si1 first-section ">
 					Formula Student is an International Platform for engineers where they can showcase their technical and marketing skills. FSAE is an opportunity for students to design, manufacture and race a Formula style car. Over 570 university teams from all around the globe participate in this prestigious competition. The participants explain and defend their design decisions, test their driver’s ability and pitch their idea in front of the Venture Capitalists via Business Presentation.
 				</p>
@@ -90,7 +90,7 @@ include_once('includes/head.php');
 										<div class="overlay__content text-center text-color-2">
 											<span class="overlay__content-heading">Cummins</span>
 										</div>
-										<img src="img/Sponsors/title/cummins.png" alt="cummins" class="overlay__image overlay__image--skew">
+										<img src="img/Sponsors/title/cummins.png" alt="cummins" class="overlay__image overlay__image--zoom">
 									</div>
 								</div>
 								<div class="col-xs-6 col-sm-4 margin-bottom-20 sponsordiv">
@@ -113,7 +113,7 @@ include_once('includes/head.php');
 						<div class="hide-n-seek">
 							<div class="grid-container-fluid">
 								<div class="grid-row">
-									<div class="col-xs-6 col-sm-3 margin-bottom-20 sponsordiv">
+									<div class="col-xs-6 col-sm-4 margin-bottom-20 sponsordiv">
 										<div class="overlay">
 											<div class="overlay__background overlay__background--slide-left"></div>
 											<div class="overlay__content text-center text-color-2">
@@ -122,7 +122,7 @@ include_once('includes/head.php');
 											<img src="img/Sponsors/gold/parksyde.png" alt="picture" class="overlay__image">
 										</div>
 									</div>
-									<div class="col-xs-6 col-sm-3 margin-bottom-20 sponsordiv">
+									<div class="col-xs-6 col-sm-4 margin-bottom-20 sponsordiv">
 										<div class="overlay">
 											<div class="overlay__background overlay__background--slide-left"></div>
 											<div class="overlay__content text-center text-color-2">
@@ -131,16 +131,16 @@ include_once('includes/head.php');
 											<img src="img/Sponsors/gold/skf.png" alt="picture" class="overlay__image">
 										</div>
 									</div>
-									<div class="col-xs-6 col-sm-3 margin-bottom-20 sponsordiv">
+									<div class="col-xs-6 col-sm-4 margin-bottom-20 sponsordiv">
 										<div class="overlay">
 											<div class="overlay__background"></div>
 											<div class="overlay__content text-center text-color-2">
 												<span class="overlay__content-heading">Motul</span>
 											</div>
-											<img src="img/Sponsors/gold/motul.png" alt="picture" class="overlay__image overlay__image overlay__image--skew">
+											<img src="img/Sponsors/gold/motul.png" alt="picture" class="overlay__image overlay__image overlay__image--zoom">
 										</div>
 									</div>
-									<div class="col-xs-6 col-sm-3 margin-bottom-20 sponsordiv">
+									<div class="col-xs-6 col-sm-4 margin-bottom-20 sponsordiv">
 										<div class="overlay">
 											<div class="overlay__background overlay__background--slide-right"></div>
 											<div class="overlay__content text-center text-color-2">
@@ -149,7 +149,7 @@ include_once('includes/head.php');
 											<img src="img/Sponsors/gold/te.png" alt="picture" class="overlay__image">
 										</div>
 									</div>
-									<div class="col-xs-6 col-sm-3 margin-bottom-20 sponsordiv">
+									<div class="col-xs-6 col-sm-4 margin-bottom-20 sponsordiv">
 										<div class="overlay">
 											<div class="overlay__background overlay__background--slide-left"></div>
 											<div class="overlay__content text-center text-color-2">
@@ -158,16 +158,16 @@ include_once('includes/head.php');
 											<img src="img/Sponsors/gold/hitachi.png" alt="picture" class="overlay__image">
 										</div>
 									</div>
-									<div class="col-xs-6 col-sm-3 margin-bottom-20 sponsordiv">
+									<div class="col-xs-6 col-sm-4 margin-bottom-20 sponsordiv">
 										<div class="overlay">
 											<div class="overlay__background"></div>
 											<div class="overlay__content text-center text-color-2">
 												<span class="overlay__content-heading">NAL</span>
 											</div>
-											<img src="img/Sponsors/gold/nal.png" alt="picture" class="overlay__image overlay__image overlay__image--skew">
+											<img src="img/Sponsors/gold/nal.png" alt="picture" class="overlay__image overlay__image overlay__image--zoom">
 										</div>
 									</div>
-									<div class="col-xs-6 col-sm-3 margin-bottom-20 sponsordiv">
+									<div class="col-xs-6 col-sm-4 margin-bottom-20 sponsordiv">
 										<div class="overlay">
 											<div class="overlay__background overlay__background--slide-right"></div>
 											<div class="overlay__content text-center text-color-2">
@@ -176,7 +176,7 @@ include_once('includes/head.php');
 											<img src="img/Sponsors/gold/redbull.png" alt="picture" class="overlay__image">
 										</div>
 									</div>
-									<div class="col-xs-6 col-sm-3 margin-bottom-20 sponsordiv">
+									<div class="col-xs-6 col-sm-4 margin-bottom-20 sponsordiv">
 										<div class="overlay">
 											<div class="overlay__background overlay__background--slide-left"></div>
 											<div class="overlay__content text-center text-color-2">
@@ -185,16 +185,16 @@ include_once('includes/head.php');
 											<img src="img/Sponsors/gold/henkel.png" alt="picture" class="overlay__image">
 										</div>
 									</div>
-									<div class="col-xs-6 col-sm-3 margin-bottom-20 sponsordiv">
+									<div class="col-xs-6 col-sm-4 margin-bottom-20 sponsordiv">
 										<div class="overlay">
 											<div class="overlay__background"></div>
 											<div class="overlay__content text-center text-color-2">
 												<span class="overlay__content-heading">DAD</span>
 											</div>
-											<img src="img/Sponsors/gold/dad.png" alt="picture" class="overlay__image overlay__image overlay__image--skew">
+											<img src="img/Sponsors/gold/dad.png" alt="picture" class="overlay__image overlay__image overlay__image--zoom">
 										</div>
 									</div>
-									<div class="col-xs-6 col-sm-3 margin-bottom-20 sponsordiv">
+									<div class="col-xs-6 col-sm-4 margin-bottom-20 sponsordiv">
 										<div class="overlay">
 											<div class="overlay__background overlay__background--slide-right"></div>
 											<div class="overlay__content text-center text-color-2">
@@ -203,7 +203,7 @@ include_once('includes/head.php');
 											<img src="img/Sponsors/gold/abc.png" alt="picture" class="overlay__image">
 										</div>
 									</div>
-									<div class="col-xs-6 col-sm-3 margin-bottom-20 sponsordiv">
+									<div class="col-xs-6 col-sm-4 margin-bottom-20 sponsordiv">
 										<div class="overlay">
 											<div class="overlay__background overlay__background--slide-left"></div>
 											<div class="overlay__content text-center text-color-2">
@@ -212,16 +212,16 @@ include_once('includes/head.php');
 											<img src="img/Sponsors/gold/behr.png" alt="picture" class="overlay__image">
 										</div>
 									</div>
-									<div class="col-xs-6 col-sm-3 margin-bottom-20 sponsordiv">
+									<div class="col-xs-6 col-sm-4 margin-bottom-20 sponsordiv">
 										<div class="overlay">
 											<div class="overlay__background"></div>
 											<div class="overlay__content text-center text-color-2">
 												<span class="overlay__content-heading">ASAP</span>
 											</div>
-											<img src="img/Sponsors/gold/asap.png" alt="picture" class="overlay__image overlay__image overlay__image--skew">
+											<img src="img/Sponsors/gold/asap.png" alt="picture" class="overlay__image overlay__image overlay__image--zoom">
 										</div>
 									</div>
-									<div class="col-xs-6 col-sm-3 margin-bottom-20 sponsordiv">
+									<div class="col-xs-6 col-sm-4 margin-bottom-20 sponsordiv">
 										<div class="overlay">
 											<div class="overlay__background overlay__background--slide-right"></div>
 											<div class="overlay__content text-center text-color-2">
@@ -242,7 +242,7 @@ include_once('includes/head.php');
 						<div class="hide-n-seek">
 							<div class="grid-container-fluid">
 								<div class="grid-row">
-									<div class="col-xs-4 col-sm-3 margin-bottom-20 sponsordiv">
+									<div class="col-xs-6 col-sm-4 margin-bottom-20 sponsordiv">
 										<div class="overlay">
 											<div class="overlay__background overlay__background--slide-left"></div>
 											<div class="overlay__content text-center text-color-2">
@@ -251,7 +251,7 @@ include_once('includes/head.php');
 											<img src="img/Sponsors/silver/mitter.png" alt="picture" class="overlay__image">
 										</div>
 									</div>
-									<div class="col-xs-4 col-sm-3 margin-bottom-20 sponsordiv">
+									<div class="col-xs-6 col-sm-4 margin-bottom-20 sponsordiv">
 										<div class="overlay">
 											<div class="overlay__background overlay__background--slide-left"></div>
 											<div class="overlay__content text-center text-color-2">
@@ -260,16 +260,16 @@ include_once('includes/head.php');
 											<img src="img/Sponsors/silver/mentor.png" alt="picture" class="overlay__image">
 										</div>
 									</div>
-									<div class="col-xs-4 col-sm-3 margin-bottom-20 sponsordiv">
+									<div class="col-xs-6 col-sm-4 margin-bottom-20 sponsordiv">
 										<div class="overlay">
 											<div class="overlay__background"></div>
 											<div class="overlay__content text-center text-color-2">
 												<span class="overlay__content-heading">K.R. Composites </span>
 											</div>
-											<img src="img/Sponsors/silver/kr.png" alt="picture" class="overlay__image overlay__image overlay__image--skew">
+											<img src="img/Sponsors/silver/kr.png" alt="picture" class="overlay__image overlay__image overlay__image--zoom">
 										</div>
 									</div>
-									<div class="col-xs-4 col-sm-3 margin-bottom-20 sponsordiv">
+									<div class="col-xs-6 col-sm-4 margin-bottom-20 sponsordiv">
 										<div class="overlay">
 											<div class="overlay__background overlay__background--slide-right"></div>
 											<div class="overlay__content text-center text-color-2">
@@ -278,7 +278,7 @@ include_once('includes/head.php');
 											<img src="img/Sponsors/silver/ricardo.png" alt="picture" class="overlay__image">
 										</div>
 									</div>
-									<div class="col-xs-4 col-sm-3 margin-bottom-20 sponsordiv">
+									<div class="col-xs-6 col-sm-4 margin-bottom-20 sponsordiv">
 										<div class="overlay">
 											<div class="overlay__background overlay__background--slide-left"></div>
 											<div class="overlay__content text-center text-color-2">
@@ -287,94 +287,94 @@ include_once('includes/head.php');
 											<img src="img/Sponsors/silver/sbee.png" alt="picture" class="overlay__image">
 										</div>
 									</div>
-									<div class="col-xs-4 col-sm-3 margin-bottom-20 sponsordiv">
+									<div class="col-xs-6 col-sm-4 margin-bottom-20 sponsordiv">
 										<div class="overlay">
 											<div class="overlay__background"></div>
 											<div class="overlay__content text-center text-color-2">
 												<span class="overlay__content-heading">Acktron</span>
 											</div>
-											<img src="img/Sponsors/silver/Acktron.png" alt="picture" class="overlay__image overlay__image overlay__image--skew">
+											<img src="img/Sponsors/silver/acktron.png" alt="picture" class="overlay__image overlay__image overlay__image--zoom">
 										</div>
 									</div>
-									<div class="col-xs-4 col-sm-3 margin-bottom-20 sponsordiv">
+									<div class="col-xs-6 col-sm-4 margin-bottom-20 sponsordiv">
 										<div class="overlay">
 											<div class="overlay__background overlay__background--slide-right"></div>
 											<div class="overlay__content text-center text-color-2">
 												<span class="overlay__content-heading">Ajay Engineering Works</span>
 											</div>
-											<img src="img/Sponsors/silver/Ajay.png" alt="picture" class="overlay__image">
+											<img src="img/Sponsors/silver/ajay.png" alt="picture" class="overlay__image">
 										</div>
 									</div>
-									<div class="col-xs-4 col-sm-3 margin-bottom-20 sponsordiv">
+									<div class="col-xs-6 col-sm-4 margin-bottom-20 sponsordiv">
 										<div class="overlay">
 											<div class="overlay__background overlay__background--slide-left"></div>
 											<div class="overlay__content text-center text-color-2">
 												<span class="overlay__content-heading">Vishal</span>
 											</div>
-											<img src="img/Sponsors/silver/Vishal.png" alt="picture" class="overlay__image">
+											<img src="img/Sponsors/silver/vishal.png" alt="picture" class="overlay__image">
 										</div>
 									</div>
-									<div class="col-xs-4 col-sm-3 margin-bottom-20 sponsordiv">
+									<div class="col-xs-6 col-sm-4 margin-bottom-20 sponsordiv">
 										<div class="overlay">
 											<div class="overlay__background"></div>
 											<div class="overlay__content text-center text-color-2">
 												<span class="overlay__content-heading">Jaipur Printers</span>
 											</div>
-											<img src="img/Sponsors/silver/Jaipur.png" alt="picture" class="overlay__image overlay__image overlay__image--skew">
+											<img src="img/Sponsors/silver/jaipur.png" alt="picture" class="overlay__image overlay__image overlay__image--zoom">
 										</div>
 									</div>
-									<div class="col-xs-4 col-sm-3 margin-bottom-20 sponsordiv">
+									<div class="col-xs-6 col-sm-4 margin-bottom-20 sponsordiv">
 										<div class="overlay">
 											<div class="overlay__background overlay__background--slide-right"></div>
 											<div class="overlay__content text-center text-color-2">
 												<span class="overlay__content-heading">FPCL</span>
 											</div>
-											<img src="img/Sponsors/silver/Fpcl.png" alt="picture" class="overlay__image">
+											<img src="img/Sponsors/silver/fpcl.png" alt="picture" class="overlay__image">
 										</div>
 									</div>
-									<div class="col-xs-4 col-sm-3 margin-bottom-20 sponsordiv">
+									<div class="col-xs-6 col-sm-4 margin-bottom-20 sponsordiv">
 										<div class="overlay">
 											<div class="overlay__background overlay__background--slide-left"></div>
 											<div class="overlay__content text-center text-color-2">
 												<span class="overlay__content-heading">Proxima</span>
 											</div>
-											<img src="img/Sponsors/silver/Proxima.png" alt="picture" class="overlay__image">
+											<img src="img/Sponsors/silver/proxima.png" alt="picture" class="overlay__image">
 										</div>
 									</div>
-									<div class="col-xs-4 col-sm-3 margin-bottom-20 sponsordiv">
+									<div class="col-xs-6 col-sm-4 margin-bottom-20 sponsordiv">
 										<div class="overlay">
 											<div class="overlay__background"></div>
 											<div class="overlay__content text-center text-color-2">
 												<span class="overlay__content-heading">Dassault Systems</span>
 											</div>
-											<img src="img/Sponsors/silver/Dassault.png" alt="picture" class="overlay__image overlay__image overlay__image--skew">
+											<img src="img/Sponsors/silver/Dassault.png" alt="picture" class="overlay__image overlay__image overlay__image--zoom">
 										</div>
 									</div>
-									<div class="col-xs-4 col-sm-3 margin-bottom-20 sponsordiv">
+									<div class="col-xs-6 col-sm-4 margin-bottom-20 sponsordiv">
 										<div class="overlay">
 											<div class="overlay__background overlay__background--slide-right"></div>
 											<div class="overlay__content text-center text-color-2">
 												<span class="overlay__content-heading">Keizer Tyres</span>
 											</div>
-											<img src="img/Sponsors/silver/Keizer.png" alt="picture" class="overlay__image">
+											<img src="img/Sponsors/silver/keizer.png" alt="picture" class="overlay__image">
 										</div>
 									</div>
-									<div class="col-xs-4 col-sm-3 margin-bottom-20 sponsordiv">
+									<div class="col-xs-6 col-sm-4 margin-bottom-20 sponsordiv">
 										<div class="overlay">
 											<div class="overlay__background overlay__background--slide-right"></div>
 											<div class="overlay__content text-center text-color-2">
 												<span class="overlay__content-heading">Novoflex</span>
 											</div>
-											<img src="img/Sponsors/silver/Novoflex.png" alt="picture" class="overlay__image">
+											<img src="img/Sponsors/silver/novoflex.png" alt="picture" class="overlay__image">
 										</div>
 									</div>
-									<div class="col-xs-4 col-sm-3 margin-bottom-20 sponsordiv">
+									<div class="col-xs-6 col-sm-4 margin-bottom-20 sponsordiv">
 										<div class="overlay">
 											<div class="overlay__background overlay__background--slide-right"></div>
 											<div class="overlay__content text-center text-color-2">
 												<span class="overlay__content-heading">Cornitos</span>
 											</div>
-											<img src="img/Sponsors/silver/Cornitos.png" alt="picture" class="overlay__image">
+											<img src="img/Sponsors/silver/cornitos.png" alt="picture" class="overlay__image">
 										</div>
 									</div>
 								</div>
@@ -388,49 +388,49 @@ include_once('includes/head.php');
 						<div class="hide-n-seek">
 							<div class="grid-container-fluid">
 								<div class="grid-row">
-									<div class="col-xs-4 col-sm-3 margin-bottom-20 sponsordiv">
+									<div class="col-xs-6 col-sm-4 margin-bottom-20 sponsordiv">
 										<div class="overlay">
 											<div class="overlay__background overlay__background--slide-left"></div>
 											<div class="overlay__content text-center text-color-2">
 												<span class="overlay__content-heading">MAP</span>
 											</div>
-											<img src="img/Sponsors/bronze/Map.png" alt="picture" class="overlay__image">
+											<img src="img/Sponsors/bronze/map.png" alt="picture" class="overlay__image">
 										</div>
 									</div>
-									<div class="col-xs-4 col-sm-3 margin-bottom-20 sponsordiv">
+									<div class="col-xs-6 col-sm-4 margin-bottom-20 sponsordiv">
 										<div class="overlay">
 											<div class="overlay__background overlay__background--slide-left"></div>
 											<div class="overlay__content text-center text-color-2">
 												<span class="overlay__content-heading">Across</span>
 											</div>
-											<img src="img/Sponsors/bronze/Across.png" alt="picture" class="overlay__image">
+											<img src="img/Sponsors/bronze/across.png" alt="picture" class="overlay__image">
 										</div>
 									</div>
-									<div class="col-xs-4 col-sm-3 margin-bottom-20 sponsordiv">
+									<div class="col-xs-6 col-sm-4 margin-bottom-20 sponsordiv">
 										<div class="overlay">
 											<div class="overlay__background"></div>
 											<div class="overlay__content text-center text-color-2">
 												<span class="overlay__content-heading">Autodesk </span>
 											</div>
-											<img src="img/Sponsors/bronze/Autodesk.png" alt="picture" class="overlay__image overlay__image overlay__image--skew">
+											<img src="img/Sponsors/bronze/autodesk.png" alt="picture" class="overlay__image overlay__image overlay__image--zoom">
 										</div>
 									</div>
-									<div class="col-xs-4 col-sm-3 margin-bottom-20 sponsordiv">
+									<div class="col-xs-6 col-sm-4 margin-bottom-20 sponsordiv">
 										<div class="overlay">
 											<div class="overlay__background overlay__background--slide-right"></div>
 											<div class="overlay__content text-center text-color-2">
 												<span class="overlay__content-heading">Matlab</span>
 											</div>
-											<img src="img/Sponsors/bronze/Matlab.png" alt="picture" class="overlay__image">
+											<img src="img/Sponsors/bronze/matlab.png" alt="picture" class="overlay__image">
 										</div>
 									</div>
-									<div class="col-xs-4 col-sm-3 margin-bottom-20 sponsordiv">
+									<div class="col-xs-6 col-sm-4 margin-bottom-20 sponsordiv">
 										<div class="overlay">
 											<div class="overlay__background overlay__background--slide-left"></div>
 											<div class="overlay__content text-center text-color-2">
 												<span class="overlay__content-heading">RDMC</span>
 											</div>
-											<img src="img/Sponsors/bronze/RDMC.png" alt="picture" class="overlay__image">
+											<img src="img/Sponsors/bronze/rdmc.png" alt="picture" class="overlay__image">
 										</div>
 									</div>
 								</div>
@@ -442,33 +442,7 @@ include_once('includes/head.php');
 				
 			</div>
 
-			<div class="first-section right-section padding-right-0 col-sm-8 col-md-4">
-				<aside class="right-sidebar">
-					<div class="widget">
-						<h5 class="widgetheading">Related Pages</h5>
-						<ul class="recent">
-							<li>
-								<img src="img/general/cars/prv16.png" class="right-img" alt="">
-								<div class="written-material">
-									<h6 class="right-heading"><a href="supportus.php">How to Support us</a></h6>
-									<p class="right-para ellipsis">
-										Invest in the next generation of employees who will have the skills ...
-									</p>
-								</div>
-							</li>
-							<li>
-								<img src="img/general/cars/recent_4.png" class="right-img" alt="">
-								<div class="written-material">
-									<h6 class="right-heading"><a href="practivity.php">PR activities</a></h6>
-									<p class="right-para">
-										We do our best to keep our sponsors satisfied by branding them ...
-									</p>
-								</div>
-							</li>
-						</ul>
-					</div>
-				</aside>
-			</div>
+			
 		</div>
 	</div>
 

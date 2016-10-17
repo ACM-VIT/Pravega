@@ -10,6 +10,14 @@ include_once('includes/head.php');
 	.team-member-wrapper{
 		cursor: pointer;
 	}
+	.team-member-wrapper-col{
+		padding: 0px;
+		margin: 0px;
+	}
+	.teamphoto{
+		max-width: 100%;
+		border-radius: 100%;
+	}
 </style>
 </head>
 <body class="flagstone-about-us flagstone-parallax">
@@ -34,9 +42,9 @@ include_once('includes/head.php');
 		<div class="grid-container">
 			<div class="grid-row">
 				<div class="column-12 animated-parent">
-					<h2 class="text-color-10 animated animate__fade-in-left-short">Team</h2>
-					<h5 class="text-color-10 animated animate__fade-in-right-short">
-						<span class="text-decor animated animate__roll-in"></span>A line or two about our teams..
+					<h2 class="text-color-10 animated animate__fade-in-left-short text-center">Team</h2>
+					<h5 class="text-color-10 animated animate__fade-in-right-short text-center">
+						<span class="text-decor animated animate__roll-in"></span>The A-team which makes it happen
 					</h5>
 				</div>
 			</div>
@@ -44,89 +52,125 @@ include_once('includes/head.php');
 	</section>
 	<div class="container">
 		<div class="row">
-			<div class="col-md-8 col-xs-12">
+			<div class="col-md-12 col-xs-12">
 				<section class="first-section container-fluid margin-bottom-20">
 					<div class="grid-container-fluid">
 						<h1 class="text-center">Current team</h1>
 						<div class="row team-members-wrapper">
 							<?php
-							$team_members=["Aagosh Mishra","Aayush Nahata","Abhijai Tibrewal","Arnav Patel","Ashish Chadda","Nimish Mehra",
-							"Nishant Dixit","Rishabh Khanna","Siddharth Sethi","Shantanu Singh","Udit Saraswat","Tarun Bhatia",
-							"Varun Nair","Yashasavi Karnena","Rishiraj Chauhan","Sushant Srivastav","Aarti Noroha","Vaibhav Sharma",
-							"Akysht Kumar","Sachin HT","Prathamesh Gunjal","Shreyansh Garhewal","Dhananjay Singh","Udhay Singh",
-							"Naman Shukla","Nimish Gupta","Nikhil Agrawal","Kunal Aggrawal","Saahil Vishwakarma","Amogh Chourasia",
-							"Rohit Aggrawal","Rishabh Jain","Ruchit Jain","Manmohit Singh","Surbhit Bhardwaj","Sanchit Chaudhary",
-							"Salil Madhav","Rebanta Roy","S Sooraj","Adithya Venugopal","Vishal Agrawal","Uma Shankar",
-							"Ashwarya Anupam","Sai Teja","Samarjeet Sharma","Vibhor Malik","Aman Agarwal","Vignesh K",
-							"Shantan Khandal","Utkarsh Palav","Apoorv Singh","Saksham Bhardwaj","Amitabh Das","Moideen Shariq",
-							"Shantanu Khandar"
-							];
-							$team_roles=["President"];
-							$no_team_members=count($team_members);
+							$teammember[0]=["Aagosh Mishra","Team Captain","https://www.facebook.com/aagosh.mishra?fref=ts"];
+							$teammember[]=["Ayush Nahata","Composites Lead","https://www.facebook.com/nahata.ayush?fref=ts"];
+							$teammember[]=["Abhijai Tibrewala","Technical Coordinator","https://www.facebook.com/abhijai.tibrewala?fref=ts"];
+							$teammember[]=["Arnav Patel","Management head","https://www.facebook.com/Arnavpatel.1996?fref=ts"];
+							$teammember[]=["Ashish Chadda","Marketing Head","https://www.facebook.com/ashish.chadda?fref=ts"];
+							$teammember[]=["Nishant Dixit","R & D Lead","https://www.facebook.com/nishant.dixit.509?fref=ts"];
+							$teammember[]=["Rishabh Khanna","Powertrain Lead","https://www.facebook.com/RishabhKhanna0203?fref=ts"];
+							$teammember[]=["Siddharth Sethi","Ergonomics Lead","https://www.facebook.com/siddharth.sethi.564?fref=ts"];
+							$teammember[]=["Shantanu Singh","Chassis and Assembly Lead","https://www.facebook.com/profile.php?id=100004831695623&fref=ts&ref=br_tf"];
+							$teammember[]=["Udit Saraswat","Vehicle Dynamics Lead","https://www.facebook.com/udit7897?fref=ts&ref=br_tf"];
+
+							//11
+							$teammember[]=["Tarun Bhatia","Design and Analysis Lead","https://www.facebook.com/tpbhatia197418?ref=br_rs"];
+							$teammember[]=["Yashasavi Karnena","Electrical Lead","https://www.facebook.com/chinnu.avinnash?fref=ts"];
+							$teammember[]=["Nimish Mehra","Vehicle Dynamicist",""];
+							$teammember[]=["Sushant Srivastav","Aerodynamics Lead",""];
+							$teammember[]=["Rishiraj Chauhan","",""];
+							$teammember[]=["Aarti Noroha","",""];
+							$teammember[]=["Vaibhav Sharma","",""];
+							$teammember[]=["Akysht Kumar","",""];
+							$teammember[]=["Sachin HT","",""];
+							$teammember[]=["Prathamesh Gunjal","",""];
+							//21
+							$teammember[]=["Shreyansh Garhewal","",""];
+							$teammember[]=["Dhananjay Singh","",""];
+							$teammember[]=["Rishabh Jain","",""];
+							$teammember[]=["Shantanu Singh Chauhan","",""];
+							$teammember[]=["Nimish Gupta","Marketing Executive",""];
+							$teammember[]=["Naman Shukla","Marketing Executive",""];
+							$teammember[]=["Nikhil Agrawal","Marketing Executive",""];
+							$teammember[]=["Udhay Singh","",""];
+							$teammember[]=["Kunal Aggrawal","",""];
+							$teammember[]=["Saahil Vishwakarma","",""];
+							//31
+							$teammember[]=["Amogh Chourasia","",""];
+							$teammember[]=["Rohit Aggrawal","",""];
+							$teammember[]=["Ruchit Jain","",""];
+							$teammember[]=["Manmohit Singh","",""];
+							$teammember[]=["Sanchit Chaudhary","",""];
+							$teammember[]=["Salil Madhav","",""];
+							$teammember[]=["Rebanta Roy","",""];
+							$teammember[]=["S Sooraj","",""];
+							$teammember[]=["Adithya Venugopal","",""];
+							$teammember[]=["Vishal Agrawal","",""];
+							//41
+							$teammember[]=["Uma Shankar","",""];
+							$teammember[]=["Ashwarya Anupam","",""];
+							$teammember[]=["Sai Teja","",""];
+							$teammember[]=["Samarjeet Sharma","",""];
+							$teammember[]=["Vibhor Malik","",""];
+							$teammember[]=["Aman Agarwal","",""];
+							$teammember[]=["Vignesh K","",""];
+							$teammember[]=["Shantan Khandar","",""];
+							$teammember[]=["Utkarsh Palav","",""];
+							$teammember[]=["Apoorv Singh","",""];
+							//51
+							$teammember[]=["Saksham Bhardwaj","",""];
+							$teammember[]=["Amitabh Das","",""];
+							$teammember[]=["Moideen Shariq","",""];
+							$no_team_members=count($teammember);
 							for($i=0;$i<$no_team_members;$i++)
 							{
-								$name=$team_members[$i];
-								$name=ucwords($name);
-					$fname="placeholder";//strtolower(substr($name,0,strpos($name," ")));
-					$role=$team_roles[0];//$i
-					echo "
-					<div class='col-md-3 col-sm-4 col-xs-6'>
-						<div class='overlay team-member-wrapper'>
-							<div class='overlay__background'></div>
-							<div class='overlay__content text-center text-color-2'>
+								$name=$teammember[$i][0];
+								$name=ucwords(strtolower($name));
+								$fname=strtolower(substr($name,0,strpos($name," ")));
 
-								<span class='overlay__content-heading'>{$name}</span>
-								<span class='overlay__content-text'><b>{$role}</b></span>
-								<div class='profile__sharing-links--alt'>
-									<a href='#'><i class='fa fa-facebook profile__sharing-link'></i></a>
+								$role="";
+								if(isset($teammember[$i][1]) and !empty($teammember[$i][1]))
+									$role=$teammember[$i][1];
+								$fblink="";
+								if(isset($teammember[$i][2]) and !empty($teammember[$i][2]))
+									$fblink=$teammember[$i][2];
+
+								$imglink=$fname;
+								if($name=="Nimish Mehra")
+									$imglink="nimish2";
+								echo "
+								<div class='col-md-2 col-sm-3 col-xs-6 team-member-wrapper-col'>
+									<div class='overlay team-member-wrapper'>
+										<div class='overlay__background'></div>
+										<div class='overlay__content text-center text-color-2'>
+											<span class='overlay__content-heading'>{$name}</span>
+											<span class='overlay__content-text'><b>{$role}</b></span>
+											";
+											if(!empty($fblink))
+											{
+												echo"
+												<div class='profile__sharing-links--alt'>
+													<a target='_blank' href='{$fblink}'><i class='fa fa-facebook profile__sharing-link'></i></a>
+												</div>";
+											}
+											echo "
+										</div>
+										<img src='img/general/teams/currentteam/{$imglink}.jpg' alt='{$fname}' class='overlay__image teamphoto'>
+										<div class='text-center'><b>{$name}</b></div>
+										<br>
+									</div>
 								</div>
-							</div>
-							<img src='img/general/teams/currentteam/{$fname}.png' alt='{$fname}' class='overlay__image'>
-							<div class='text-center'><b>{$name}</b></div>
-							<br>
+								";
+							}
+							?>
 						</div>
 					</div>
-					";
-				}
-				?>
+				</section>
 			</div>
+
 		</div>
-	</section>
-</div>
-<div class="col-xs-12 col-sm-8 col-md-4 right-section">
-	<aside class="right-sidebar first-section">
-		<div class="widget">
-			<h5 class="widgetheading">Related Pages</h5>
-			<ul class="recent">
-				<li>
-					<img src="img/general/cars/prv16.png" class="right-img" alt="">
-					<div class="written-material">
-						<h6 class="right-heading"><a href="supportus.php">How to Support us</a></h6>
-						<p class="right-para ellipsis">
-							Invest in the next generation of employees who will have the skills ...
-						</p>
-					</div>
-				</li>
-				<li>
-					<img src="img/general/cars/recent_4.png" class="right-img" alt="">
-					<div class="written-material">
-						<h6 class="right-heading"><a href="practivity.php">PR activities</a></h6>
-						<p class="right-para">
-							We do our best to keep our sponsors satisfied by branding them ...
-						</p>
-					</div>
-				</li>
-			</ul>
-		</div>
-	</aside>
-</div>
-</div>
-</div>
-<a href="#" class="back-to-top--floating"><i class="ion-ios-arrow-up"></i></a>
-<div class="col-xs-12 padding-left-0 padding-right-0">
-<?php
-include_once("includes/footer.php");
-?>
-</div>
+	</div>
+	<a href="#" class="back-to-top--floating"><i class="ion-ios-arrow-up"></i></a>
+	<div class="col-xs-12 padding-left-0 padding-right-0">
+		<?php
+		include_once("includes/footer.php");
+		?>
+	</div>
 </body>
 </html>

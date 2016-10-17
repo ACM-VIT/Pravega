@@ -6,12 +6,36 @@ include_once('includes/head.php');
 <link rel="stylesheet" type="text/css" href="css/mycss/events.css" />
 <style>
 	.sub-header-banner-events{
-		background-image:  url('img/general/bgs/eventsbg.png');
+		/*background-image:  url('img/general/bgs/eventsbg.png');*/
+		background-color: transparent;
 	}
-
+	.layer{
+		background-color: transparent;
+	}
+	.background-color-11{
+		background-color: transparent;
+	}
+	body{
+		background-color: blue;
+		
+	}
+	.body-next-1{
+		background-image:  url('img/general/bgs/eventsbg.png');
+		padding-top: 3rem !important;
+	}
+	.parallax__background_events {
+    background-attachment: fixed;
+    background-size: cover;
+}
+	.primary-header{
+		
+	}
+	
 </style>
 </head>
-<body class="flagstone-about-us flagstone-parallax">
+<body class="flagstone-about-us">
+<div class="body-next-1 parallax__background_events">
+<div class="body-next-2">
 	<div class="page-pre-loader">
 		<div class="page-pre-loader__container">
 			<div class="page-pre-loader__effect"></div>
@@ -26,23 +50,22 @@ include_once('includes/head.php');
 	?>
 
 	<!-- End of site main header -->
-	<section class="background-color-11 sub-header parallax">
-		<div class="parallax__background sub-header-banner-events">
-			<div class="layer"></div>
+	<section class="background-color-11 sub-header">
+		<div class=" ">
+			
 		</div>
 		<div class="grid-container">
 			<div class="grid-row">
 				<div class="column-12 animated-parent">
-					<h2 class="text-color-10 animated animate__fade-in-left-short">Events</h2>
-					<h5 class="text-color-10 animated animate__fade-in-right-short">
+					<h2 class="text-color-10 animated animate__fade-in-left-short text-center">Events</h2>
+					<h5 class="text-color-10 animated animate__fade-in-right-short text-center">
 						<span class="text-decor animated animate__roll-in"></span>A line or two about events..
 					</h5>
 				</div>
 			</div>
 		</div>
 	</section>
-		<section class="first-section">
-		</section>
+		
 		<section id="cd-timeline" class="cd-container">
 
 			<!-- first block-->
@@ -76,7 +99,7 @@ include_once('includes/head.php');
 				</div>
 				<div class="cd-timeline-content">
 					<h2 class="cd-heading">Formula Student India 2016</h2>
-					<p class="cd-intro"><b>1<sup>st</sup> in Acceleration Event</b></p>
+					<p class="cd-intro"><b>Won 7/11 Trophies</b></p>
 					<a href="#0" class="cd-read-more">show more</a>
 					<div class="show_on_more">
 						<ul>
@@ -232,5 +255,7 @@ for($i=0;$i<6;$i++)
 //for block 1
 
 </script>
+</div>
+</div>
 </body>
 </html>

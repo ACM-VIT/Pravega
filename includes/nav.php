@@ -1,9 +1,9 @@
 <header class="primary-header primary-header--fixed-nav">
-	<div class="grid-container">
+	<div class="grid-container nav-grid-container">
 		<div class="grid-row">
 			<div class="column-12">
 				<div class="primary-header__logo float-left">
-					<a href="index.php"><img src="img/general/logo.png" class="primary-header__logo-image img-max100" alt="Flagstone logo"></a>
+					<a href="index.php"><img src="img/general/logowhite.png" class="primary-header__logo-image img-max100" alt="Flagstone logo"></a>
 				</div>
 				<button class="mobile-nav-toggle float-right">
 					<span></span>
@@ -51,25 +51,19 @@
 							</ul>
 						</li>
 						<li class="nav-item has-submenu">
-							<span class=""><a href="practivity.php" class="active">PR activity</a></span>
+							<span><a href="photos.php">Media</a></span>
 							<ul class="is-submenu">
-								<li><a href="practivity.php">Engage</a></li>
+								<li><a href="photos.php">Photos</a></li>
+								<li><a href="videos.php">Videos</a></li>
+								<li><a href="articles.php">Online Articles</a></li>
 							</ul>
 						</li>
 						<li class="nav-item has-submenu">
+							<span class=""><a href="practivities.php" class="active">PR Activities</a></span>
 							
-							<span class=""><a href="supportus.php">Support us</a></span>
-							<ul class="is-submenu">
-								<li><a href="supportus.php#sec2">How to Support us</a></li>
-								<li><a href="supportus.php#sec3">benefits</a></li>
-								<li><a href="supportus.php#sponsorshipbrochure">Sponsorship Brochure</a></li>
-							</ul>
-						</li>
-						<li class="nav-item">
-							<a href="contactus.php">Contact us</a>
 						</li>
 						<li class="nav-item has-submenu">
-							<span class=""><a href="sponsors.php">Our sponsors</a></span>
+							<span class=""><a href="sponsors.php">Our Sponsors</a></span>
 							<ul class="is-submenu">
 								<li><a href="sponsors.php#titlesponsors">Title Sponsors</a></li>
 								<li><a href="sponsors.php#goldsponsors">Gold Sponsors</a></li>
@@ -78,8 +72,19 @@
 								<li><a href="sponsors.php#sponsorshipbrochure">Sponsorship Brochure</a></li>
 							</ul>
 						</li>
+						<li class="nav-item has-submenu">
+							
+							<span class=""><a href="supportus.php">Support Us</a></span>
+							
+						</li>
+						<li class="nav-item">
+							<a href="contactus.php">Contact Us</a>
+						</li>
+						
+						
+						
 					</ul>
-					<div class="utility-bar-toggle float-right">
+					<!-- <div class="utility-bar-toggle float-right">
 						<i class="ion-ios-plus-empty fa-2x"></i>
 					</div>
 					<div class="utility-bar">
@@ -91,11 +96,11 @@
 							<div class="column-6 text-right padding-top-10">
 								<a class="social-icon" href="#"><i class="ion-social-facebook"></i></a>
 								<a class="social-icon" href="#"><i class="ion-social-twitter"></i></a>
-								<!-- <a class="social-icon" href="#"><i class="ion-social-dribbble"></i></a>
-								<a class="social-icon" href="#"><i class="ion-social-pinterest"></i></a> -->
+								<a class="social-icon" href="#"><i class="ion-social-dribbble"></i></a>
+								<a class="social-icon" href="#"><i class="ion-social-pinterest"></i></a>
 							</div>
 						</div>
-					</div>
+					</div> -->
 				</nav>
 
 				<!-- End of section -->

@@ -52,10 +52,14 @@ html {
 }
 
 body {
-		color: #909090;
+		/*color: #909090;*/
+		color: #393737;
 		font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
 		line-height: 1.65;
 		-webkit-font-smoothing: antialiased;
+}
+footer{
+	color: #909090;
 }
 
 @media (max-width: 48em) {
@@ -203,13 +207,14 @@ p {
 		border: 1px solid #6a1655;
 }
 
-.text-decor {
+/*.text-decor {
 		display: inline-block;
 		margin-right: 4px;
-		width: 1rem;
-		height: 1rem;
+		width: 0.7rem;
+		height: 0.7rem;
 		background-color: #dc092f;
-}
+		
+}*/
 
 /* ========================================
 02. Colour Scheme
