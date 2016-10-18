@@ -171,7 +171,7 @@ include_once('includes/head.php');
 							$teammember[]=["Amitabh Das","",""];
 							$teammember[]=["Moideen Shariq","",""];
 								sort($teammember);
-							echo "	<div class='row team-members-wrapper'>";
+							echo "	<br><hr><br><div class='row team-members-wrapper'>";
 							$no_team_members=count($teammember);
 							for($i=0;$i<$no_team_members;$i++)
 							{

@@ -18,11 +18,11 @@
 
 /* Change the link color on hover */
 .side-nav li a:hover {
-    background-color: #398e46;
+    background-color: rgba(0,0,0,0.5);
     color: white;
 }
 .side-nav .active {
-    background-color: #4CAF50;
+    background-color: #b60b2a;
     color: white;
 }
 .main-media img{

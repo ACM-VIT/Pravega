@@ -13,6 +13,11 @@ include_once('includes/head.php');
 		obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
 	}
 </script>
+<style type="text/css">
+	.photos-navul li.active a{
+		color: #fff !important;
+	}
+</style>
 </head>
 <body class="flagstone-about-us flagstone-parallax">
 	<div class="page-pre-loader">
@@ -49,7 +54,7 @@ include_once('includes/head.php');
 			<div class="row">
 				<br>
 				<div class="side-nav col-sm-3">
-					<ul>
+					<ul class="photos-navul">
 						<li id="li_fsg16" class="active"><a>Formula Student Germany 2016</a></li>
 						<li id="li_drag16"><a>Drag Race 2016</a></li>
 						<li id="li_launch16"><a>Launch 2016</a></li>

@@ -5,7 +5,9 @@ include_once('includes/head.php');
 <link rel="stylesheet" type="text/css" href="css/mycss/nothome.css">
 <link rel="stylesheet" type="text/css" href="css/mycss/sponsors.css" />
 <style>
-	
+	.layer{
+		background-color: rgba(0,0,0,0.55);
+	}
 </style>
 </head>
 <body class="flagstone-about-us flagstone-parallax">

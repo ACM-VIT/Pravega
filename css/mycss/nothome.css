@@ -13,7 +13,7 @@
 	margin-bottom: 10px !important;
 }
 .layer {
-	background-color: rgba(0, 0, 0, 0.7);
+	background-color: rgba(0, 0, 0, 0.6);
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -28,7 +28,7 @@
 }
 .sub-header-banner-sponsors{
 	background-image:  url('../../img/general/bgs/sponsorsbg.png');
-	background-position:0 top ;
+	background-position:0 -300px ;
 }
 
 

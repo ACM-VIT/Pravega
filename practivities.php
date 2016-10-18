@@ -50,7 +50,7 @@ include_once('includes/head.php');
 		<div class="row">
 			<div class="first-section left-section col-md-10 col-md-offset-1">
 				<?php
-				$headings=["Drag Race 2016","Rollout 2016","Rollout 2015","Riviera","Calendar Shoot Cornitos","Engage Deodorants Marketing Campaign","Red Bull calendar shoot"];
+				$headings=["Drag Race 2016","Rollout 2016","Rollout 2015","Riviera 2014","Calendar Shoot Cornitos","Engage Deodorants Marketing Campaign","Red Bull calendar shoot"];
 				$paras=["With little help from BMW India we conducted a drag race between PRV 16 and BMW in our college campus.  Revving of engines raised the heartbeats of the audience to an unmatched level, like never seen before in VIT. The 75m race was flagged off by BMW representative at the event, both the cars made 3 runs towards the finish line, each time PRV was able to beat the Beemer.",
 				"Continuing the tradition, we orchestrated the Grand Rollout of our new car PRV16. Our new sponsors BMW and Star sports were presented at the event which was attended by Parents, Faculty members, sponsors and an overwhelming crowd of more than 1000 students. The countdown got everybody’s heartbeat racing, we again had a staggering response from the freshers.",
 				"We conducted a grand launch of our car PRV 15. All the sponsors were showcased at the event. All the senior management of VIT, sponsors and alumni attended the launch. More than 800 students we closely packed in CS hall. Excitement amongst the freshers was heartening and it was them who made our event biggest event of the semester.",
@@ -73,8 +73,8 @@ include_once('includes/head.php');
 						<h2 class='activity-title text-left'><b>$heading</b></h2>
 						<p class='activity-para'>$para</p>
 						<div class='iframediv row'>
-							<div class='col-sm-12'>
-							<iframe src='$ifr_link' scrolling='no' class='col-xs-12 col-sm-11 col-sm-offset-0 activity-photo-iframe'></iframe>
+							<div class='col-sm-10 col-sm-offset-1'>
+							<img src='img/general/practivity/dragrace2016/0.png'>
 								<br>
 							</div>
 						</div>
