@@ -14,6 +14,9 @@ include_once('includes/head.php');
 	.color-red-impp{
 		color: #dc092f;
 	}
+	.practivityimg{
+		display: block;
+	}
 </style>
 </head>
 <body class="flagstone-about-us flagstone-parallax">
@@ -60,23 +63,24 @@ include_once('includes/head.php');
 				"After continual efforts we got a chance to associate with Red Bull and we decided to do something special to reciprocate this gesture. We did a photo shoot to make a Red Bull calendar with pictures having a mix of emotion, creativity, passion for race cars and the zeal for the perfect picture. Our driver along with our Car and Red Bull cans blended perfectly to create a magnificent calendar. This calendar is an achievement that will be etched in our memories forever."
 
 				];
-				$ifr_links=["dragrace.html","rollout2016.html","rollout2015.html","riviera.html","cornitos.html","engage.html","redbull.html"];
+				$ifr_links=["img/general/practivity/dragrace2016/0.png","img/general/practivity/rollout2016/1.png","img/general/practivity/rollout2015/1.png","img/general/practivity/riviera/1.png","img/general/practivity/cornitos/1.png","img/general/practivity/engage/2.png","img/general/practivity/redbull/1.png"];
 				//$img_folders=["dragrace2016","rollout2016","rollout2015","riviera","cornitos","engage","redbull"];
 				$nos=count($ifr_links);
 				for($i=0;$i<$nos;$i++)
 				{
 					$heading=$headings[$i];
 					$para=$paras[$i];
-					$ifr_link="includes/practivity/$ifr_links[$i]";
+					$ifr_link=$ifr_links[$i];
 					echo "
 					<div class='activity-wrapper' id='practivity$i'>
 						<h2 class='activity-title text-left'><b>$heading</b></h2>
 						<p class='activity-para'>$para</p>
 						<div class='iframediv row'>
 							<div class='col-sm-10 col-sm-offset-1'>
-							<img src='img/general/practivity/dragrace2016/0.png'>
+							<img src='$ifr_link' class='practivityimg'>
 								<br>
 							</div>
+							<div class='col-sm-1'></div>
 						</div>
 					</div>
 					";
