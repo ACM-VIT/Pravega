@@ -1,4 +1,5 @@
 <?php
+header("Location:http://pravega2.azurewebsites.net");
 $title="Pravega Racing - Home";
 include_once('includes/head.php');
 ?>
