@@ -5,8 +5,8 @@ include_once('includes/head.php');
 <link rel="stylesheet" type="text/css" href="css/mycss/nothome.css">
 <style>
 .sub-header-banner-teams13{
-		background-image:  url('img/general/bgs/teamprv14bg.jpg');
-		background-position: 0px -90px;
+		background-image:  url('img/general/bgs/teamprv13bg.jpg');
+		background-position: 0px -190px;
 	}
 </style>
 </head>
@@ -55,7 +55,8 @@ include_once('includes/head.php');
 							"Manupant","Mohit","Sagar"
 							];
 								$no_prv16=count($team_prv16);
-								for($i=0;$i<$no_prv16/2;$i++)
+								$fir=$no_prv16/2;
+								for($i=0;$i<$fir;$i++)
 								{
 									$name=$team_prv16[$i];
 									echo "<li>".$name."</li>";
@@ -66,7 +67,7 @@ include_once('includes/head.php');
 								<?php
 								
 								$no_prv16=count($team_prv16);
-								for($i=$no_prv16/2 +1;$i<$no_prv16;$i++)
+								for($i=$no_prv16/2;$i<$no_prv16;$i++)
 								{
 									$name=$team_prv16[$i];
 									echo "<li>".$name."</li>";

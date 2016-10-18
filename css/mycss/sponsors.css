@@ -13,27 +13,30 @@
 	cursor: pointer;
 }
 .sponsordiv img{
-	height: 140px;
+	height: auto;
+	max-height: 100%;
 	margin-left: auto;
 	margin-right: auto;
 }
-
+.img-div-upper{
+height: 140px;
+}
+.img-div-upper-gold{
+	height: 120px;
+}
+.img-div-upper-silver{
+	height: 120px;
+}
+.img-div-upper-bronze{
+	height: 120px;
+}
 .heading-sponsor{
-	background-color: rgb(184, 0, 0);
-	color: #fff;
-	padding: 0.6rem;
-	font-weight: bold;
-	width: 100%;
-	cursor: pointer;
+	font-size: 4rem;
+	text-align: center;
+	margin-top: 5rem;
 }
-.heading-sponsor .fa{
-	float: right;
-	transition: all ease 0.5s;
-}
-.faspan{
-	font-weight: normal !important;
-}
-.hide-n-seek{
+.heading-sponsor-title{
+	margin-top: 0rem;
 }
 @media (max-width: 760px)
 {

@@ -16,8 +16,8 @@ include_once('includes/head.php');
 		border-radius: 100%;
 	}
 	.sub-header-banner-teams16{
-		background-image:  url('img/general/bgs/teamprv15bg.jpg');
-		background-position: 0px 15px;
+		background-image:  url('img/general/bgs/teamprv16bg.jpg');
+		background-position: 0px -200px;
 	}
 	.layer{
 		
@@ -82,6 +82,33 @@ include_once('includes/head.php');
 							$teammember[]=["Chitranjan","",""];
 							$teammember[]=["Akshay Poojary","",""];
 							$teammember[]=["Tejas Kothari","",""];
+							$teammember[]=["Siddharth Sethi"];
+							$teammember[]=["Rishabh Khanna"];
+							$teammember[]=["Abhijai Tibrewala"];
+							$teammember[]=["Tarun Bhatia"];
+							$teammember[]=["Nimish Mehra"];
+							$teammember[]=["Varun Nair"];
+							$teammember[]=["Ayush Nahata"];
+							$teammember[]=["Abhay Singh"];
+							$teammember[]=["Yashasvi Karnena"];
+							
+							$teammember[]=["Shantanu"];
+							
+							$teammember[]=["Aagosh"];
+							$teammember[]=["Apoorv Kakkar"];
+							
+							$teammember[]=["Nishant Dixit"];
+							$teammember[]=["Ashish Chadha"];
+							$teammember[]=["Kiran Jomy"];
+							$teammember[]=["Deep Doshi"];
+
+							$teammember[]=["Arnav Patel"];
+							
+							
+						
+							
+							
+
 						
 							$no_team_members=count($teammember);
 							for($i=0;$i<$no_team_members;$i++)

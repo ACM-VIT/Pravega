@@ -63,7 +63,7 @@ include_once('includes/head.php');
 		z-index: -1;
 	}
 	.recent_img{
-		height: 200px !important;
+		height: 180px !important;
 		width: 330px !important;
 	}
 	.recent_fb{
@@ -155,7 +155,7 @@ include_once('includes/head.php');
 				<div class="grid-container-fluid margin-top-70 margin-bottom-50">
 					<div class="grid-row">
 						<div class="column-8 aboutusdiv">
-							<h3 class="text-left"><b>Fifty Four, <span class="redcolor">Pravega !</span></b></h3>
+							<h3 class="text-left"><b>Fifty Four, <span class="redcolor"><b>Pravega !</b></span></b></h3>
 							<p class="text-left">
 								We are a team of engineers who seek to enhance the learning 
 								experience of the student community at VIT University by implementation of engineering 

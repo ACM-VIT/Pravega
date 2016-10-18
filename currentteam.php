@@ -59,33 +59,84 @@ include_once('includes/head.php');
 						<div class="row team-members-wrapper">
 							<?php
 							$teammember[0]=["Aagosh Mishra","Team Captain","https://www.facebook.com/aagosh.mishra?fref=ts"];
-							$teammember[]=["Ayush Nahata","Composites Lead","https://www.facebook.com/nahata.ayush?fref=ts"];
+							$teammember[]=["Aarti Noroha","",""];
 							$teammember[]=["Abhijai Tibrewala","Technical Coordinator","https://www.facebook.com/abhijai.tibrewala?fref=ts"];
+							$teammember[]=["Akysht Kumar","",""];
 							$teammember[]=["Arnav Patel","Management head","https://www.facebook.com/Arnavpatel.1996?fref=ts"];
 							$teammember[]=["Ashish Chadda","Marketing Head","https://www.facebook.com/ashish.chadda?fref=ts"];
-							$teammember[]=["Nishant Dixit","R & D Lead","https://www.facebook.com/nishant.dixit.509?fref=ts"];
-							$teammember[]=["Rishabh Khanna","Powertrain Lead","https://www.facebook.com/RishabhKhanna0203?fref=ts"];
-							$teammember[]=["Siddharth Sethi","Ergonomics Lead","https://www.facebook.com/siddharth.sethi.564?fref=ts"];
-							$teammember[]=["Shantanu Singh","Chassis and Assembly Lead","https://www.facebook.com/profile.php?id=100004831695623&fref=ts&ref=br_tf"];
-							$teammember[]=["Udit Saraswat","Vehicle Dynamics Lead","https://www.facebook.com/udit7897?fref=ts&ref=br_tf"];
+							$teammember[]=["Ayush Nahata","Composites Lead","https://www.facebook.com/nahata.ayush?fref=ts"];
 
-							//11
-							$teammember[]=["Tarun Bhatia","Design and Analysis Lead","https://www.facebook.com/tpbhatia197418?ref=br_rs"];
-							$teammember[]=["Yashasavi Karnena","Electrical Lead","https://www.facebook.com/chinnu.avinnash?fref=ts"];
-							$teammember[]=["Nimish Mehra","Vehicle Dynamicist",""];
-							$teammember[]=["Sushant Srivastav","Aerodynamics Lead",""];
-							$teammember[]=["Rishiraj Chauhan","",""];
-							$teammember[]=["Aarti Noroha","",""];
-							$teammember[]=["Vaibhav Sharma","",""];
-							$teammember[]=["Akysht Kumar","",""];
-							$teammember[]=["Sachin HT","",""];
-							$teammember[]=["Prathamesh Gunjal","",""];
-							//21
-							$teammember[]=["Shreyansh Garhewal","",""];
 							$teammember[]=["Dhananjay Singh","",""];
-							$teammember[]=["Rishabh Jain","",""];
-							$teammember[]=["Shantanu Singh Chauhan","",""];
-							$teammember[]=["Nimish Gupta","Marketing Executive",""];
+
+							$teammember[]=["Nimish Mehra","Vehicle Dynamicist",""];
+							$teammember[]=["Nishant Dixit","R & D Lead","https://www.facebook.com/nishant.dixit.509?fref=ts"];
+							$teammember[]=["Prathamesh Gunjal","",""];
+							$teammember[]=["Rishabh Khanna","Powertrain Lead","https://www.facebook.com/RishabhKhanna0203?fref=ts"];
+
+							$teammember[]=["Rishiraj Chauhan","",""];
+
+							$teammember[]=["Sachin HT","",""];
+							$teammember[]=["Shantanu Singh","Chassis and Assembly Lead","https://www.facebook.com/profile.php?id=100004831695623&fref=ts&ref=br_tf"];
+							$teammember[]=["Shreyansh Garhewal","",""];
+							$teammember[]=["Siddharth Sethi","Ergonomics Lead","https://www.facebook.com/siddharth.sethi.564?fref=ts"];
+							$teammember[]=["Sushant Srivastav","Aerodynamics Lead",""];
+
+							$teammember[]=["Tarun Bhatia","Design and Analysis Lead","https://www.facebook.com/tpbhatia197418?ref=br_rs"];
+							$teammember[]=["Udit Saraswat","Vehicle Dynamics Lead","https://www.facebook.com/udit7897?fref=ts&ref=br_tf"];							
+							$teammember[]=["Vaibhav Sharma","",""];
+							
+							$teammember[]=["Yashasavi Karnena","Electrical Lead","https://www.facebook.com/chinnu.avinnash?fref=ts"];
+								sort($teammember);
+							$no_team_members=count($teammember);
+							for($i=0;$i<$no_team_members;$i++)
+							{
+								$name=$teammember[$i][0];
+								$name=ucwords(strtolower($name));
+								$fname=strtolower(substr($name,0,strpos($name," ")));
+
+								$role="";
+								if(isset($teammember[$i][1]) and !empty($teammember[$i][1]))
+									$role=$teammember[$i][1];
+								$fblink="";
+								if(isset($teammember[$i][2]) and !empty($teammember[$i][2]))
+									$fblink=$teammember[$i][2];
+
+								$imglink=$fname;
+								if($name=="Nimish Mehra")
+									$imglink="nimish2";
+								
+								echo "
+								<div class='col-md-2 col-sm-3 col-xs-6 team-member-wrapper-col'>
+									<div class='overlay team-member-wrapper'>
+										<div class='overlay__background'></div>
+										<div class='overlay__content text-center text-color-2'>
+											<span class='overlay__content-heading'>{$name}</span>
+											<span class='overlay__content-text'><b>{$role}</b></span>
+											";
+											if(!empty($fblink))
+											{
+												echo"
+												<div class='profile__sharing-links--alt'>
+													<a target='_blank' href='{$fblink}'><i class='fa fa-facebook profile__sharing-link'></i></a>
+												</div>";
+											}
+											echo "
+										</div>
+										<img src='img/general/teams/currentteam/{$imglink}.jpg' alt='{$fname}' class='overlay__image teamphoto'>
+										<div class='text-center'><b>{$name}</b></div>
+										<br>
+									</div>
+								</div>
+								";
+								
+							}
+							echo "</div>";
+							
+							$teammember=null;
+
+
+
+							$teammember[0]=["Nimish Gupta","Marketing Executive",""];
 							$teammember[]=["Naman Shukla","Marketing Executive",""];
 							$teammember[]=["Nikhil Agrawal","Marketing Executive",""];
 							$teammember[]=["Udhay Singh","",""];
@@ -99,6 +150,8 @@ include_once('includes/head.php');
 							$teammember[]=["Sanchit Chaudhary","",""];
 							$teammember[]=["Salil Madhav","",""];
 							$teammember[]=["Rebanta Roy","",""];
+							$teammember[]=["Rishabh Jain","",""];
+
 							$teammember[]=["S Sooraj","",""];
 							$teammember[]=["Adithya Venugopal","",""];
 							$teammember[]=["Vishal Agrawal","",""];
@@ -117,6 +170,8 @@ include_once('includes/head.php');
 							$teammember[]=["Saksham Bhardwaj","",""];
 							$teammember[]=["Amitabh Das","",""];
 							$teammember[]=["Moideen Shariq","",""];
+								sort($teammember);
+							echo "	<div class='row team-members-wrapper'>";
 							$no_team_members=count($teammember);
 							for($i=0;$i<$no_team_members;$i++)
 							{
@@ -134,6 +189,8 @@ include_once('includes/head.php');
 								$imglink=$fname;
 								if($name=="Nimish Mehra")
 									$imglink="nimish2";
+								if($name=="Rishabh Jain")
+									$imglink="rishabhjain";
 								echo "
 								<div class='col-md-2 col-sm-3 col-xs-6 team-member-wrapper-col'>
 									<div class='overlay team-member-wrapper'>
@@ -158,6 +215,7 @@ include_once('includes/head.php');
 								</div>
 								";
 							}
+							echo "</div>";
 							?>
 						</div>
 					</div>

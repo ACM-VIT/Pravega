@@ -15,6 +15,7 @@
 						</li>
 						<li class="nav-item has-submenu">
 							<span class=""><a href="cars.php">Cars</a></span>
+
 							<ul class="is-submenu">
 								<li><a href="cars.php?select=prv16">PRV 16</a></li>
 								<li><a href="cars.php?select=prv15">PRV 15</a></li>
@@ -28,15 +29,10 @@
 							<span class="hidden-small"><a href="currentteam.php">Team</a></span>
 							<ul class="is-submenu">
 								<li><a href="currentteam.php">Current team</a></li>
-								<li class="has-submenu">
-									<a href="#">Alumni</a>
-									<ul class="is-submenu">
-										<li><a href="teamprv16.php">PRV 16</a></li>
-										<li><a href="teamprv15.php">PRV 15</a></li>
-										<li><a href="teamprv14.php">PRV 14</a></li>
-										<li><a href="teamprv13.php">PRV 13</a></li>
-									</ul>
-								</li>
+								<li><a href="teamprv16.php">Team PRV 16</a></li>
+								<li><a href="teamprv15.php">Team PRV 15</a></li>
+								<li><a href="teamprv14.php">Team PRV 14</a></li>
+								<li><a href="teamprv13.php">Team PRV 13</a></li>
 							</ul>
 						</li>
 						<li class="nav-item has-submenu">

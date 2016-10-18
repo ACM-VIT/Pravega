@@ -8,8 +8,12 @@
 .padding-right-0{
 	padding-right: 0px !important;
 }
+.team-members-wrapper{
+	display: block !important;
+	margin-bottom: 10px !important;
+}
 .layer {
-	background-color: rgba(0, 0, 0, 0.8);
+	background-color: rgba(0, 0, 0, 0.7);
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -26,11 +30,13 @@
 	background-image:  url('../../img/general/bgs/sponsorsbg.png');
 	background-position:0 top ;
 }
+
+
 .sub-header-banner-teams{
 	background-image:  url('../../img/general/cars/teamsbg.png');
 	background-repeat: no-repeat;
  
-    background-position: 0px -100px;
+    background-position: 20px -100px;
 }
 .sub-header-banner-cars{
 	background-image: url('../../img/general/cars/carf1bg.png');  

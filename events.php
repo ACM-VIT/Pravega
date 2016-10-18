@@ -162,7 +162,7 @@ include_once('includes/head.php');
 				</div>
 				<div class="cd-timeline-content">
 					<h2 class="cd-heading">Formula Student Germany 2014</h2>
-					<p class="cd-intro"><b>we were the Only Indian team to complete the entire Technical Inspection and compete in all the Dynamic Events</b></p>
+					<p class="cd-intro"><b>We were the Only Indian team to complete the entire Technical Inspection and compete in all the Dynamic Events</b></p>
 					<a href="#0" class="cd-read-more">show more</a>
 					<div class="show_on_more">
 						<p>

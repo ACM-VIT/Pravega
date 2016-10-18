@@ -1,6 +1,9 @@
 nav .active{
 	/*background-color: red !important;*/
 }
+.footer-logo{
+	width: 6050px !important;
+}
 .nav-grid-container{
 	max-width: 1180px;
 }
@@ -20,7 +23,7 @@ nav .active{
 	max-width: 300px !important;
 }
 .redcolor{
-	color: red;
+	color: #c73131;
 }
 .padlr_new{
 	padding-left: 3px;
