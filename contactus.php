@@ -106,7 +106,7 @@ include_once('includes/head.php');
 								Aagosh Mishra - +91 9994838100
 							</li>
 							<li class="list__item list--address-phone">&nbsp;&nbsp;&nbsp;&nbsp;Abhijai Tibrewala - +91 8888048822</li>
-							<li class="list__item list--address-phone">&nbsp;&nbsp;&nbsp;&nbsp;Arnav Patel - +91 76398028020</li>
+							<li class="list__item list--address-phone">&nbsp;&nbsp;&nbsp;&nbsp;Arnav Patel - +91 7639802820</li>
 							<li class="list__item list--address-phone">&nbsp;&nbsp;&nbsp;&nbsp;Ashish Chadda - +91 9944110344</li>
 						</span>
 						<span class="addressinfo">
